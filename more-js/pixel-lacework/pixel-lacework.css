@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+   -webkit-user-select: none;
+   user-select: none;
+}
+
 body {
    font-family: sans-serif;
    touch-action: none;
@@ -19,6 +26,8 @@ body {
    overflow-wrap: break-word;
    font-weight: 550;
    font-size: min(3vw, 1rem);
+   -webkit-user-select: text;
+   user-select: text;
 }
 
 .button-container {
