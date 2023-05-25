@@ -39,7 +39,7 @@ let charging;
 let moving = false;
 let scored = false;
 
-document.addEventListener("mousedown", (event) => {
+document.addEventListener("pointerdown", (event) => {
    if (moving) return;
    holdTime = 0;
    charging = setInterval(() => {
@@ -49,7 +49,7 @@ document.addEventListener("mousedown", (event) => {
    dz = (canvas.height / 2 - event.clientY) / 3000;
 });
 
-document.addEventListener("mouseup", () => {
+document.addEventListener("pointerup", () => {
    if (moving) return;
    dy = Math.min(holdTime, 100);
    dz += dy / 1000;

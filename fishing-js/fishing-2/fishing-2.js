@@ -1680,7 +1680,7 @@ class Game {
          }
       });
 
-      canvas.addEventListener("mousedown", (event) => {
+      canvas.addEventListener("pointerdown", (event) => {
          let px = (event.clientX / window.innerWidth) * 2 - 1;
          let py = (event.clientY / window.innerHeight) * 2 - 1;
          if (px > -0.5 && px < 0.5 && py > -0.5 && py < 0.5) {
@@ -1695,7 +1695,7 @@ class Game {
          }
       });
 
-      canvas.addEventListener("mouseup", (event) => {
+      canvas.addEventListener("pointerup", (event) => {
          let px = (event.clientX / window.innerWidth) * 2 - 1;
          let py = (event.clientY / window.innerHeight) * 2 - 1;
          if (px > -0.5 && px < 0.5 && py > -0.5 && py < 0.5) {

@@ -1496,7 +1496,7 @@ class Display {
       btnColorGray.addEventListener("click", () => (this.type = 1));
       btnColorWhite.addEventListener("click", () => (this.type = 2));
 
-      document.addEventListener("mousedown", (event) => {
+      document.addEventListener("pointerdown", (event) => {
          if (
             Math.floor(
                (event.offsetX + this.width / 2 - this.canvas.width / 2) /
@@ -1553,7 +1553,7 @@ class Display {
          }
       });
 
-      document.addEventListener("mousemove", (event) => {
+      document.addEventListener("pointermove", (event) => {
          if (
             this.drawing &&
             Math.floor(
@@ -1609,7 +1609,7 @@ class Display {
          }
       });
 
-      document.addEventListener("mouseup", (event) => (this.drawing = false));
+      document.addEventListener("pointerup", (event) => (this.drawing = false));
    }
 }
 

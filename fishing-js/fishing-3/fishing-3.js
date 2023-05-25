@@ -498,27 +498,27 @@ window.addEventListener(
          }
       });
 
-      btnLeft.addEventListener("mousedown", () => {
+      btnLeft.addEventListener("pointerdown", () => {
          moveLeftStart();
       });
 
-      btnLeft.addEventListener("mouseup", () => {
+      btnLeft.addEventListener("pointerup", () => {
          moveLeftEnd();
       });
 
-      btnRight.addEventListener("mousedown", () => {
+      btnRight.addEventListener("pointerdown", () => {
          moveRightStart();
       });
 
-      btnRight.addEventListener("mouseup", () => {
+      btnRight.addEventListener("pointerup", () => {
          moveRightEnd();
       });
 
-      btnReel.addEventListener("mousedown", () => {
+      btnReel.addEventListener("pointerdown", () => {
          reelStart();
       });
 
-      btnReel.addEventListener("mouseup", () => {
+      btnReel.addEventListener("pointerup", () => {
          reelEnd();
       });
 

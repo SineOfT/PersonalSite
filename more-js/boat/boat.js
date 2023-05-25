@@ -32,7 +32,7 @@ document.addEventListener("keyup", (event) => {
    }
 });
 
-canvas.addEventListener("mousedown", (event) => {
+canvas.addEventListener("pointerdown", (event) => {
    let px = (event.clientX / window.innerWidth) * 2 - 1;
    if (px < 0) {
       moveLeft = true;
@@ -43,7 +43,7 @@ canvas.addEventListener("mousedown", (event) => {
    }
 });
 
-canvas.addEventListener("mouseup", () => {
+canvas.addEventListener("pointerup", () => {
    moveLeft = false;
    moveRight = false;
    stop = true;

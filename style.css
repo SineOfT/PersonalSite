@@ -43,11 +43,13 @@ ul {
 html {
    scroll-behavior: smooth;
    scroll-padding-block-start: 5rem;
+   overflow-x: hidden;
 }
 
 body {
    --_clr-shadow-contrast: var(--clr-main);
    color: black;
+   width: 100%;
    text-align: center;
    font-family: sans-serif;
    overflow-x: hidden;

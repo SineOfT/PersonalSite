@@ -128,7 +128,7 @@ class InputHandler {
          }
       });
 
-      gameScreen.addEventListener("mousedown", (event) => {
+      gameScreen.addEventListener("pointerdown", (event) => {
          let px = (event.clientX / window.innerWidth) * 2 - 1;
          let py = (event.clientY / window.innerHeight) * 2 - 1;
          if (px > -0.5 && px < 0.5 && py > -0.5 && py < 0.5) {
@@ -142,7 +142,7 @@ class InputHandler {
          }
       });
 
-      gameScreen.addEventListener("mouseup", (event) => {
+      gameScreen.addEventListener("pointerup", (event) => {
          let px = (event.clientX / window.innerWidth) * 2 - 1;
          let py = (event.clientY / window.innerHeight) * 2 - 1;
          if (px > -0.5 && px < 0.5 && py > -0.5 && py < 0.5) {
