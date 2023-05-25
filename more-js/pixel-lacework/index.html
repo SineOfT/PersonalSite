@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pixel Lacework Drawer</title>
+      <link rel="stylesheet" href="pixel-lacework.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="pixel-lacework.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <canvas id="background"></canvas>
+      <canvas id="canvas"></canvas>
+      <p id="code-text"></p>
+      <div class="button-container">
+         <button id="btn-scroll-left" class="btn-scroll">←</button>
+         <button id="btn-scroll-color" class="btn-scroll">↺</button>
+         <button id="btn-scroll-right" class="btn-scroll">→</button>
+         <button id="btn-color-black" class="btn-color" alt="black"></button>
+         <button id="btn-color-gray" class="btn-color" alt="gray"></button>
+         <button id="btn-color-white" class="btn-color" alt="white"></button>
+      </div>
+
+      <section class="menu-container">
+         <form action="../../#more-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Pixel Lacework Drawer</h1>
+            <p class="menu-info-text">
+               This pixel drawer allows you to create a pixel lacework doily
+               design! You can either create your own, or look through the
+               designs I have created using this program. You can also save your
+               designs, and come back to them anytime using the code!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  When prompted, type:
+                  <ul>
+                     <li class="menu-info-nested-item">
+                        <b>compare</b> to compare the designs that I have made
+                        in the program
+                     </li>
+                     <li class="menu-info-nested-item">
+                        <b>
+                           (a number)*(a number)*(<i>0</i>, <i>1</i>, or
+                           <i>2</i>)
+                        </b>
+                        to create a blank canvas width the width as the first
+                        number, the height as the second number, and the color
+                        as the third number
+                     </li>
+                     <li class="menu-info-nested-item">
+                        a previous design's <b>code</b> that you saved
+                        beforehand
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>0</kbd> to change the color to black
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>1</kbd> to change the color to gray
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>2</kbd> to change the color to white
+               </li>
+               <li class="menu-info-list-item">
+                  Tap a <b>pixel</b> to change its color
+               </li>
+               <li class="menu-info-list-item">
+                  Copy the <b>code</b> in the top left and save it in order to
+                  save your code — just paste it back into the prompt
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬅︎</kbd> to scroll to previous design if in
+                  <samp>compare</samp> mode
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⮕</kbd> to scroll to next design if in
+                  <samp>compare</samp> mode
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬆︎</kbd> or <kbd>⬇︎</kbd> to change the design from
+                  light to dark if in <samp>compare</samp> mode
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  When prompted, type:
+                  <ul>
+                     <li class="menu-info-nested-item">
+                        <b>compare</b> to compare the designs that I have made
+                        in the program
+                     </li>
+                     <li class="menu-info-nested-item">
+                        <b>
+                           (a number)*(a number)*(<i>0</i>, <i>1</i>, or
+                           <i>2</i>)
+                        </b>
+                        to create a blank canvas width the width as the first
+                        number, the height as the second number, and the color
+                        as the third number
+                     </li>
+                     <li class="menu-info-nested-item">
+                        a previous design's <b>code</b> that you saved
+                        beforehand
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <b>black</b> button to change the color to black
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <b>gray</b> button to change the color to gray
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <b>white</b> button to change the color to white
+               </li>
+               <li class="menu-info-list-item">
+                  Tap a <b>pixel</b> to change its color
+               </li>
+               <li class="menu-info-list-item">
+                  Copy the <b>code</b> in the top left and save it in order to
+                  save your code — just paste it back into the prompt
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>←</kbd> button to scroll to previous design if in
+                  <samp>compare</samp> mode
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>→</kbd> button to scroll to next design if in
+                  <samp>compare</samp> mode
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>↺</kbd> button to change the design from light to
+                  dark if in <samp>compare</samp> mode
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

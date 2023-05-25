@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Curling</title>
+      <link rel="stylesheet" href="curling.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="curling.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <form id="input">
+         <label for="player-num-input">Number of Players</label>
+         <input
+            type="number"
+            min="1"
+            max="8"
+            value="2"
+            name="player-num-input"
+            id="player-num-input"
+            required
+         />
+
+         <label for="stone-num-input">Stones Per Round</label>
+         <input
+            type="number"
+            min="1"
+            value="8"
+            name="stone-num-input"
+            id="stone-num-input"
+            required
+         />
+
+         <label for="round-num-input">Number of Rounds</label>
+         <input
+            type="number"
+            min="1"
+            value="10"
+            name="round-num-input"
+            id="round-num-input"
+            required
+         />
+
+         <button type="submit" id="num-submit-button">Submit</button>
+      </form>
+      <section id="scoreboard" down>
+         <table id="scoreboardTable"></table>
+         <button id="moveScoreboard">
+            <img id="buttonSymbol" src="icons/up.svg" />
+         </button>
+      </section>
+      <div id="curlChangeTracker"></div>
+      <section id="screen">
+         <canvas id="dynamicBackground"></canvas>
+         <canvas id="staticBackground"></canvas>
+         <canvas id="sweepScreen"></canvas>
+         <canvas id="transitionScreen"></canvas>
+         <canvas id="staticScreen"></canvas>
+         <canvas id="dynamicScreen"></canvas>
+         <canvas id="coverScreen"></canvas>
+         <canvas id="posMarkerScreen"></canvas>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#more-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Curling</h1>
+            <p class="menu-info-text">
+               Just like Curling, the goal of this game is to get as many stones
+               the closest to the button (center of ring) each round! However,
+               unlike the sport, this game allows for more than two players to
+               play at a time (up to eight)! It is surprisingly fun to play, so
+               enjoy!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Before starting the game, you need to enter some settings:
+                  <ul>
+                     <li class="menu-info-nested-item">
+                        When prompted <samp>Number of Players</samp>, type the
+                        number of players playing (from <b>1</b> to <b>8</b>)
+                     </li>
+                     <li class="menu-info-nested-item">
+                        When prompted <samp>Stones per Round</samp>, type the
+                        number for the number of stones each player uses each
+                        round
+                     </li>
+                     <li class="menu-info-nested-item">
+                        When prompted <samp>Number of Rounds</samp>, type the
+                        number for the number of rounds you will play
+                     </li>
+                  </ul>
+                  Click <kbd>Submit</kbd> to comfirm your options
+                  <ul>
+                     <li class="menu-info-nested-item">
+                        When prompted <samp>Player _'s Stone Color</samp>, pick
+                        a color for the stones you want (2+ players can not pick
+                        the same color)
+                     </li>
+                  </ul>
+                  Click <kbd>Submit</kbd> to comfirm your colors
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬆︎</kbd> to increase the curl of the stone
+                  counter-clockwise
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬇︎</kbd> to increase the curl of the stone clockwise
+               </li>
+               <li class="menu-info-list-item">
+                  Hold a point on the <b>Screen</b> on the starting point of the
+                  ice to begin launching the stone
+               </li>
+               <li class="menu-info-list-item">
+                  Release in the direction you want to launch the stone — the
+                  further away, the faster the stone will move
+               </li>
+               <li class="menu-info-list-item">
+                  Move your <b>Cursor</b> to sweep
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>▼</kbd> / <kbd>▲</kbd> button to show/hide scoreboard
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Tap a point on the <b>Screen</b> on either side of the ice to
+                  change the curl of the stone (closer to the top makes a
+                  stronger counter-clockwise curl, vice versa)
+               </li>
+               <li class="menu-info-list-item">
+                  Hold a point on the <b>Screen</b> on the starting point of the
+                  ice to begin launching the stone
+               </li>
+               <li class="menu-info-list-item">
+                  Release in the direction you want to launch the stone — the
+                  further away, the faster the stone will move
+               </li>
+               <li class="menu-info-list-item">
+                  Hold and move on the <b>Screen</b> to sweep
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>▼</kbd> / <kbd>▲</kbd> button to show/hide scoreboard
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

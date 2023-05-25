@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Shuto Nakayasu's Website</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="script.js"></script>
+   </head>
+   <body>
+      <section class="site-banner clr-light bg-pattern">
+         <h1 class="site-heading ft-vlarge bg-text">
+            Shuto Nakayasu's Website
+         </h1>
+      </section>
+
+      <header class="site-header clr-light bg-pattern">
+         <nav>
+            <ul class="site-navigation flex-static" data-expanded="false">
+               <li class="site-nav-header flex-static bg-pattern">
+                  <h2 class="site-nav-heading ft-large bg-text">Navigation</h2>
+                  <button class="site-nav-btn contract"></button>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium">
+                     <a class="site-nav-item-anchor focus-underline" href="#"
+                        >Top</a
+                     >
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#fishing-js"
+                     >
+                        JavaScript Fishing
+                     </a>
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#python"
+                        >Python</a
+                     >
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a class="site-nav-item-anchor focus-underline" href="#css"
+                        >CSS</a
+                     >
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#more-js"
+                     >
+                        More JavaScript
+                     </a>
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#unity"
+                        >Unity</a
+                     >
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#timeline"
+                        >Timeline</a
+                     >
+                  </h3>
+               </li>
+               <li class="site-nav-item">
+                  <h3 class="site-nav-item-heading ft-medium bg-text">
+                     <a
+                        class="site-nav-item-anchor focus-underline"
+                        href="#info"
+                        >Info</a
+                     >
+                  </h3>
+               </li>
+            </ul>
+         </nav>
+         <button class="site-nav-btn expand"></button>
+      </header>
+      <main>
+         <section class="program-container introduction">
+            <header class="intro-header fade duration-long">
+               <h2 class="intro-heading ft-large">What is on this Website</h2>
+            </header>
+            <p class="intro-text fade delay-stagger">
+               This is a collection of all of my
+               <b>computer programming projects</b>, ranging from
+               <b>animations</b> to <b>simulations</b> to <b>games</b>. Some of
+               the projects on this website are very
+               <b>early-stage prototypes</b>, while others are nearly completely
+               <b>finished games</b>. Through this, the progression of my coding
+               experience, both the visual and programmatic, are present in a
+               fun, enjoyable way!
+            </p>
+            <p class="intro-text fade delay-stagger">
+               For the most part, my projects are made without using any game
+               engines, my main languages being <b>JavaScript</b> and
+               <b>Python</b>. However, more recently I have also began trying
+               and testing out making games in <b>Unity</b>, and would like to
+               make a full, complete game in the program someday in the near
+               future.
+            </p>
+            <p class="into-text fade delay-stagger">
+               The majority of the projects are presented in the order in which
+               they were made (an exception is with the JavaScript Fishing
+               Games, which were serveral-year projects, and ones I went back to
+               many times).
+               <i>
+                  Scroll through the programs that I have created throughout my
+                  coding experience!
+               </i>
+            </p>
+         </section>
+         <section
+            id="fishing-js"
+            class="program-container flex-responsive direction-left dark-background skew-positive"
+            data-visible="true"
+         >
+            <header class="program-header fade duration-long">
+               <h2 class="program-heading ft-large">
+                  JavaScript Fishing Games
+               </h2>
+               <p class="program-text fade delay-stagger">
+                  I first learned how to code in the languages of
+                  <abbr title="HyperText Markup Language">HTML</abbr>,
+                  <abbr title="Cascading Style Sheets">CSS</abbr>, and
+                  <b>JavaScript</b>. Being amazed by the functions and
+                  capabilities of JavaScript, I immediately was inspired work on
+                  creating my first game.
+               </p>
+               <p class="program-text fade delay-stagger">
+                  I had a dream game in mind — a
+                  <em>fishing</em> game. Using <b>HTMLCanvas</b> (a
+                  two-dimensional rendering screen built into HTML), I started
+                  at making my first games. In retrospect, creating a fishing
+                  game was quite a large first challenge, yet nevertheless I
+                  learned many great game development skills and techniques, and
+                  made some fun games in the end!
+               </p>
+               <p class="program-text fade delay-end">
+                  <i>
+                     Note - the <code>filter: blur()</code> functionality is not
+                     supported in <b>Safari</b>. Although a minimal change, for
+                     best visuals, use a different browser.
+                  </i>
+               </p>
+            </header>
+            <ul class="program-content grid-responsive">
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="fishing-js/fishing-1/">
+                     <h3 class="program-item-heading ft-medium">
+                        Fishing Game 1
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/fishing-1.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        The first game I have ever created, did not turn out too
+                        bad! It still is not very playable or fun, and is loaded
+                        with bugs, yet a fairly decent starting point to my game
+                        development journey!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="fishing-js/fishing-2/">
+                     <h3 class="program-item-heading ft-medium">
+                        Fishing Game 2
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/fishing-2.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        The second attempt to the first fishing game, did not go
+                        much better. I took a focus towards the underwater
+                        gameplay, yet it still is pretty much the same. The map
+                        looks cooler, though!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="fishing-js/fishing-3/">
+                     <h3 class="program-item-heading ft-medium">
+                        Fishing Game 3
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/fishing-3.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        The third attempt at a fishing game, which I made a
+                        little while after the first two. As I learned more
+                        about coding between this time, this game turned out
+                        much better. It is actually playable!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="fishing-js/fishing-4/">
+                     <h3 class="program-item-heading ft-medium">
+                        Fishing Game 4
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/fishing-4.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        The forth attempt at a fishing game, which I made
+                        shortly after the third attmept. This one turned out the
+                        best by far, and is both visually pleasing and actually
+                        fun to play!
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+         <section
+            id="python"
+            class="program-container flex-responsive direction-right"
+            data-visible="true"
+         >
+            <header class="program-header fade duration-long">
+               <h2 class="program-heading ft-large">Python Minigames</h2>
+               <p class="program-text fade delay-stagger">
+                  During my years at school, I both entered and ran a Computer
+                  Programming Club, at which I learned and taught <b>Python</b>.
+                  As Python is written more closely to English than JavaScript,
+                  it is a much simpler starting point for many beginner coders.
+                  I experimented a lot with the language, creating games
+                  spanning from beginner-friendly to complex.
+               </p>
+               <p class="program-text fade delay-stagger">
+                  I used the <b>Turtle</b> library to create the graphics in my
+                  games. In some ways, this was simpler as it was more
+                  beginner-friendly, however it was also more limited in its
+                  functionality than HTMLCanvas for this same reason. Although
+                  my final projects are likely not as impressive or large-scale
+                  than my JavaScript projects, learning another language has
+                  helped me see different ways to create games, and made me a
+                  better game developer!
+               </p>
+               <p class="program-text fade delay-stagger">
+                  Note - due to limitations, the games run using Turtle are not
+                  compatible with mobile users.
+               </p>
+               <p class="program-text fade delay-end">
+                  <i>
+                     All Python games run using
+                     <b><a href="trinket.io">Trinket.io</a></b
+                     >.
+                  </i>
+               </p>
+            </header>
+            <ul class="program-content grid-responsive">
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/pong/">
+                     <h3 class="program-item-heading ft-medium">Pong</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img class="program-item-image" src="images/pong.png" />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the classic game 'Pong'. It was the
+                        first ever semi-complete game I created in Python, and
+                        for that reason it is filled with bugs and glitches.
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/snake/">
+                     <h3 class="program-item-heading ft-medium">Snake</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/snake.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the classic game 'Snake'. This game
+                        turned out a lot better than the first Python game, and
+                        actually plays quite similarly to the real game.
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/tetris/">
+                     <h3 class="program-item-heading ft-medium">Tetris</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/tetris.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the classic game 'Tetris'. This turned
+                        out a lot more complex than the previous two games, and
+                        therefore I faced a lot more bugs and issues in the
+                        development stage.
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/racing/">
+                     <h3 class="program-item-heading ft-medium">Racing Game</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/racing.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A basic racing game, where the objective is to go around
+                        the track in the least amount of time. Although being
+                        quite a simple game, it is quite fun to play as well!
+                        Try to go faster than my high score of 195!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/pixel-drawer/">
+                     <h3 class="program-item-heading ft-medium">
+                        Pixel Drawer
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/pixel-drawer.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A pixel drawing editor, where you can draw pixel art.
+                        Due to problems I ran into with the
+                        <code>input()</code> function, I had to restrict the
+                        amount of colors that you can choose from, yet
+                        nonetheless it is fun to use!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/hangman/">
+                     <h3 class="program-item-heading ft-medium">Hangman</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/hangman.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the game 'Hangman'. As a change from
+                        using Turtle for the graphics, I decided for this game
+                        to try using the console instead, which I enjoyed very
+                        much.
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/last-card/">
+                     <h3 class="program-item-heading ft-medium">
+                        Last Card (UNO)
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/last-card.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the game 'UNO'. This was the hardest
+                        game I made in Python, as there were so many conditions
+                        and iterations I had to conduct, as well adding the
+                        computers' logic was difficult.
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="python/tic-tac-toe/">
+                     <h3 class="program-item-heading ft-medium">Tic Tac Toe</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/tic-tac-toe.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A recreation of the game 'Tic Tac Toe', where you play
+                        against a computer. While the game itself is quite
+                        simple, programming the computer to try and make the
+                        best move was a good exercise.
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+         <section
+            id="css"
+            class="program-container flex-responsive direction-left dark-background skew-negative"
+            data-visible="true"
+         >
+            <header class="program-header fade duration-long">
+               <h2 class="program-heading ft-large">CSS Projects</h2>
+               <p class="program-text fade delay-stagger">
+                  Although I learned
+                  <b>HTML</b>, <b>CSS</b>, and <b>JS</b> all at the same time, I
+                  put all of my focus for game development with JavaScript.
+                  Through the years I saw other people's CSS projects, and
+                  though that I should also try to improve my skills in the
+                  language.
+               </p>
+               <p class="program-text fade delay-stagger">
+                  As well, many of my game projects at the time were lacking in
+                  <em>visual appeal</em>. For this reason, I thought that I may
+                  be able to improve this by using CSS. In the end, however, CSS
+                  turned out to be too computer-expensive to use as I wanted in
+                  game development. Nonetheless, the skills I was able to create
+                  in the language was of great help when using CSS for
+                  formatting, texual, and input elements in my later JavaScript
+                  projects!
+               </p>
+            </header>
+            <ul class="program-content grid-responsive">
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="css/fishing-css/">
+                     <h3 class="program-item-heading ft-medium">Fishing</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/fishing-css.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A fishing game I tried making in CSS instead of
+                        JavaScript. Although it looks fairly decent graphically,
+                        its performance is very poor.
+                     </p>
+                     <p class="program-item-text fade delay-end">
+                        <i>
+                           This program is computer heavy.
+                           <strong>Do not open</strong> if on a slow device.
+                        </i>
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="css/tree-css/">
+                     <h3 class="program-item-heading ft-medium">
+                        Tree Generator
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/tree-css.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A tree generator and animation program that creates a
+                        random tree on every load. Although it looks quite nice,
+                        I later remade this program in JavaScript to improve
+                        performance.
+                     </p>
+                     <p class="program-item-text fade delay-end">
+                        <i>
+                           This program is computer heavy.
+                           <strong>Do not open</strong> if on a slow device.
+                        </i>
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="css/helicopter/">
+                     <h3 class="program-item-heading ft-medium">Helicopter</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/helicopter.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A simple animation of a helicopter taking off and
+                        landing on a building. It scrolls through the day, going
+                        from daytime to nighttime. It is quite nice just to let
+                        play and watch!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="#">
+                     <h3 class="program-item-heading ft-medium">
+                        This Website!
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/website.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        This website that I created to assemble all of my old
+                        projects! I learned quite a lot while making this, as it
+                        was the first website I have ever made, and had to work
+                        with concepts such as responsiveness and semantics.
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+         <section
+            id="more-js"
+            class="program-container flex-responsive direction-right"
+            data-visible="true"
+         >
+            <header class="program-header fade duration-long">
+               <h2 class="program-heading ft-large">
+                  More JavaScript Projects
+               </h2>
+               <p class="program-text fade delay-stagger">
+                  After making other projects in other languages, I eventually
+                  came back to <b>JavaScript</b>. I found that the language
+                  worked best for game development, being both simple and
+                  flexible in the types of games that can be created in the
+                  language. Furthermore, as CSS could be used within elements
+                  outside of the game such as the buttons and menus, I was able
+                  to use both harmoniously.
+               </p>
+               <p class="program-text fade delay-stagger">
+                  Compared to my first projects, both the visuals and gameplay
+                  improved. Additionally, there were less bugs and a overall
+                  more well-organized structure, allowing for better and
+                  more-efficient coding and debugging. Clear improvement over
+                  the years!
+               </p>
+            </header>
+            <ul class="program-content grid-responsive">
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="more-js/pixel-lacework/">
+                     <h3 class="program-item-heading ft-medium">
+                        Pixel Lacework
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/pixel-lacework.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A pixel drawing editor that creates a lacework doily
+                        design. I initially made this project for personal
+                        purposes, as I wanted to see how pixel designs would
+                        look on a doily. You can scroll through my designs, or
+                        make your own!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="more-js/3d-golf/">
+                     <h3 class="program-item-heading ft-medium">3D Golf</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/3d-golf.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A golfing game that projects a three-dimensional space
+                        onto a two-dimensional screen. It was quite a challenge
+                        but also fun trying to calculate where each point in 3D
+                        space would go on the 2D canvas!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="more-js/tree-js/">
+                     <h3 class="program-item-heading ft-medium">
+                        Tree Generator
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/tree-js.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A remake of the tree generator I created in CSS, in
+                        JavaScript. It is much more performance-efficient. There
+                        are also more kinds of trees, so refresh the page to see
+                        some interesting creations!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="more-js/boat/">
+                     <h3 class="program-item-heading ft-medium">
+                        Boat Physics
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img class="program-item-image" src="images/boat.png" />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A simulation project I made for how a boat may move in
+                        harsh waters. Although it likely is not realistic, it
+                        has an artistic appearance, and definitely could be used
+                        in a full-scale game!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-right delay-stagger">
+                  <a class="program-anchor" href="more-js/curling/">
+                     <h3 class="program-item-heading ft-medium">Curling</h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/curling.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        A game version of Curling. When I would watch curling, I
+                        thought that it may be fun even with more than two teams
+                        on the ice, which is why I made this game up to eight
+                        players. It is really fun to play!
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+         <section
+            id="unity"
+            class="program-container flex-responsive direction-left dark-background skew-positive"
+            data-visible="true"
+         >
+            <header class="program-header fade duration-long">
+               <h2 class="program-heading ft-large">Unity Game Prototypes</h2>
+               <p class="program-text fade delay-stagger">
+                  Although before I had created my games without any game
+                  engines, I wanted to try out one. I chose <b>Unity</b>, as it
+                  seemed the most familiar to me, as well <b>C#</b> (the
+                  language Unity uses) is quite similar to JavaScript in many
+                  areas.
+               </p>
+               <p class="program-text fade delay-stagger">
+                  With the higher power and built-in features, I went on to
+                  create an <em>original</em> game, which most of my other games
+                  were not. I had two ideas, both of which I created a prototype
+                  for. Although I am still in the development process and
+                  learning more about the engine, the game creation is going
+                  quite well. In the near future, I hope to finish these
+                  projects, and publish my first games!
+               </p>
+            </header>
+            <ul class="program-content grid-responsive">
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="unity/sliding/">
+                     <h3 class="program-item-heading ft-medium">
+                        Penguin Sliding Game
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/sliding.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end fade">
+                        The first game prototype I created in Unity. The idea
+                        was to make a game where penguins slide and try to get
+                        as close to a target as possible, inspired by Curling. I
+                        would love to finish this one day, and publish it as a
+                        full game!
+                     </p>
+                  </a>
+               </li>
+               <li class="program-item fade-left delay-stagger">
+                  <a class="program-anchor" href="unity/swimming-pollution/">
+                     <h3 class="program-item-heading ft-medium">
+                        Swimming Pollution Game
+                     </h3>
+                     <div class="program-item-image-container focus-shadow">
+                        <img
+                           class="program-item-image"
+                           src="images/swimming-pollution.png"
+                        />
+                     </div>
+                     <p class="program-item-text fade delay-end">
+                        The second game prototype I created in Unity. The idea
+                        was to make the game about water pollution, where the
+                        player is collecting garbage that is causing harm to the
+                        aquatic wildlife. The potential is already present in
+                        the prototype, so I would love to finish this game!
+                     </p>
+                     <p class="program-item-text fade delay-end">
+                        <i>
+                           As this game is in early prototype stage, it is not
+                           yet mobile-friendly.
+                        </i>
+                     </p>
+                  </a>
+               </li>
+            </ul>
+         </section>
+         <section id="timeline" class="program-container timeline">
+            <header class="timeline-header fade duration-long">
+               <h2 class="timeline-heading ft-large">Timeline</h2>
+            </header>
+            <div class="timeline-item-ends fade delay-end">
+               <p class="timeline-item-ends-text">
+                  This is a timeline of all the programming events and
+                  experiences I have had, from first starting to today and
+                  beyond. It shows all of the languages, experimentations,
+                  projects, and learnings that I have worked with over the
+                  years. It also displays the order and times when I created my
+                  projects, allowing to see the progression of my game
+                  development and computer programming skills.
+               </p>
+            </div>
+            <ul class="timeline-container flex-static">
+               <li class="timeline-content flex-static fade-left delay-stagger">
+                  <div class="timeline-date align-left">
+                     <h3 class="timeline-date-heading">2020</h3>
+                  </div>
+                  <div class="timeline-item align-left fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">
+                        HTML, CSS, & JS
+                     </h4>
+                     <p class="timeline-item-text">
+                        In the <b>spring of <time datetime="2020">2020</time></b
+                        >, near the start of the COVID-19 pandemic, is when I
+                        first began coding. I learned <b>HTML</b>, <b>CSS</b>,
+                        and <b>JavaScript</b> using both online lessons and
+                        interactive practice.
+                     </p>
+                  </div>
+               </li>
+               <li
+                  class="timeline-content flex-static fade-right delay-stagger"
+               >
+                  <div class="timeline-date align-right">
+                     <h3 class="timeline-date-heading">2020</h3>
+                  </div>
+                  <div class="timeline-item align-right fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">JavaScript</h4>
+                     <p class="timeline-item-text">
+                        In the <b>summer of <time datetime="2020">2020</time></b
+                        >, after learning how to program, I took a liking
+                        towards <b>JavaScript</b>, as well found a passion for
+                        game development. I worked on a few large-scale games,
+                        mostly the first few fishing games listed above.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">
+                              Fishing Game 1
+                           </li>
+                           <li class="timeline-item-list-item">
+                              Fishing Game 2
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="timeline-content flex-static fade-left delay-stagger">
+                  <div class="timeline-date align-left">
+                     <h3 class="timeline-date-heading">2021</h3>
+                  </div>
+                  <div class="timeline-item align-left fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">Python</h4>
+                     <p class="timeline-item-text">
+                        In <b>early <time datetime="2021">2021</time></b
+                        >, I learned how to make games in <b>Python</b>
+                        in a school-run Computer Programming Club. In the club,
+                        I learned beginner level Python syntax and functions, as
+                        well how to use the Turtle library to draw graphics on
+                        the screen.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">Pong</li>
+                           <li class="timeline-item-list-item">Snake</li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li
+                  class="timeline-content flex-static fade-right delay-stagger"
+               >
+                  <div class="timeline-date align-right">
+                     <h3 class="timeline-date-heading">2021</h3>
+                  </div>
+                  <div class="timeline-item align-right fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">Python</h4>
+                     <p class="timeline-item-text">
+                        In the <b>fall of <time datetime="2021">2021</time></b
+                        >, I became one of the leaders at the Computer
+                        Programming Club. Through this, I greatly increased the
+                        amount of games I was created in <b>Python</b>. I also
+                        decided to try creating more complex games in the
+                        language.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">Tetris</li>
+                           <li class="timeline-item-list-item">Racing Game</li>
+                           <li class="timeline-item-list-item">Pixel Drawer</li>
+                           <li class="timeline-item-list-item">Hangman</li>
+                           <li class="timeline-item-list-item">
+                              Last Card (UNO)
+                           </li>
+                           <li class="timeline-item-list-item">Tic Tac Toe</li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="timeline-content flex-static fade-left delay-stagger">
+                  <div class="timeline-date align-left">
+                     <h3 class="timeline-date-heading">2021</h3>
+                  </div>
+                  <div class="timeline-item align-left fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">CSS</h4>
+                     <p class="timeline-item-text">
+                        In <b>late <time datetime="2021">2021</time></b
+                        >, I started experimenting with making graphic-based
+                        animations and programs in <b>CSS</b>. Previously
+                        working largely with bland, rectangular elements as
+                        placeholders for sprites, I wanted to work on developing
+                        the visual aspect of my projects as well.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">
+                              CSS Fishing Game
+                           </li>
+                           <li class="timeline-item-list-item">
+                              CSS Tree Generator
+                           </li>
+                           <li class="timeline-item-list-item">
+                              Helicopter Animation
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li
+                  class="timeline-content flex-static fade-right delay-stagger"
+               >
+                  <div class="timeline-date align-right">
+                     <h3 class="timeline-date-heading">2022</h3>
+                  </div>
+                  <div class="timeline-item align-right fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">JavaScript</h4>
+                     <p class="timeline-item-text">
+                        In <b>early <time datetime="2022">2022</time></b
+                        >, I went back to coding in <b>JavaScript</b>. Using the
+                        skills I developed over the two years, I created better,
+                        more organized, and more visually appealing programs and
+                        games.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">
+                              Fishing Game 3
+                           </li>
+                           <li class="timeline-item-list-item">
+                              Pixel Lacework Drawer
+                           </li>
+                           <li class="timeline-item-list-item">
+                              Fishing Game 4
+                           </li>
+                           <li class="timeline-item-list-item">3D Golf Game</li>
+                           <li class="timeline-item-list-item">
+                              Tree Generator
+                           </li>
+
+                           <li class="timeline-item-list-item">
+                              Boat Physics Simulation
+                           </li>
+                           <li class="timeline-item-list-item">Curling</li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li class="timeline-content flex-static fade-left delay-stagger">
+                  <div class="timeline-date align-left">
+                     <h3 class="timeline-date-heading">2022</h3>
+                  </div>
+                  <div class="timeline-item align-left fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">Unity & C#</h4>
+                     <p class="timeline-item-text">
+                        In the <b>summer of <time datetime="2022">2022</time></b
+                        >, I started playing with the game engine <b>Unity</b>.
+                        I also learned <b>C#</b> in order to use Unity, where I
+                        was introduced to fully object-oriented programming, as
+                        well as a strongly typed language, both of which helped
+                        to improve my structure and organization.
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">
+                              Penguin Sliding Game Prototype
+                           </li>
+                           <li class="timeline-item-list-item">
+                              Swimming Pollution Game Prototype
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+               <li
+                  class="timeline-content flex-static fade-right delay-stagger"
+               >
+                  <div class="timeline-date align-right">
+                     <h3 class="timeline-date-heading">2023</h3>
+                  </div>
+                  <div class="timeline-item align-right fade delay-end">
+                     <h4 class="timeline-item-heading ft-medium">Website</h4>
+                     <p class="timeline-item-text">
+                        In the <b>spring of <time datetime="2023">2023</time></b
+                        >, I started making this website! Although I have known
+                        <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>, I have
+                        never used them to create a website before. I also got
+                        to assemble all of my old projects, which let me see my
+                        improvement over the years!
+                     </p>
+                     <div class="timeline-item-list">
+                        <h5 class="timeline-item-list-heading ft-small">
+                           Projects made:
+                        </h5>
+                        <ul>
+                           <li class="timeline-item-list-item">
+                              This Website!
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+            <div class="timeline-item-ends fade delay-end">
+               <h4 class="timeline-item-heading ft-medium">What's Next</h4>
+               <p class="timeline-item-ends-text">
+                  As I am entering University this year for a degree of Computer
+                  Science, I would like to continue creating, learning, and
+                  improving in my game development skills. As I learn about the
+                  principles and theory that underly computer science, I want to
+                  apply that into my own projects in order to create better,
+                  more exciting games. Either with Unity or any other means, I
+                  am aiming to create and finalize a game, and public it
+                  sometime soon!
+               </p>
+            </div>
+         </section>
+      </main>
+      <footer
+         id="info"
+         class="site-footer clr-white bg-pattern flex-responsive"
+      >
+         <aside class="site-about">
+            <h2 class="site-about-heading ft-medium bg-text">About</h2>
+            <p class="site-about-text bg-text">
+               Hi! I'm Shuto Nakayasu. I love to make games whenever I can, and
+               try to be as original and creative as I am capable of being! I
+               began coding in 2020 with JavaScript, and slowly over the years I
+               have expanded the languages and programing skills I know. I hope
+               to pursue game development as my future career, and create a
+               living off of this great hobby of mine!
+            </p>
+            <p class="site-about-text bg-text">
+               I am currently waiting on starting my first year of University,
+               where i will be studying Computer Science. I hope there to learn
+               even more computer programming concepts, principles, and
+               theology, and be able to utilize that to improve the games that I
+               am creating!
+            </p>
+            <p class="site-about-text bg-text">
+               The quality of my games and the structure of my code have slowly
+               been getting better over the years, as presented in this website.
+               I can only wait for what the future will bring!
+            </p>
+         </aside>
+         <section class="site-details">
+            <div class="site-contact">
+               <h2 class="site-contact-heading ft-medium bg-text">Contact</h2>
+               <p class="site-contact-text bg-text">
+                  Email: shutonakayasu@gmail.com
+               </p>
+            </div>
+            <div class="site-map">
+               <h2 class="site-map-anchor ft-medium bg-text">
+                  <a class="focus-underline" href="site-map/">Site Map</a>
+               </h2>
+            </div>
+         </section>
+      </footer>
+   </body>
+</html>

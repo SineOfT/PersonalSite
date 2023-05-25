@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pong</title>
+      <link rel="stylesheet" href="../python-frame.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <section class="frame-container">
+         <iframe
+            src="https://trinket.io/embed/python/e29327d51c?outputOnly=true&runOption=run&start=result"
+            width="800"
+            height="600"
+            allowfullscreen
+         ></iframe>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#python">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Pong</h1>
+            <p class="menu-info-text">
+               Just like classic Pong, the goal of this game is to not have the
+               ball pass by your paddle! Continue trying to bounce the ball
+               until the opponent makes a mistake!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  When prompted <samp>How many players will play?</samp>, type
+                  either <b>0</b>, <b>1</b>, or <b>2</b> (The other players will
+                  be controled by computers)
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>w</kbd> (left player) or <kbd>⬆︎</kbd> (right
+                  player) to move up
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>s</kbd> (left player) or <kbd>⬇︎</kbd> (right
+                  player) to move down
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

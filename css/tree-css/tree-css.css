@@ -1,0 +1,89 @@
+#container {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+}
+
+#backgroundscene {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+   background: radial-gradient(circle at 0 0, #0000, 70%, #0005),
+      linear-gradient(#00f, #aac calc(100vh - 35px), #6b3 calc(100vh - 30px));
+}
+
+#tree {
+   position: absolute;
+   left: 50vw;
+   top: 100vh;
+   translate: 0 0 -10px;
+}
+
+#stump::before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -10px;
+   width: 5000%;
+   height: 40px;
+   transform-origin: 0 100%;
+   rotate: 2deg;
+   background-image: radial-gradient(at left, #0008, 10%, transparent 50%),
+      radial-gradient(at center, #0008, 20%, transparent 90%);
+}
+
+.branches {
+   position: absolute;
+   background: linear-gradient(90deg, #521, #831, #521);
+   perspective: 100000px;
+   transform-style: preserve-3d;
+}
+
+.leaves,
+.leaves::before,
+.leaves::after {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 20px;
+   height: 20px;
+   border-radius: 100% 0;
+   transform-origin: 0 100%;
+   rotate: -45deg;
+   translate: 0 0 10px;
+   scale: 0;
+   animation: growLeaves 3s 5s forwards;
+}
+
+#lightscreen {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+   background: radial-gradient(circle at 0 0, #dd5, 35%, #0000 60%),
+      radial-gradient(circle at 0 calc(100% - 300px), #dd5, 35%, #0000 60%);
+   mix-blend-mode: lighten;
+}
+#darkscreen {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+   background: radial-gradient(circle at 0 0, #0000, 50%, #000);
+   mix-blend-mode: overlay;
+}
+
+@keyframes growLeaves {
+   0% {
+      scale: 0;
+   }
+   100% {
+      scale: 1;
+   }
+}

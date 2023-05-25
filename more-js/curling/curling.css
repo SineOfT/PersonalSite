@@ -1,0 +1,115 @@
+:root {
+   --scale: 0;
+   --table-height: 0;
+   --cell-height: 0;
+   --button-height: 0;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+input,
+button {
+   font: inherit;
+}
+
+html {
+   font-family: serif;
+}
+
+body {
+   background-color: #ccc;
+   touch-action: none;
+   overflow: hidden;
+}
+
+#input {
+   position: absolute;
+   bottom: 0;
+   z-index: 100;
+   font-size: 20px;
+   font-weight: 900;
+   margin: 1em;
+   transition: opacity 1s;
+}
+
+#input button {
+   padding: 0.3em;
+}
+
+#input input[type="number"] {
+   width: 5ch;
+}
+
+#input input {
+   margin-inline-end: 1em;
+}
+
+.player-style-label {
+   text-shadow: 0 0 1px #000;
+}
+
+#scoreboard {
+   position: absolute;
+   left: 50%;
+   top: 0;
+   width: 80%;
+   height: auto;
+   transform-origin: 50% var(--table-height);
+   transform: translateX(-50%);
+   transition: top 1s;
+   z-index: 10;
+}
+
+table {
+   width: 100%;
+   height: var(--table-height);
+   background-color: #fff;
+   border-collapse: collapse;
+}
+
+table td {
+   text-align: center;
+   border-width: 1px;
+   border-color: #000;
+   border-style: solid;
+   font-size: var(--cell-height);
+   padding: 0.1rem 0.25em;
+}
+
+#moveScoreboard {
+   position: absolute;
+   width: 100%;
+   height: var(--button-height);
+   border-radius: 0 0 var(--button-height) var(--button-height);
+}
+
+#curlChangeTracker {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+
+#screen {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(var(--scale), var(--scale));
+   border: 10px solid #888;
+   background-color: #fff;
+   cursor: url("icons/sweeper.svg") 6.25 23.75, auto;
+}
+
+#screen > canvas {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+}
+
+#posMarkerScreen {
+   top: 100%;
+}

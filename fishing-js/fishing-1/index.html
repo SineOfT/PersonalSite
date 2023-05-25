@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fishing Game 1</title>
+      <link rel="stylesheet" href="fishing-1.css" />
+      <link rel="stylesheet" href="../button.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="fishing-1.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <canvas id="gameScreen"></canvas>
+      <canvas id="cover"></canvas>
+      <canvas id="map"></canvas>
+
+      <section class="button-container">
+         <button id="lock-button">Lock</button>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#fishing-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Fishing Game 1</h1>
+            <p class="menu-info-text">
+               This game is a peaceful, quiet game where you are fishing in a
+               vast ocean. There is no fishing meachinisms built into this
+               prototype of the game, so it is mainly an experimentation of how
+               the movement, animations, and visuals play out in a game.
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⮕</kbd> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬆︎</kbd> to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Space</kbd> to cast line from surface / tug line in
+                  the ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>z</kbd> to lock/unlock line in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Enter</kbd> to zoom in/out of map
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-screen">
+               <li class="menu-info-screen-item left"><kbd>⬅︎</kbd></li>
+               <li class="menu-info-screen-item right"><kbd>⮕</kbd></li>
+               <li class="menu-info-screen-item top"><kbd>⬆︎</kbd></li>
+               <li class="menu-info-screen-item center">
+                  <kbd>Space</kbd>
+               </li>
+            </ul>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <b>Left of Screen</b> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Right of Screen</b> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Top of Screen</b> to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <b>Center of Screen</b> to cast line from surface / tug
+                  line in the ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Lock</kbd> button to lock/unlock line in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap on the map to zoom in/out of map
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

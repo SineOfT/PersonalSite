@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>CSS Fishing Game</title>
+      <link rel="stylesheet" href="fishing-css.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="fishing-css.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <div class="screen">
+         <div class="sky"></div>
+         <div class="ocean"></div>
+         <div class="sun"></div>
+         <div class="clouds"></div>
+         <div class="floor"></div>
+         <div class="fisherman">
+            <div class="fisher"></div>
+            <div class="boat"></div>
+            <div class="rod">
+               <svg class="castcanvas">
+                  <line class="castline" stroke="black"></line>
+               </svg>
+               <div class="bobber">
+                  <svg class="linecanvas">
+                     <line class="hookline" stroke="black"></line>
+                  </svg>
+                  <div class="hook"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <button class="button">Cast</button>
+      <button class="left">Left</button>
+      <button class="right">Right</button>
+
+      <section class="menu-container">
+         <form action="../../#css">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">CSS Fishing Game</h1>
+            <p class="menu-info-text">
+               This game is a peaceful, quiet game where you are fishing in a
+               vast ocean. There is no fishing meachinisms built into this
+               prototype of the game, so it is mainly an experimentation of how
+               the movement, animations, and visuals play out in a game.
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⮕</kbd> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Space</kbd> to cast line
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>Left</kbd> button to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>Right</kbd> button to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Cast</kbd> button to cast line
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

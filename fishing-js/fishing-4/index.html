@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fishing Game 4</title>
+      <link rel="stylesheet" href="fishing-4.css" />
+      <link rel="stylesheet" href="../button.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="fishing-4.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <canvas class="display" id="gamescreen"></canvas>
+      <canvas class="render" id="sun"></canvas>
+      <canvas class="render" id="cloudA"></canvas>
+      <canvas class="render" id="cloudB"></canvas>
+      <canvas class="render" id="ground"></canvas>
+      <canvas class="render" id="fish-canvas"></canvas>
+      <canvas class="render" id="fish"></canvas>
+      <canvas class="render" id="boat"></canvas>
+      <canvas class="render" id="rod"></canvas>
+      <canvas class="render" id="bobber"></canvas>
+      <canvas class="render" id="hook"></canvas>
+      <canvas class="render" id="land"></canvas>
+      <canvas class="render" id="ocean"></canvas>
+      <canvas class="render" id="mask"></canvas>
+
+      <section class="button-container">
+         <button id="lock-button">Lock</button>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#fishing-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Fishing Game 4</h1>
+            <p class="menu-info-text">
+               The objective of this game is to catch fish in the ocean.
+               However, beware not to put too much strain on your line! If you
+               overstress the line, it will become red and eventually break. Use
+               careful movements, and try to follow the fish's movement in order
+               to keep the catch!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⮕</kbd> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬆︎</kbd> to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬇︎</kbd> to move down in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Space</kbd> to cast line from surface / tug line in
+                  ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>z</kbd> to lock/unlock line in ocean
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-screen">
+               <li class="menu-info-screen-item left"><kbd>⬅︎</kbd></li>
+               <li class="menu-info-screen-item right"><kbd>⮕</kbd></li>
+               <li class="menu-info-screen-item top"><kbd>⬆︎</kbd></li>
+               <li class="menu-info-screen-item bottom"><kbd>⬇︎</kbd></li>
+               <li class="menu-info-screen-item center">
+                  <kbd>Space</kbd>
+               </li>
+            </ul>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <b>Left of Screen</b> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Right of Screen</b> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Top of Screen</b> to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Bottom of Screen</b> to move down in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <b>Center of Screen</b> to cast line from surface / tug
+                  line in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Lock</kbd> button to lock/unlock line in ocean
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

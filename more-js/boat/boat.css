@@ -1,0 +1,10 @@
+body {
+   touch-action: none;
+   overflow: hidden;
+}
+
+canvas {
+   position: absolute;
+   inset: 0;
+   background-image: linear-gradient(#bdf, #fff);
+}

@@ -1,0 +1,339 @@
+body {
+   margin: 0;
+   padding: 0;
+   touch-action: none;
+   overflow: hidden;
+}
+.button,
+.left,
+.right {
+   position: fixed;
+   background-color: #f00a;
+   font-size: 2vmin;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+.button {
+   left: 10vmin;
+   bottom: 20vmin;
+   width: 15vmin;
+   height: 10vmin;
+}
+.left {
+   left: 5vmin;
+   bottom: 5vmin;
+   width: 10vmin;
+   height: 10vmin;
+}
+.right {
+   left: 20vmin;
+   bottom: 5vmin;
+   width: 10vmin;
+   height: 10vmin;
+}
+.screen {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 100vh;
+}
+.sky {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100vw;
+   height: 70vh;
+   background: linear-gradient(#88f, #f808 97%, transparent);
+}
+.ocean {
+   position: absolute;
+   left: 0;
+   top: 70vh;
+   width: 100vw;
+   height: 300vh;
+   background: linear-gradient(
+      0deg,
+      #884 7%,
+      #000 8% 30%,
+      #04f4 90%,
+      #fb88 99%,
+      transparent
+   );
+   backdrop-filter: blur(0.2vmin);
+   z-index: 1000;
+}
+.sun {
+   position: absolute;
+   left: -20vw;
+   top: 0;
+   width: 140vw;
+   height: 68vh;
+   background: radial-gradient(
+      70vmax at 50% 60vh,
+      #f80 20%,
+      #ff04 20%,
+      transparent
+   );
+   filter: blur(0.5vmin);
+}
+.sun::after {
+   content: "";
+   position: absolute;
+   top: 70vh;
+   width: inherit;
+   height: inherit;
+   background: radial-gradient(
+         70vmax 35vmax at 50% 4vh,
+         #f80 20%,
+         #ff04 21%,
+         transparent
+      )
+      linear-gradient(180deg, #f808, transparent);
+   filter: blur(5vmin);
+}
+.clouds {
+   position: absolute;
+   left: -40vw;
+   top: 0;
+   width: 180vw;
+   height: 70vh;
+   background: radial-gradient(
+         12vmin 6vmin at 59vw 48vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         21vmin 7vmin at 111vw 27vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         11vmin 9vmin at 16vw 47vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         24vmin 6vmin at 63vw 12vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         23vmin 8vmin at 43vw 17vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         27vmin 5vmin at 14vw 61vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         17vmin 7vmin at 64vw 55vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         21vmin 9vmin at 4vw 60vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         29vmin 8vmin at 144vw 17vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         18vmin 9vmin at 163vw 64vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         15vmin 7vmin at 67vw 8vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         27vmin 7vmin at 122vw 19vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         20vmin 7vmin at 16vw 47vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         26vmin 6vmin at 165vw 33vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      ),
+      radial-gradient(
+         15vmin 9vmin at 175vw 49vh,
+         #fff,
+         #fff8 60%,
+         #fff4 80%,
+         transparent
+      );
+}
+.clouds::after {
+   content: "";
+   position: absolute;
+   top: 50vh;
+   width: inherit;
+   height: inherit;
+   background: inherit;
+   transform: scale(1, -0.5);
+   filter: blur(5vmin);
+}
+
+.fisherman {
+   position: absolute;
+   left: calc(50vw - 37vmin);
+   top: calc(70vh + 5vmin);
+   width: 80vmin;
+   height: 50vmin;
+   transform: translate(-50%, -100%);
+}
+.fisherman::after {
+   content: "";
+   position: absolute;
+   top: 50vh;
+   width: 60vmin;
+   height: 15vmin;
+   background-color: #0008;
+   filter: blur(7vmin);
+}
+.fisherman .fisher {
+   position: absolute;
+   left: 40vmin;
+   top: 30vmin;
+   width: 8vmin;
+   height: 10vmin;
+   background-color: #000;
+}
+.fisherman .boat {
+   position: absolute;
+   top: 40vmin;
+   left: 0;
+   width: 60vmin;
+   height: 10vmin;
+   background: linear-gradient(
+      180deg,
+      #555 25%,
+      #fff 25% 35%,
+      #555 35% 80%,
+      transparent
+   );
+}
+.fisherman .boat::before {
+   content: "";
+   position: absolute;
+   left: 10vmin;
+   top: -15vmin;
+   width: 25vmin;
+   height: 15vmin;
+   background-color: #555;
+}
+.fisherman .boat::after {
+   content: "";
+   position: absolute;
+   left: 5vmin;
+   top: -20vmin;
+   width: 40vmin;
+   height: 5vmin;
+   background-color: #555;
+}
+.fisherman .rod {
+   position: absolute;
+   left: 45vmin;
+   top: 0;
+   width: 35vmin;
+   height: 35vmin;
+   transform-origin: 0 100%;
+   transform: rotate(1deg);
+   transition: transform 2.5s cubic-bezier(0.6, 150, 0.5, 150);
+}
+.fisherman .rod::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 33vmin;
+   width: 45vmin;
+   height: 2vmin;
+   transform-origin: 0 0;
+   transform: rotate(-45deg);
+   background-color: #f90;
+}
+.fisherman .rod .castcanvas {
+   position: absolute;
+   left: 32vmin;
+   top: 3vmin;
+   width: 51vmin;
+   height: 45vmin;
+}
+.fisherman .rod .bobber {
+   position: absolute;
+   left: 29vmin;
+   top: 0;
+   width: 6vmin;
+   height: 6vmin;
+   background-color: #f00;
+   transition: left 1.5s cubic-bezier(0, 0, 0.3, 1) 2.5s,
+      top 1.5s cubic-bezier(0.5, 0, 0.7, 1.5) 2.5s;
+}
+.fisherman .rod .bobber::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 6vmin;
+   height: 6vmin;
+   background-color: #f00;
+   z-index: 100;
+}
+.fisherman .rod .bobber .linecanvas {
+   position: absolute;
+   left: -147vw;
+   top: 0;
+   width: 300vw;
+   height: 280vh;
+}
+.fisherman .rod .bobber .hook {
+   position: absolute;
+   left: 3vmin;
+   top: 3vmin;
+   width: 3vmin;
+   height: 3vmin;
+   transform: translate(-50%, -50%);
+   background-color: #ff0;
+   z-index: 100;
+}

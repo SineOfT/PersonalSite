@@ -1,0 +1,17 @@
+.button-container {
+   position: absolute;
+   inset: auto 0 0 0;
+}
+
+.button-container button {
+   width: 5rem;
+   height: 5rem;
+   margin: 1rem;
+   background-color: #fffb;
+   color: #333;
+   font-size: 1rem;
+   font-weight: 900;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   cursor: pointer;
+}

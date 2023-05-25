@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   touch-action: none;
+   overflow: hidden;
+}
+
+#gameScreen {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+#cover {
+   position: absolute;
+   top: 0;
+   left: 0;
+   pointer-events: none;
+}
+
+#map {
+   position: absolute;
+   top: 0;
+   left: 0;
+}

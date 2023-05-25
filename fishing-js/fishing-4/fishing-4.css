@@ -1,0 +1,19 @@
+body {
+   touch-action: none;
+   overflow: hidden;
+}
+
+.render {
+   display: none;
+}
+
+#gamescreen {
+   position: fixed;
+   left: calc(min(-50vw, -150vh) + 50vw);
+   top: calc(min(-15vw, -45vh) + 45vh);
+   width: max(100vw, 300vh);
+   height: max(200vw, 600vh);
+   image-rendering: pixelated;
+   transform-origin: 50% 7%;
+   transform: scale(2, 2);
+}

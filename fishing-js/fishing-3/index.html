@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Fishing Game 3</title>
+      <link rel="stylesheet" href="fishing-3.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="fishing-3.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <svg id="symbols">
+         <symbol id="left" viewBox="-50 -50 100 100">
+            <path d="M 20 -40 v 80 l -50 -40 l 50 -40 Z" />
+         </symbol>
+
+         <symbol id="right" viewBox="-50 -50 100 100">
+            <path d="M -20 -40 v 80 l 50 -40 l -50 -40 Z" />
+         </symbol>
+
+         <symbol id="up" viewBox="-50 -50 100 100">
+            <path d="M -40 20 h 80 l -40 -50 l 40 -50 Z" />
+         </symbol>
+
+         <symbol id="lock" viewBox="-50 -50 100 100">
+            <path
+               d="M 10 0 h -20 v -10 a 10 10 0 1 1 20 0 v 10 h 10 v -10 a 20 20 0 1 0 -40 0 v 10 h -5 v 35 h 50 v -35 h 5 Z"
+            />
+         </symbol>
+
+         <symbol id="unlock" viewBox="-50 -50 100 100">
+            <path
+               d="M 25 0 h -35 v -20 a 10 10 0 1 1 20 0 v 10 h 10 v -10 a 20 20 0 1 0 -40 0 v 20 h -5 v 35 h 50 v -35 Z"
+            />
+         </symbol>
+
+         <symbol id="castRod" viewBox="-150 -50 300 100">
+            <path
+               d="M 120 -30 l -200 40 a 10 10 0 1 1 -10 2 l -50 10 l -3 -15 Z M 120 30 a 5 5 0 1 1 -1 1 Z"
+               stroke="#0000"
+            />
+            <path d="M -75 25 l 195 -55 c 10 10, -20 30, 0 60" fill="#0000" />
+         </symbol>
+
+         <symbol id="pullRod" viewBox="-150 -50 300 100">
+            <path
+               d="M 80 0 c -20 -50, -60 -50, -150 10 a 10 10 0 1 1 -10 5 l -40 20 l -5 -10 c 145 -80, 185 -80, 205 -25 Z M 81 30 a 5 5 0 1 1 -2 0 Z"
+               stroke="#0000"
+            />
+            <path d="M -63 25 c 85 -70, 125 -70, 145 -25 v 30" fill="#0000" />
+         </symbol>
+      </svg>
+
+      <canvas id="canvas"></canvas>
+
+      <section id="controlBox">
+         <button id="btnLeft" type="button">
+            <svg width="100%" height="100%">
+               <use id="btnLeftIcon" href="#left"></use>
+            </svg>
+         </button>
+
+         <button id="btnRight" type="button">
+            <svg width="100%" height="100%">
+               <use id="btnRightIcon" href="#right"></use>
+            </svg>
+         </button>
+
+         <button id="btnReel" type="button">
+            <svg width="100%" height="100%">
+               <use id="btnReelIcon" href="#up"></use>
+            </svg>
+         </button>
+
+         <button id="btnLock" type="button">
+            <svg width="100%" height="100%">
+               <use id="btnLockIcon" href="#lock"></use>
+            </svg>
+         </button>
+
+         <button id="btnCast" type="button">
+            <svg width="100%" height="100%">
+               <use id="btnCastIcon" href="#castRod"></use>
+            </svg>
+         </button>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#fishing-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Fishing Game 3</h1>
+            <p class="menu-info-text">
+               The objective of this game is to catch fish in the ocean.
+               However, watch out as you need patience and wait for the fish to
+               pull down the line before you can tug the line. The fish can
+               sometimes be fast, so be on guard!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⮕</kbd> to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬆︎</kbd> to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>Space</kbd> to cast line from surface / tug line in
+                  the ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>z</kbd> to lock/unlock line in ocean
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>◀︎</kbd> button to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>▶︎</kbd> button to move right
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>▲</kbd> button to move up in ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>🎣</kbd> button to cast line from surface / tug line
+                  in the ocean
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>🔒</kbd> button to lock/unlock line in ocean
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

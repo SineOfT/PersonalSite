@@ -1,0 +1,50 @@
+body {
+   font-family: sans-serif;
+   touch-action: none;
+   overflow: hidden;
+}
+
+#canvas,
+#grid,
+#background {
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+#code-text {
+   position: relative;
+   margin: 1vw;
+   height: 100vh;
+   overflow-wrap: break-word;
+   font-weight: 550;
+   font-size: min(3vw, 1rem);
+}
+
+.button-container {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   margin: 1rem;
+}
+
+.button-container button {
+   width: 3rem;
+   height: 3rem;
+   border-radius: 0.5rem;
+   font-size: 2rem;
+}
+
+.btn-scroll {
+   display: none;
+}
+
+#btn-color-black {
+   background-color: #000;
+}
+#btn-color-gray {
+   background-color: #888;
+}
+#btn-color-white {
+   background-color: #ddd;
+}

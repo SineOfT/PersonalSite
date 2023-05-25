@@ -1,0 +1,174 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+p {
+   line-height: 1.5em;
+   font-size: 1rem;
+   margin-block-end: 2rem;
+}
+
+ul {
+   list-style: none;
+}
+
+kbd {
+   padding: 0.1rem;
+   border-radius: 0.3rem;
+   border: 0.1rem solid black;
+   background-color: #ddd;
+   box-shadow: inset 0 -0.1rem 0.3rem -0.1rem #555, 0 0.1rem 0.1rem #333;
+   font-weight: 900;
+}
+
+samp {
+   padding: 0.1rem;
+   background-color: #ddd;
+}
+
+body {
+   font-family: sans-serif;
+}
+
+.ft-large {
+   font-size: 2rem;
+   margin-block-end: 1.5rem;
+}
+
+.ft-medium {
+   font-size: 1.5rem;
+   margin-block-end: 1rem;
+}
+
+.ft-small {
+   font-size: 1.25rem;
+}
+
+.menu-container {
+   width: 100%;
+   height: 100vh;
+}
+
+.menu-container button {
+   width: 5rem;
+   height: 5rem;
+   background-color: #fffb;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50%;
+   cursor: pointer;
+}
+
+.menu-home-btn {
+   position: absolute;
+   top: 1rem;
+   left: 1rem;
+}
+
+.menu-info-btn-expand {
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+}
+
+.menu-info-btn-contract {
+   position: sticky;
+   top: 0;
+   left: 100%;
+}
+
+.home {
+   background-image: url(icons/menu-home.svg);
+}
+
+.expand {
+   background-image: url(icons/menu-expand.svg);
+}
+
+.contract {
+   background-image: url(icons/menu-contract.svg);
+}
+
+.menu-info {
+   position: absolute;
+   margin: auto;
+   padding: 1rem;
+   max-width: min(35rem, 75vw);
+   border-radius: 1rem;
+   border: 0.3rem solid #fff;
+   background-color: #ccc;
+   font-family: sans-serif;
+}
+
+.menu-info::backdrop {
+   background-color: #000b;
+}
+
+.menu-info-list-heading {
+   margin-inline-start: 1rem;
+}
+
+.menu-info-list-heading::after {
+   content: ":";
+}
+
+.menu-info-list {
+   margin-block-end: 2rem;
+}
+
+.menu-info-list-item {
+   margin-inline-start: 2rem;
+   margin-block-end: 0.5rem;
+   line-height: 1.5em;
+}
+
+.menu-info-nested-item {
+   margin-inline-start: 2rem;
+}
+
+.menu-info-nested-item::before {
+   content: "- ";
+}
+
+.menu-info-screen {
+   position: relative;
+   margin: auto;
+   width: min(20rem, 100%);
+   height: min(15rem, 100vmin);
+   background-color: #ddd;
+   background-image: url(icons/menu-control-screen.svg);
+   background-size: 100% 100%;
+   border: 0.1rem solid black;
+}
+
+.menu-info-screen-item {
+   position: absolute;
+   translate: -50% -50%;
+}
+
+.menu-info-screen-item.top {
+   left: 50%;
+   top: 12.5%;
+}
+
+.menu-info-screen-item.bottom {
+   left: 50%;
+   top: 87.5%;
+}
+
+.menu-info-screen-item.left {
+   left: 12.5%;
+   top: 50%;
+}
+
+.menu-info-screen-item.right {
+   left: 87.5%;
+   top: 50%;
+}
+
+.menu-info-screen-item.center {
+   left: 50%;
+   top: 50%;
+}

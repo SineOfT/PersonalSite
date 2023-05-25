@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>JavaScript Tree Generator</title>
+      <link rel="stylesheet" href="tree-js.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="tree-js.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <section id="treeScreen">
+         <div id="background"></div>
+         <canvas id="canvas"></canvas>
+      </section>
+      <section id="renderScreen">
+         <canvas class="renderCanvas"></canvas>
+         <canvas class="renderCanvas"></canvas>
+         <canvas class="renderCanvas"></canvas>
+         <canvas class="renderCanvas"></canvas>
+         <canvas class="renderCanvas"></canvas>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#more-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h2 class="menu-info-heading ft-large">
+               JavaScript Tree Generator
+            </h2>
+            <p class="menu-info-text">
+               This program generates five random shaped trees on every refresh.
+               There are also four types of trees — trees with no leaves, trees
+               with leaves, trees with flowers, and trees with both leaves and
+               flowers. Keep refreshing the browser, and see what interesting
+               creations pop up!
+            </p>
+         </dialog>
+      </section>
+   </body>
+</html>

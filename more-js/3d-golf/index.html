@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>3D Golf</title>
+      <link rel="stylesheet" href="3d-golf.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="3d-golf.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <canvas id="canvas"></canvas>
+
+      <section class="menu-container">
+         <form action="../../#more-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">3D Golf</h1>
+            <p class="menu-info-text">
+               The objective of this game is to putt the ball into the hole! It
+               is quite an early prototype, where I tested how I could project
+               three-dimensional space onto a two-dimensional screen. Have fun,
+               and try to get a hole in one (I think it's possible)!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold a point on the <b>Screen</b> to putt ball
+                  <ul>
+                     <li class="menu-info-nested-item">
+                        the x-position (left/right) controls how far left/right
+                        the ball is putt (center is 0)
+                     </li>
+                     <li class="menu-info-nested-item">
+                        the y-position (up/down) controls how far
+                        forward/backward the ball is putt (center is 0)
+                     </li>
+                     <li class="menu-info-nested-item">
+                        the time held controls how high the ball is putt
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Boat Physics Simulation</title>
+      <link rel="stylesheet" href="boat.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="boat.js"></script>
+      <script defer src="../../menu.js"></script>
+   </head>
+   <body>
+      <canvas></canvas>
+
+      <section class="menu-container">
+         <form action="../../#more-js">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Boat Physics Simulation</h1>
+            <p class="menu-info-text">
+               This is a visual simulation of how a boat may appear on rough
+               waters. It may not be super physically accurate, however it can
+               definitely work within a full scale game! The waves are simple
+               sinusoidals, but in theory it should work with any shape wave. I
+               would love to extend this program further and use it in a future
+               game!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <h3 class="menu-info-list-heading ft-small">Keyboard</h3>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <kbd>⮕</kbd> to move right
+               </li>
+            </ul>
+            <h3 class="menu-info-list-heading ft-small">Touch Screen</h3>
+            <ul class="menu-info-screen">
+               <li class="menu-info-screen-item left"><kbd>⬅︎</kbd></li>
+               <li class="menu-info-screen-item right"><kbd>⮕</kbd></li>
+            </ul>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Hold <b>Left of Screen</b> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Hold <b>Right of Screen</b> to move right
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

@@ -1,0 +1,52 @@
+html {
+  overflow-x: hidden;
+}
+
+#treeScreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  position: absolute;
+  left: 0;
+  width: 100vw;
+}
+
+#background {
+  bottom: 0;
+  height: 100vh;
+  background: linear-gradient(0deg, #060, #8b6 15vw, #88f 18vw, #00f 80vw);
+}
+
+#canvas {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+#renderScreen {
+  position: fixed;
+  left: 0;
+  top: 100vh;
+  width: 100vw;
+  height: auto;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#renderScreen > canvas {
+  position: relative;
+  width: 45vw;
+  transform: scaleY(-1);
+  margin: 3vw 0;
+  border: 1px solid #333;
+}

@@ -1,0 +1,405 @@
+:root {
+   --building-offset: 15;
+   --building-depth: 45;
+   --building-end: 8;
+
+   --building-color: #433;
+   --building-shadow: #322;
+   --helipad-color: #ccc;
+
+   --bg-height: 800;
+
+   --bg-change-time: 100s;
+
+   --cloud-width: 25;
+   --cloud-height: 10;
+   --cloud-length: 200;
+
+   --cloud-change-time: 80s;
+
+   --star-width: 0.3;
+   --star-height: 0.3;
+
+   --helicopter-left: 30%;
+   --helicopter-bottom: 10rem;
+   --helicopter-lift: -40%;
+
+   --leg-width: 1;
+   --leg-length: 20;
+   --leg-height: 5;
+
+   --building-width: calc(
+      (var(--leg-length) + var(--leg-width) * 2 + var(--building-offset) * 2)
+   );
+
+   --body-width: 21;
+   --body-height: 15;
+
+   --tail-length: 15;
+   --tail-height: 5;
+   --tail-end: 1;
+
+   --propeller-s-width: 5;
+   --propeller-s-height: 1;
+
+   --connector-width: 0.5;
+   --connector-height: 1.5;
+
+   --propeller-l-width: 30;
+   --propeller-l-height: 5;
+
+   --metal-color: #888;
+   --metal-shadow: #555;
+
+   --body-color: #f22;
+
+   --animation-time: 20s;
+
+   --light-radius: 20;
+
+   --light-color: #ffb;
+
+   --scan-time: 5s;
+
+   font-size: 2vmin;
+}
+
+body {
+   overflow: hidden;
+}
+
+div,
+div::before,
+div::after {
+   position: absolute;
+   margin: 0;
+}
+
+div::before,
+div::after {
+   content: "";
+}
+
+.sky {
+   width: 300%;
+   height: calc(var(--bg-height) * 1%);
+   left: 0;
+   top: 0;
+   background: linear-gradient(
+      #55f 20%,
+      #404,
+      #000 50% 60%,
+      #00b,
+      #d82,
+      #55f 80%
+   );
+   animation: bg-change var(--bg-change-time) linear infinite;
+}
+
+.dark-screen {
+   width: 100%;
+   height: calc(var(--bg-height) * 1%);
+   left: 0;
+   top: 0;
+   background: linear-gradient(#0000 20%, #000d 40% 70%, #0000 80%);
+   animation: bg-change var(--bg-change-time) linear infinite;
+}
+
+.clouds {
+   width: calc(var(--cloud-width) * 1rem);
+   height: calc(var(--cloud-height) * 1rem);
+   left: calc(var(--cloud-width) * -1rem);
+   box-shadow: 98rem 13rem 10rem -0.1rem #fff, 152rem 2rem 10rem -0.2rem #fff,
+      39rem 18rem 10rem 0rem #fff, 197rem 25rem 10rem -0.2rem #fff,
+      11rem 0rem 10rem -0.1rem #fff, 64rem 11rem 10rem 0.1rem #fff,
+      135rem 21rem 10rem -0.1rem #fff, 162rem 13rem 10rem 0.1rem #fff,
+      151rem 20rem 10rem 0.1rem #fff, 23rem 13rem 10rem 0.1rem #fff,
+      93rem 2rem 10rem -0.2rem #fff, 31rem 7rem 10rem -0.2rem #fff,
+      21rem 20rem 10rem -0.2rem #fff, 194rem 19rem 10rem -0.1rem #fff,
+      134rem 16rem 10rem -0.2rem #fff, 105rem 3rem 10rem 0rem #fff,
+      198rem 16rem 10rem -0.1rem #fff, 178rem 5rem 10rem 0rem #fff,
+      162rem 13rem 10rem -0.2rem #fff, 177rem 21rem 10rem -0.2rem #fff;
+   background: #fff;
+   opacity: 1;
+   animation: cloud-move var(--cloud-change-time) infinite,
+      cloud-change var(--bg-change-time) infinite;
+}
+
+.stars {
+   width: calc(var(--star-width) * 1rem);
+   height: calc(var(--star-height) * 1rem);
+   box-shadow: 66rem 0rem #fff, 65rem 39rem #fff, 59rem 50rem #fff,
+      1rem 47rem #fff, 27rem 50rem #fff, 3rem 40rem #fff, 17rem 33rem #fff,
+      40rem 33rem #fff, 47rem 28rem #fff, 55rem 6rem #fff, 20rem 3rem 1rem #fff,
+      20rem 13rem #fff, 57rem 39rem #fff, 12rem 6rem #fff, 67rem 20rem #fff,
+      0rem 28rem #fff, 8rem 25rem #fff, 21rem 15rem #fff, 49rem 15rem #fff,
+      20rem 27rem #fff, 10rem 3rem #fff, 67rem 5rem #fff, 44rem 7rem #fff,
+      8rem 45rem #fff, 9rem 20rem #fff, 19rem 8rem #fff, 53rem 11rem #fff,
+      52rem 33rem #fff, 25rem 16rem #fff, 11rem 27rem #fff;
+   background: #fff;
+   opacity: 0;
+   animation: star-change var(--bg-change-time) linear infinite;
+}
+
+.build-cont {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: calc(var(--helicopter-left) - var(--building-offset) * 1rem);
+   bottom: 0;
+}
+
+.building,
+.building::before,
+.building::after {
+   width: calc(var(--building-width) * 1rem);
+   height: calc(var(--helicopter-bottom) + 100%);
+   background: var(--building-shadow);
+}
+
+.building {
+   left: 0;
+   bottom: -100%;
+   animation: move-left var(--animation-time) ease-in-out infinite;
+}
+
+.helicopter {
+   width: 100%;
+   height: 100%;
+   animation: take-off var(--animation-time) ease-in-out infinite;
+}
+
+.helicopter .legs {
+   width: calc(var(--leg-length) * 1rem);
+   height: calc(var(--leg-width) * 1rem);
+   left: var(--helicopter-left);
+   bottom: var(--helicopter-bottom);
+   border-radius: calc(var(--leg-width) / 2 * 1rem);
+   background: var(--metal-color);
+}
+
+.helicopter .legs::before,
+.helicopter .legs::after {
+   width: calc(var(--leg-width) * 1rem);
+   height: calc(var(--leg-height) * 1rem);
+   left: calc((var(--leg-length) / 8 - var(--leg-width) / 2) * 1rem);
+   top: calc((var(--leg-height) * -1 + var(--leg-width) / 2) * 1rem);
+   transform: rotate(10deg);
+   transform-origin: bottom;
+   background: var(--metal-color);
+}
+
+.helicopter .legs::after {
+   width: calc(var(--leg-width) * 1rem);
+   height: calc(var(--leg-height) * 1rem);
+   left: calc((var(--leg-length) * 7 / 8 - var(--leg-width) / 2) * 1rem);
+   top: calc((var(--leg-height) * -1 + var(--leg-width) / 2) * 1rem);
+   transform: rotate(-10deg);
+   transform-origin: bottom;
+   background: var(--metal-color);
+}
+
+.helicopter .legs,
+.helicopter .legs::before,
+.helicopter .legs::after {
+   box-shadow: calc(var(--leg-width) * 2rem) calc(var(--leg-width) * -1.2rem)
+      var(--metal-shadow);
+}
+
+.helicopter .body {
+   width: calc(var(--body-width) * 1rem);
+   height: calc(var(--body-height) * 1rem);
+   top: calc((var(--body-height) + var(--leg-height) / 2) * -1rem);
+   border-radius: 50% 60% 30% 50%;
+   transform: rotateZ(-5deg);
+   background: var(--body-color);
+   z-index: 10;
+}
+
+.helicopter .body::after {
+   width: calc(var(--tail-length) * 1rem);
+   height: calc(var(--tail-height) * 1rem);
+   left: calc(100% - 1rem);
+   top: 50%;
+   clip-path: polygon(0 0, 100% 0, 100% calc(var(--tail-end) * 1rem), 0 100%);
+   background: var(--body-color);
+}
+
+.helicopter .propeller-s {
+   left: calc(calc((var(--body-width) - 1 + var(--tail-length)) * 1rem));
+   top: calc(var(--body-height) / 2 * 1rem);
+   z-index: 100;
+   animation: spin var(--animation-time) infinite ease-in-out reverse;
+}
+
+.helicopter .propeller-s::before,
+.helicopter .propeller-s::after {
+   width: calc(var(--propeller-s-width) * 1rem);
+   height: calc(var(--propeller-s-height) * 1rem);
+   top: calc(var(--propeller-s-height) / -2 * 1rem);
+   border-radius: 40% 60% 60% 40%;
+   background: var(--metal-color);
+}
+
+.helicopter .propeller-s::after {
+   left: calc(var(--propeller-s-width) * -1rem);
+   border-radius: 60% 40% 40% 60%;
+}
+
+.helicopter .connector {
+   width: calc(var(--connector-width) * 1rem);
+   height: calc(var(--connector-height) * 1rem);
+   left: calc(var(--body-width) / 2 * 1rem);
+   top: calc(var(--connector-height) * -2 / 3 * 1rem);
+   border-radius: calc(var(--connector-width) / 2 * 1rem) /
+      calc(var(--connector-width) / 3 * 1rem);
+   background: var(--metal-color);
+}
+
+.helicopter .connector .bearing {
+   left: 50%;
+   top: 0.5rem;
+   transform: rotateX(80deg);
+   background: var(--metal-shadow);
+}
+
+.helicopter .connector .bearing .propeller-l {
+   animation: spin var(--animation-time) infinite ease-in-out;
+}
+
+.helicopter .connector .bearing .propeller-l::before,
+.helicopter .connector .bearing .propeller-l::after {
+   width: calc(var(--propeller-l-width) * 1rem);
+   height: calc(var(--propeller-l-height) * 1rem);
+   top: calc(var(--propeller-l-height) / -2 * 1rem);
+   border-radius: 40% 60% 60% 40%;
+   background: var(--metal-color);
+}
+
+.helicopter .connector .bearing .propeller-l::after {
+   left: calc(var(--propeller-l-width) * -1rem);
+   border-radius: 60% 40% 40% 60%;
+}
+
+.headlights {
+   width: 100%;
+   height: 100%;
+   animation: take-off var(--animation-time) ease-in-out infinite;
+}
+
+.light {
+   width: 0;
+   height: calc(var(--light-radius) * 2rem);
+   left: calc(var(--helicopter-left) - var(--light-radius) * 0.8rem);
+   bottom: calc(
+      var(--helicopter-bottom) - var(--light-radius) * 1rem + var(--body-height) *
+         0.5rem
+   );
+   border-radius: 50%;
+   background: conic-gradient(from 260deg, var(--light-color) 20deg, #0000 0);
+   filter: blur(1rem);
+   opacity: 0;
+   animation: scan 5s linear infinite,
+      turn-on var(--animation-time) linear infinite,
+      switch-on var(--bg-change-time) linear infinite;
+}
+
+@keyframes bg-change {
+   100% {
+      top: calc((var(--bg-height) * -1 + 100) * 1%);
+   }
+}
+
+@keyframes cloud-move {
+   50% {
+      left: calc(var(--cloud-length) * -1rem);
+   }
+}
+
+@keyframes cloud-change {
+   20%,
+   90% {
+      opacity: 0.5;
+   }
+   25%,
+   85% {
+      opacity: 0;
+   }
+}
+
+@keyframes star-change {
+   25%,
+   75% {
+      opacity: 0;
+   }
+   35%,
+   65% {
+      opacity: 1;
+   }
+}
+
+@keyframes move-left {
+   25%,
+   75% {
+      left: 0%;
+   }
+   49.99999% {
+      left: 150%;
+   }
+   50% {
+      left: -150%;
+   }
+}
+
+@keyframes spin {
+   5% {
+      transform: rotate(0);
+   }
+   95%,
+   100% {
+      transform: rotate(36000deg);
+   }
+}
+
+@keyframes take-off {
+   20%,
+   80% {
+      transform: rotate(0);
+   }
+   40%,
+   60% {
+      transform: rotate(-15deg) translateY(var(--helicopter-lift));
+   }
+}
+
+@keyframes scan {
+   0%,
+   100% {
+      transform: rotate(0);
+   }
+   50% {
+      transform: rotate(-15deg);
+   }
+}
+
+@keyframes turn-on {
+   14.99999%,
+   85.00001% {
+      opacity: 0;
+   }
+   15%,
+   85% {
+      opacity: 0.75;
+   }
+}
+
+@keyframes switch-on {
+   24.99999%,
+   80.00001% {
+      width: 0;
+   }
+   25%,
+   80% {
+      width: calc(var(--light-radius) * 2rem);
+   }
+}
