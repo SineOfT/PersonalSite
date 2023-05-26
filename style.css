@@ -281,6 +281,12 @@ body {
    margin: auto;
 }
 
+.site-map-anchor {
+   text-decoration-line: underline;
+   text-decoration-style: solid;
+   text-decoration-thickness: 0.2rem;
+}
+
 /*
 //////////////////////////////
 /////    Main Content    /////
