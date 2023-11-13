@@ -9,13 +9,7 @@
       <script defer src="script.js"></script>
    </head>
    <body>
-      <section class="site-banner clr-light bg-pattern">
-         <h1 class="site-heading ft-vlarge bg-text">
-            Shuto Nakayasu's Website
-         </h1>
-      </section>
-
-      <header class="site-header clr-light bg-pattern">
+      <header class="site-header clr-light bg-pattern bg-shadow">
          <nav>
             <ul class="site-navigation flex-static" data-expanded="false">
                <li class="site-nav-header flex-static bg-pattern">
@@ -92,10 +86,31 @@
                      >
                   </h3>
                </li>
+               <li class="site-nav-item">
+                  <button
+                     class="site-animation-btn"
+                     data-toggled="true"
+                  ></button>
+               </li>
             </ul>
          </nav>
          <button class="site-nav-btn expand"></button>
       </header>
+      <section class="site-banner ft-vlarge clr-light bg-pattern">
+         <img class="site-redpanda-sprite" src="sprites/redpanda-sprite.png" />
+         <h1 class="site-heading ft-vlarge bg-text">
+            Shuto Nakayasu's Website
+         </h1>
+         <img class="site-duck-sprite" src="sprites/duck-sprite.png" />
+      </section>
+      <section class="site-scroll">
+         <div class="site-scroll-percentage bg-pattern bg-shadow">
+            <img
+               class="site-scroll-animation"
+               src="animations/redpanda-and-duck/0003.png"
+            />
+         </div>
+      </section>
       <main>
          <section class="program-container introduction">
             <header class="intro-header fade duration-long">
@@ -994,14 +1009,19 @@
             <div class="timeline-item-ends fade delay-end">
                <h4 class="timeline-item-heading ft-medium">What's Next</h4>
                <p class="timeline-item-ends-text">
-                  As I am entering University this year for a degree in Computer
-                  Science, I would like to continue creating, learning, and
-                  improving in my game development skills. As I learn about the
-                  principles and theory that underly computer science, I want to
-                  apply that into my own projects in order to create better,
-                  more exciting games. Either with Unity or any other means, I
-                  am aiming to create and finalize a game, and public it
-                  sometime soon!
+                  I am entering <b>University</b> from (planned)
+                  <b
+                     ><time datetime="2023">2023</time>-<time datetime="2027"
+                        >2027</time
+                     ></b
+                  >
+                  for a degree in <b>Computer Science</b>, where I would like to
+                  continue creating, learning, and improving in my game
+                  development skills. As I learn about the principles and theory
+                  that underly computer science, I want to apply that into my
+                  own projects in order to create better, more exciting games. I
+                  am aiming to eventually create and finalize a game, and public
+                  it sometime soon!
                </p>
             </div>
          </section>
