@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bevy Snake Game</title>
+      <link rel="stylesheet" href="../bevy-frame.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="../../menu.js"></script>
+      <script defer type="module">
+         import init from "./snake-game.js";
+         init();
+      </script>
+   </head>
+   <body>
+      <section class="frame-container">
+         <canvas id="snake-game-canvas"></canvas>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#bevy">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Bevy Snake Game</h1>
+            <p class="menu-info-text">
+               Just like classic Snake, the goal of this game is to collect the
+               food without crashing into your tail! This version wraps around
+               the edges. Try to survive as long as you can!
+            </p>
+            <h2 class="menu-info-heading ft-medium">Controls</h2>
+            <ul class="menu-info-list">
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬅︎</kbd> to move left
+               </li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⮕</kbd> to move right
+               </li>
+               <li class="menu-info-list-item">Tap <kbd>⬆︎</kbd> to move up</li>
+               <li class="menu-info-list-item">
+                  Tap <kbd>⬇︎</kbd> to move down
+               </li>
+            </ul>
+         </dialog>
+      </section>
+   </body>
+</html>

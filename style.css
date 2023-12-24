@@ -600,7 +600,7 @@ a:hover .focus-shadow::after {
 }
 
 /* Navigation */
-@media (max-width: 60rem) {
+@media (max-width: 75rem) {
    .site-header {
       text-align: right;
    }
@@ -684,7 +684,7 @@ a:hover .focus-shadow::after {
 }
 
 /* Navigation */
-@media (min-width: 60rem) {
+@media (min-width: 75rem) {
    .site-navigation {
       flex-direction: row;
    }
