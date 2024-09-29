@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bevy Ocean Shaders Demo</title>
+      <link rel="stylesheet" href="ocean-shaders.css" />
+      <link rel="stylesheet" href="../bevy-frame.css" />
+      <link rel="stylesheet" href="../../menu.css" />
+      <script defer src="ocean-shaders-button.js"></script>
+      <script defer src="../../menu.js"></script>
+      <script defer type="module">
+         import init from "./ocean-shaders-demo.js";
+         init();
+      </script>
+   </head>
+   <body>
+      <section class="frame-container">
+         <canvas id="ocean-shaders-demo-canvas" data-hidden="false"></canvas>
+         <video id="ocean-shaders-demo-recording" data-hidden="true" controls="controls" autoplay>
+            <source src="ocean-shaders-demo-recording.mov" />
+         </video>
+      </section>
+
+      <section class="menu-container">
+         <form action="../../#bevy">
+            <button class="menu-home-btn home" type="submit"></button>
+         </form>
+         <button class="menu-display-toggle-btn" data-toggle="wasm"></button>
+         <button class="menu-info-btn-expand expand"></button>
+         <dialog class="menu-info">
+            <button class="menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large">Bevy Ocean Shaders Demo</h1>
+            <p class="menu-info-text">
+               This demo uses the shaders in the game I'm currently developing, and runs them independently without the game.
+               It showcases the various different kinds of shaders I have developed along with their advantages, such as
+               perfectly tiling textures, mathematically smooth animations, and (of course) high performance.
+            </p>
+         </dialog>
+      </section>
+   </body>
+</html>

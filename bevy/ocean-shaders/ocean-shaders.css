@@ -1,0 +1,30 @@
+#ocean-shaders-demo-canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+ }
+ 
+ #ocean-shaders-demo-recording {
+    width: min(100vw, 181.560284vh) !important;
+    height: min(100vh, 55.078125vw) !important;
+ }
+ 
+ 
+.menu-display-toggle-btn {
+    position: absolute;
+    width: 10rem !important;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+[data-hidden="true"] {
+    display: none;
+}
+
+.menu-display-toggle-btn[data-toggle="wasm"]::after {
+    content: "Can't see the demo? Watch the video instead";
+}
+.menu-display-toggle-btn[data-toggle="recording"]::after {
+    content: "Return back to the WASM build";
+}

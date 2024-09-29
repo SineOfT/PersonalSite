@@ -9,8 +9,3 @@ body {
    align-items: center;
    justify-items: center;
 }
-
-#snake-game-canvas {
-   width: min(100vw, 177.777777vh) !important;
-   height: min(100vh, 56.25vw) !important;
-}
