@@ -1,0 +1,351 @@
+/*************/
+/* VARIABLES */
+/*************/
+
+
+:root {
+    --arrow-line-width: 0.2em;
+    --arrow-head-height: calc(var(--arrow-line-width) * 5);
+    --arrow-top-overlap: 1em;
+
+    --header-height: 5em;
+    --footer-height: 7em;
+
+    --color-female: #C33;
+    --color-male: #55A;
+}
+
+
+/*******************/
+/* UTILITY CLASSES */
+/*******************/
+
+
+.z-overtop {
+    z-index: 1;
+}
+
+/* used to style the secondary unordered lists the same as primary unordered lists */
+.list-disc {
+    list-style: disc;
+}
+
+
+/************************/
+/* PERSONAL SITE STYLES */
+/************************/
+
+
+.menu-button {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    background-color: #fffb;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    cursor: pointer;
+}
+
+.menu-info-btn-expand {
+    position: static !important;
+
+}
+
+
+/***************************/
+/* BACKGROUND COLOR STYLES */
+/***************************/
+
+
+.bg-pokesearch-light {
+    background-color: #FDFAFA;
+}
+
+.bg-pokesearch-accent {
+    background-color: #322;
+}
+
+
+/*******************************/
+/* POKESEARCH COMPONENT STYLES */
+/*******************************/
+
+
+.pokesearch-header {
+    height: var(--header-height);
+    /* margin-top: 7rem; */
+}
+
+.pokesearch-footer {
+    height: var(--footer-height);
+}
+
+main {
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    height: min-content;
+    margin-top: var(--header-height);
+}
+
+/* class adds margin to make space for header + a small gap, such as when absolute or fixed positions used */
+.mt-pokesearch-header {
+    margin-top: calc(var(--header-height) + 0.5em);
+}
+
+.pokesearch-modal {
+    height: calc(100% - var(--bs-modal-margin) - var(--header-height) - 0.5em);
+}
+
+/*
+ * style the page numbers in the pagination with consistent width
+ * and text alignment so doesn't keep changing sizes
+ */
+.page-number {
+    /* make slightly larger than required so that flex-shrinks when small screen sizes */
+    flex-basis: 6ch;
+}
+
+.page-number > .page-link {
+    padding-inline: 0;
+    text-align: center;
+}
+
+
+/***********************/
+/* POKEMON TYPE STYLES */
+/***********************/
+
+
+.colored-pokemon-type {
+    display: inline-block;
+    width: 8ch; /* assume no type has super long name, for consistent widths */
+    text-align: center;
+    font-weight: bold;
+    padding-block: 0.2em;
+    border-radius: 0.5em;
+    color: black;
+    background-color: white; /* default color for non-configured types */
+}
+
+.normal-type {
+    background-color: #DDD;
+}
+
+.fighting-type {
+    background-color: #D77;
+}
+
+.flying-type {
+    background-color: #AAF;
+}
+
+.poison-type {
+    background-color: #D2F;
+}
+
+.ground-type {
+    background-color: #B88;
+}
+
+.rock-type {
+    background-color: #DA8;
+}
+
+.bug-type {
+    background-color: #AB0;
+}
+
+.ghost-type {
+    background-color: #85F;
+}
+
+.steel-type {
+    background-color: #AAA;
+}
+
+.fire-type {
+    background-color: #F33;
+}
+
+.water-type {
+    background-color: #28F;
+}
+
+.grass-type {
+    background-color: #0B0;
+}
+
+.electric-type {
+    background-color: #EC0;
+}
+
+.psychic-type {
+    background-color: #F5A;
+}
+
+.ice-type {
+    background-color: #0CC;
+}
+
+.dragon-type {
+    background-color: #A3F;
+}
+
+.dark-type {
+    background-color: #777;
+}
+
+.fairy-type {
+    background-color: #F8F;
+}
+
+
+/***************************/
+/* FAVORITE POKEMON STYLES */
+/***************************/
+
+
+.pokemon-favorite-button::before {
+    content: "";
+    height: 1.5em;
+    aspect-ratio: 1;
+    background-size: 1.5em;
+    background-image: url("../assets/favorite-unfilled.svg");
+}
+
+.pokemon-favorite-button.favorited::before {
+    content: "";
+    background-image: url("../assets/favorite-filled.svg");
+}
+
+.pokemon-favorite-button.favorited {
+    /*
+     * these important tags are needed to override the more specific button inputs (ex. btn:hover)
+     * since the color is only visual, there shouldn't be an issue with these overriding any important styles
+     */
+    color: #A00!important;
+    border-color: #A00!important;
+}
+
+
+/***************************/
+/* ORDERED CHECKBOX STYLES */
+/***************************/
+
+
+.ordered-checkbox input[type="checkbox"] {
+    position: relative; /* position ::after based on checkbox */
+}
+
+.ordered-checkbox input[type="checkbox"]::after {
+    content: attr(value);
+    position: absolute; /* position freely */
+    right: calc(100% + 0.2em); /* push to the left of checkbox, plus .2em gap */
+    line-height: 100%; /* make text same height as checkbox */
+    font-size: 0.8em; /* make font size smaller */
+}
+
+
+/****************/
+/* ARROW STYLES */
+/****************/
+
+
+.arrow-container {
+    /* --content-height */
+    height: calc(var(--content-height) + var(--arrow-head-height));
+}
+
+/* use arrow container's before psuedo-class to create arrow line */
+.arrow-container::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: var(--arrow-line-width);
+    height: calc(100% + var(--arrow-top-overlap));
+    border-radius: 99999px; /* very large, 'pilled' round edge caps */
+    background-color: black;
+}
+
+/* use arrow container's after psuedo-class to create arrow head */
+.arrow-container::after {
+    content: "";
+    position: absolute;
+    width: calc(var(--arrow-head-height) * 2);
+    height: var(--arrow-head-height);
+    bottom: 0;
+    background-size: calc(var(--arrow-head-height) * 2) var(--arrow-head-height);
+    background-image: url("../assets/down-arrow-head.svg");
+}
+
+/* class adds margin top to align with amount arrow sticks out of top */
+.mt-arrow {
+    margin-top: var(--arrow-top-overlap);
+}
+
+/* class adds margin bottom to align with arrow head's height */
+.mb-arrow {
+    margin-bottom: var(--arrow-head-height);
+}
+
+/*************************/
+/* POKEMON GENDER STYLES */
+/*************************/
+
+
+.pokemon-gender-rate-bar::before {
+    content: "♀";
+    color: var(--color-female);
+    font-size: 1.5em;
+    margin-right: 0.2em;
+}
+
+.pokemon-gender-rate-bar::after {
+    content: "♂";
+    color: var(--color-male);
+    font-size: 1.5em;
+    margin-left: 0.2em;
+}
+
+.bg-female {
+    background-color: var(--color-female);
+}
+
+.bg-male {
+    background-color: var(--color-male);
+}
+
+
+/************************/
+/* SPRITE & ICON STYLES */
+/************************/
+
+
+/* used to keep edges of pixel art sprites sharp, stop anti-aliasing from blurring */
+.pixelated {
+    image-rendering: pixelated;
+}
+
+.pokemon-sprite-main {
+    width: min(50vh, 100%); /* make sure width never exceeds height */
+    /* set max height and allow CSS to scale down if not enough width to set such height */
+    max-height: 50vh;
+}
+
+.pokemon-caption-sprite-secondary > img {
+    width: 100%;
+    margin: auto;
+    max-width: 8rem;
+}
+
+.pokemon-form-sprite {
+    height: 10em;
+}
+
+.pokemon-variety-sprite {
+    height: 10em;
+}
+
+.pokemon-evolution-sprite {
+    height: 10em;
+}

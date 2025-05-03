@@ -74,7 +74,7 @@ class Display {
          "%",
          "^",
          "&",
-         "*",
+         "/",
          "(",
          ")",
          "[",
@@ -88,27 +88,27 @@ class Display {
       this.save = {
          rose: [
             "10o0o",
-            "eeeee[|eeeeeeeee[|0&]ieeeeee}0yus0ieeeeeMI02u(8feeee@6LuFus_eeeee(yyKy(&leeeeM(K068pKfeee[$${Q2Q7_eeeesu2O0O07jeee*{s8&Qs2(deeMQ||(||(8leeelu|Q|||8sdeeM7&&^|Q9{Zeeeu80s}00{|dee@{{800&8|ceeeY]||||||8eee@j||||||}deeeMs|||||oaeeee7[||{|uSeeeee2D}_|cSeeeee@9I{&l0eeeeee[039a0eeeeeee@S043defeeeeeeaeDdezfeeheeeRAaeM6feMfeeebdeeKgeeuieeDWeezweeM1i}ekde7ogeel4QsDWeM^xeeMd4Cbkd@p|ceezMeeCWez|Pee@g7dVkd@$|cee7eQRAVe4}Neee2e}BbdeT^aee@ReMtSeedReeenReYCee40eeeeMR0@beeVeeeee4003eeYdeeeeee1TdeMbeeeeeeeMVeeBeeeeeee@FdeYdeeeeeeezbePbeeeeeeeM4ePUeeeeeeeecdPCeeeeeeeeYSPCdeeeeeee@CPCjeeeeeeeecI3yaeeeeeeeMw3!Lfeeeeeeec0dVUeeeeeeeY4de2deee",
+            "eeeee[|eeeeeeeee[|0&]ieeeeee}0yus0ieeeeeMI02u(8feeee@6LuFus_eeeee(yyKy(&leeeeM(K068pKfeee[$${Q2Q7_eeeesu2O0O07jeee/{s8&Qs2(deeMQ||(||(8leeelu|Q|||8sdeeM7&&^|Q9{Zeeeu80s}00{|dee@{{800&8|ceeeY]||||||8eee@j||||||}deeeMs|||||oaeeee7[||{|uSeeeee2D}_|cSeeeee@9I{&l0eeeeee[039a0eeeeeee@S043defeeeeeeaeDdezfeeheeeRAaeM6feMfeeebdeeKgeeuieeDWeezweeM1i}ekde7ogeel4QsDWeM^xeeMd4Cbkd@p|ceezMeeCWez|Pee@g7dVkd@$|cee7eQRAVe4}Neee2e}BbdeT^aee@ReMtSeedReeenReYCee40eeeeMR0@beeVeeeee4003eeYdeeeeee1TdeMbeeeeeeeMVeeBeeeeeee@FdeYdeeeeeeezbePbeeeeeeeM4ePUeeeeeeeecdPCeeeeeeeeYSPCdeeeeeee@CPCjeeeeeeeecI3yaeeeeeeeMw3!Lfeeeeeeec0dVUeeeeeeeY4de2deee",
          ],
 
          sunflower: [
             "10o0o",
-            "eeeeeee}||reeeeeeeee||reeeeeeeeee[ieeee|eeeeeeeeeee|reeeeeeeee[[|#|eeeeeeee||||reeeeeee[||||feeeeeee|||||reeaeee[|||||fe4eeee||||feDDVVee[|||reeSbCdee|reeeRVAZCDa[reeeVSL{uACeeeeeemuxQP$beeeeeD|({({Z[eeeee*|yQ(|)ieeeee{_{K|(|eeeees|K_{Qaheee}a*|a&|daeee}Q}&HR|&Weee[|8|p0-(8eeee|{2I10v0deee|BR@000jDaeePOa}r00-|fabbJL}|500}|5UU0v8{8000|2CDDw{60B0R60DU3&t8&_50P|RdbJ{K?8|1)8raW3OQ0D|84|Z4)B1&06{Q(y|2AU3e00y|yQ(QUCA]Q0I|_{K|8AU3}00&Q_Q_|UCA1a0UNp{?uGAUUOH-CRuQFRSCAJ{B8IC*UA1AU3&t8P03VTUUCAAw{XAAbC9AARR0vZ0RRRYRR9AAJmIAA1b9A*333I1033343vEAAABAAAAbB1fRRRaRRRRRCsf400010000RSee000F00000Cf7400R10000Rb8e0sH300000d6e1see0000004e1",
+            "eeeeeee}||reeeeeeeee||reeeeeeeeee[ieeee|eeeeeeeeeee|reeeeeeeee[[|#|eeeeeeee||||reeeeeee[||||feeeeeee|||||reeaeee[|||||fe4eeee||||feDDVVee[|||reeSbCdee|reeeRVAZCDa[reeeVSL{uACeeeeeemuxQP$beeeeeD|({({Z[eeeee/|yQ(|)ieeeee{_{K|(|eeeees|K_{Qaheee}a/|a&|daeee}Q}&HR|&Weee[|8|p0-(8eeee|{2I10v0deee|BR@000jDaeePOa}r00-|fabbJL}|500}|5UU0v8{8000|2CDDw{60B0R60DU3&t8&_50P|RdbJ{K?8|1)8raW3OQ0D|84|Z4)B1&06{Q(y|2AU3e00y|yQ(QUCA]Q0I|_{K|8AU3}00&Q_Q_|UCA1a0UNp{?uGAUUOH-CRuQFRSCAJ{B8IC/UA1AU3&t8P03VTUUCAAw{XAAbC9AARR0vZ0RRRYRR9AAJmIAA1b9A/333I1033343vEAAABAAAAbB1fRRRaRRRRRCsf400010000RSee000F00000Cf7400R10000Rb8e0sH300000d6e1see0000004e1",
          ],
 
          path: [
             "10o0o",
-            "x|20s||Q00{||(Q00{||20s|QP|800||800||g_|RR&||00&|_q(QAA||HA~|Qr%{WU)||UU{|p@_|AA||HA*|_h](ZUv|rUU|8qhN|BA}|BA}Q(e@1rVw|rd!QXifM5ie}|fe|{mh@xxe@|re[(wfe[ppe[|e@QfpeeYPfe|ie}p*hend_e[|e[?GrfeVnge|ieQile@@*Pf[|e}mDienMeYe}f@Zf*eeec[g@re|pDfeeDeNdee[?hkee%k[Kee@8rD[ehV@Gb|i@&eV@e1eeJ||iJnnSe1enMz||Hk[ebReeez{||Kfebaeee@v||ZWVDdeb@dw{||ddR4bDDbGw||uDdR0a9C1d{|QdC9094AUd&||B9U00RS00&|||00R00000&||||00300003eeee49R100Is&^[h|02F0001UyOwK79R4909RbYs6G11b0101dA-BSD9a49090e1D4U90e01RURC7VUe4a390ddeaUjae0e01Reb4a04b0R400dee994bDS900RVDSdbAdDe100aeD413ReeD000ed111Addb000Re4edC4ee1DRabeR11SaeVeADeD4R0U0ededdeeD0S93ReDeeVeeS3939CeeD",
+            "x|20s||Q00{||(Q00{||20s|QP|800||800||g_|RR&||00&|_q(QAA||HA~|Qr%{WU)||UU{|p@_|AA||HA/|_h](ZUv|rUU|8qhN|BA}|BA}Q(e@1rVw|rd!QXifM5ie}|fe|{mh@xxe@|re[(wfe[ppe[|e@QfpeeYPfe|ie}p/hend_e[|e[?GrfeVnge|ieQile@@/Pf[|e}mDienMeYe}f@Zf/eeec[g@re|pDfeeDeNdee[?hkee%k[Kee@8rD[ehV@Gb|i@&eV@e1eeJ||iJnnSe1enMz||Hk[ebReeez{||Kfebaeee@v||ZWVDdeb@dw{||ddR4bDDbGw||uDdR0a9C1d{|QdC9094AUd&||B9U00RS00&|||00R00000&||||00300003eeee49R100Is&^[h|02F0001UyOwK79R4909RbYs6G11b0101dA-BSD9a49090e1D4U90e01RURC7VUe4a390ddeaUjae0e01Reb4a04b0R400dee994bDS900RVDSdbAdDe100aeD413ReeD000ed111Addb000Re4edC4ee1DRabeR11SaeVeADeD4R0U0ededdeeD0S93ReDeeVeeS3939CeeD",
          ],
 
          pegasus: [
             "10o0o",
-            "|^%}}|^|%%||roojoooo50mor%7a0-%70eDs%Y5eee00eD0e1m1D00deD000aDaD0000000000e0e400000Re00RDRD0000R4d004p1e000d4MC00q^8dD0d0-M40r^]P94a&|aV1-^rl^XS*||!A0]|_{xBv||QG1&|%OQQep{|Zb0}|_3&8&*||m3&qiyM|!u||QWDsr8f&8s|x|lCe1rS*{{|86OERa49u|(||HQ160Re{||Q]^|5QT00V|||(q|]|K409[|||{|^|_X00~Q&__|||r|209}9|((||r||00~Z(Q|p]|}r209[v|?Q^|||}00V8|H}(^||}80a)||d|{|o||00b}|V[H|||r50C||5@|x|||}0R{|8d||*^||80w(QE||E{|||098|&K|fA{%i50*{k{*EVD{|i09qwAwi34D)q504453r3D0Dah0R4Q0{1D00ea409^K{8R100d000kT&]69000d409}t^?110000004V{YSD000000R4V}S40000000RebV4000000000a0400aee10000dD00e10a40000000DRooRe1d400RD$%%%1aeRD0d4mo]oo%0-1ee0%%||}rooo50jo]||||",
+            "|^%}}|^|%%||roojoooo50mor%7a0-%70eDs%Y5eee00eD0e1m1D00deD000aDaD0000000000e0e400000Re00RDRD0000R4d004p1e000d4MC00q^8dD0d0-M40r^]P94a&|aV1-^rl^XS/||!A0]|_{xBv||QG1&|%OQQep{|Zb0}|_3&8&/||m3&qiyM|!u||QWDsr8f&8s|x|lCe1rS/{{|86OERa49u|(||HQ160Re{||Q]^|5QT00V|||(q|]|K409[|||{|^|_X00~Q&__|||r|209}9|((||r||00~Z(Q|p]|}r209[v|?Q^|||}00V8|H}(^||}80a)||d|{|o||00b}|V[H|||r50C||5@|x|||}0R{|8d||/^||80w(QE||E{|||098|&K|fA{%i50/{k{/EVD{|i09qwAwi34D)q504453r3D0Dah0R4Q0{1D00ea409^K{8R100d000kT&]69000d409}t^?110000004V{YSD000000R4V}S40000000RebV4000000000a0400aee10000dD00e10a40000000DRooRe1d400RD$%%%1aeRD0d4mo]oo%0-1ee0%%||}rooo50jo]||||",
          ],
 
          bunny: [
             "10j0o",
-            "0C0C0C0C0C00a1a1a1a1a100404040404033Q33333Q33C0]2C0C0r2Ca1gQa1a1r7a14j}2404|M043v[Q333|#330Cf|2C0|fB00ag}Qa1|iY100k[|04{rM403ve|83{r@33C0f}Q0&|e2Ca1g[#2&[f7a14jer7s[fM043vVq||ri!330CWj|||NUB00aF&||||2Y100ks||||8L4033x|||||L33C0F|||||?0Ca1j{||||Z2a140]||||r20433$u|||&7330Cs2|||28C00a16(||u6a1004Iy||8K04033v0||Qs333C0CB{||3B0Ca19O&||281a140{&||Q{30433&|||||2330C&||}}|QC00at||8{||a100w|||{||84033%||(||G33C0!}|_||h0Ca1R%|x)|h0a140!||||i00433R@|||e0330CaeeeeeD9009&|fee[|2100{||AA}||003&||HD}||23C&|||A}||QCaS|||B*||ra14}||Eb|||143!}|HA}|^430R%|H9-|^4009![D00@f410",
+            "0C0C0C0C0C00a1a1a1a1a100404040404033Q33333Q33C0]2C0C0r2Ca1gQa1a1r7a14j}2404|M043v[Q333|#330Cf|2C0|fB00ag}Qa1|iY100k[|04{rM403ve|83{r@33C0f}Q0&|e2Ca1g[#2&[f7a14jer7s[fM043vVq||ri!330CWj|||NUB00aF&||||2Y100ks||||8L4033x|||||L33C0F|||||?0Ca1j{||||Z2a140]||||r20433$u|||&7330Cs2|||28C00a16(||u6a1004Iy||8K04033v0||Qs333C0CB{||3B0Ca19O&||281a140{&||Q{30433&|||||2330C&||}}|QC00at||8{||a100w|||{||84033%||(||G33C0!}|_||h0Ca1R%|x)|h0a140!||||i00433R@|||e0330CaeeeeeD9009&|fee[|2100{||AA}||003&||HD}||23C&|||A}||QCaS|||B/||ra14}||Eb|||143!}|HA}|^430R%|H9-|^4009![D00@f410",
          ],
       };
 

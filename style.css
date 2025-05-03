@@ -357,10 +357,18 @@ body {
    margin: auto;
 }
 
+.contact-anchor {
+   text-decoration-line: underline;
+   text-decoration-style: solid;
+   text-decoration-thickness: 0.1rem;
+   text-decoration-skip-ink: none;
+}
+
 .site-map-anchor {
    text-decoration-line: underline;
    text-decoration-style: solid;
    text-decoration-thickness: 0.2rem;
+   text-decoration-skip-ink: none;
 }
 
 /*
@@ -736,11 +744,11 @@ a:hover .focus-shadow::after {
    }
 
    .timeline-container::before {
-      align-self: start;
+      left: 0;
    }
 
    .timeline-container::after {
-      align-self: start;
+      left: 0;
       translate: -25% 100%;
    }
 

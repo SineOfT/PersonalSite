@@ -76,12 +76,18 @@ h6 {
    font-weight: 300;
 }
 
-@media (min-width: 60rem) {
+.map-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+/* @media (min-width: 60rem) {
    .map-container {
       margin-inline-end: 3vw;
       display: flex;
       flex-wrap: nowrap;
+      flex-wrap: wrap;
       flex-direction: row;
       justify-content: space-between;
    }
-}
+} */

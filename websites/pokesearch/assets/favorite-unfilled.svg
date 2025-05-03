@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="black" stroke-width="1" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M 8 15 l -5.80 -5.80 a 4.10 -4.10 0 0 1 5.80 -5.80 a 4.10 4.10 0 0 1 5.80 5.80 Z" />
+</svg>
+
+<!-- x  ->  x = 16/(1+sqrt(2))  -->

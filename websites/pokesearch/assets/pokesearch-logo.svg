@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <circle fill="#777" stroke="#FFF" stroke-width="0.2" cx="8" cy="8" r="7.9" />
+
+  <path fill="#D55" fill-rule="evenodd" d="M 3.09 11.44 a 6 6 0 0 1 8.35 -8.35 Z" />
+  <path fill="#DDD" fill-rule="evenodd" d="M 12.91 4.56 a 6 6 0 0 1 -8.35 8.35 Z" />
+
+  <circle fill="#222" stroke="#FFF" stroke-width="0.2" cx="8" cy="8" r="4.06" />
+  <path fill="#222" fill-rule="evenodd" stroke="#FFF" stroke-width="0.2" d="M 6.04 11.44 l -4.06 4.06 a 1.04 1.04 0 0 1 -1.48 -1.48 l 4.06 -4.06" />
+  <circle fill="#DDD" stroke="#FFF" stroke-width="0.2" cx="8" cy="8" r="1.98" />
+</svg>
+<!-- r = 6 -->
+<!-- tilt = 45deg -->
+<!-- center band = 20deg -->
+<!-- 6 sin 55 = 4.91 , 6 cos 55 = 3.44 , sum = 8.35, diff = 1.47 , diff/2 = 0.74 -->
+<!-- center band width = 1.47 sqrt 2 = 2.08 , width/2 = 1.04 -->
+<!-- search handle base = 3.96 [search radius - stroke width] - 0.1 [own stroke width] (sqrt 2)/2 = 2.70 -->
+<!-- search handle length = 8 - 2.80 [handle base] - 1.04 [cap radius] - 0.1 [half stroke width] = 4.06 -->

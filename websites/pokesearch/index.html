@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéSearch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" type="module" defer></script>
+    <link rel="stylesheet" href="../../menu.css" />
+    <script defer src="../../menu.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./js/script.js" type="module" defer></script>
+</head>
+<body class="bg-pokesearch-light">
+    <header>
+        <nav class="navbar fixed-top p-0 bg-pokesearch-accent pokesearch-header" data-bs-theme="dark">
+            <div class="container-fluid column-gap-3 h-100 g-0">
+                <form action="../../#websites">
+                    <button class="menu-button home" type="submit"></button>
+                 </form>
+                <a class="navbar-brand d-flex justify-content-center align-items-center column-gap-2 h-100 ps-2" href="">
+                    <h1 class="text-light m-0 d-none d-sm-block">PokéSearch</h1>
+                    <img class="h-100" src="./assets/pokesearch-logo.svg" alt="PokéSearch logo">
+                </a>
+                <!-- <div class="collapse navbar-collapse container-sm justify-content-end bg-pokesearch-accent" id="navbarLinks"> -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="" id="favorites-link">Favorites</a>
+                        </li>
+                    </ul>
+                <!-- </div> -->
+                <div>
+                    <button class="menu-button menu-info-btn-expand expand"></button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <dialog class="menu-info">
+        <button class="menu-button menu-info-btn-contract contract"></button>
+        <h1 class="menu-info-heading ft-large fw-bold">PokéSearch</h1>
+        <p class="menu-info-text">
+            This is a website that utilizes data manipulation and third party API from PokéAPI,
+            in order to create search functionality! It is filled with functionalities, such as
+            search filters, search ordering, regex-based pattern matching, and favoriting of
+            Pokémon to look back on later. For each Pokémon, you can also by clicking see their
+            stats, such as their types, abilities, and evolution lines.
+        </p>
+        <h2 class="menu-info-heading ft-medium fw-bold">How To:</h2>
+        <ul class="menu-info-list">
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">Search for a specific Pokémon by name?</h3>
+                Set the match pattern (to the left of the search bar, default contents being 'Contains')
+                to 'Match', and type the Pokémon's name into the search bar. While any leading or trailing
+                whitespace as well as capitalization will be ignored, typos will cause the search to fail.
+                After clicking 'Search', if the search succeeds the Pokémon details should show up on the
+                screen automatically.
+            </li>
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">Search for a specific Pokémon using their Pokémon number?</h3>
+                Set the match pattern (to the left of the search bar, default contents being 'Contains')
+                to 'Number', and type the Pokémon's number into the search bar. After clicking 'Search',
+                if the search succeeds the Pokémon details should show up on the screen automatically.
+            </li>
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">Filter based on types, returning all Pokémon that belong to at least one of the selected types?</h3>
+                Make sure the match pattern (to the left of the search bar, default contents being
+                'Contains') is not set to 'Match' nor 'Number', as these are exact searches and will not
+                accept blank searches. Also make sure there is no text in the search bar. Then, click the
+                'Filters' dropdown, and go to the 'Types' section. Click on the 'Types' dropdown and set
+                the option to 'Any of selected types' - this should cause a list of types to appear. Select
+                all the types you want to filter by (you must select at least one, and '???' is not a valid
+                selection), then click 'Search'. All Pokémon that belong to at least one of the selected
+                types should appear, along with which type(s) and what slot (primary type or secondary
+                type) the Pokémon belnogs to.
+            </li>
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">See the details of the Pokémon?</h3>
+                After conducting a search such as those described above, a list of Pokémon names will
+                appear (unless there was an error in which case an error message will appear informing
+                you what you need to fix, or the search matched no Pokémon in which case you will see a
+                message that 'No Pokémons matched your search'). Click on one you want to see the details
+                for, and it will show a popup of all kinds of data about the Pokémon. You can see the name,
+                type(s), genus, sprites, weight, height, and so on just by scrolling through the popup.
+                You can see even more specific information using the accordian buttons, such as the
+                'Abilities' button that shows all the abilities the Pokémon can possess, and the 'Moves'
+                button that shows all the moves the Pokémon can learn, categorized by whether they are
+                taught by level-up, breeding, machines (ex. TMs), tutors, or some other method.
+            </li>
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">See the evolution chain of the Pokémon?</h3>
+                In the popup discussed in the above answer, there is also an 'Evolutions' button, which
+                when clicking will show the evolution chain this Pokémon is a part of, if this Pokémon
+                is not the only Pokémon in the evolution line. It can be read as follows:
+                <ul class="list-disc">
+                    <li>
+                        All Pokémon that can evolve into other Pokémon have a light box below their sprite.
+                        All the sprites in this box that are Pokémon that are further up the evolution
+                        chain to this Pokémon. If the sprite is not in a different box itself, it means
+                        that it is a direct evolution.
+                    </li>
+                    <li>
+                        The Pokémon (other than the first Pokémon in the chain) have arrows going into
+                        their sprites, with some text on them. This text represents how the Pokémon can
+                        evolve (ex at a certain level, using a certain item). The Pokémon it evolves from
+                        is the Pokémon that is above the innermost box they are contained within.
+                    </li>
+                    <li>
+                        Simple, non-branching evolution lines (ex. Bulbasaur) are very easy to see and
+                        understand on both mobile and desktop. Complex evolution lines (ex. Eevee, Applin)
+                        are harder to understand, especially on mobile, but using these rules it can be
+                        worked out which Pokémon evolve into which other and how.
+                    </li>
+                </ul>
+                All the sprites in this section can also clicked. Even though only the current selected
+                sprites has a viewable sprite (the rest being black circles), after clicking on a black
+                circle the respective Pokémon's stats will be loaded, overwriting the current Pokémon data
+                in the opened popup.
+            </li>
+            <li class="menu-info-list-item mb-4">
+                <h3 class="h5 fw-bold">Favorite my favorite Pokémons?</h3>
+                Either in the results of the search below each Pokémon, or in the details popup for that
+                specific Pokémon, there is a favorite button (button with a heart icon and text stating
+                'favorite' or 'favorited'). Clicking that button will toggle the Pokémon from being added
+                and removed from your favorites list. If the heart icon is unfilled and the text says
+                'favorite', clicking the button will add the Pokémon to your favorites. If the heart icon
+                is filled with red and the text says 'favorited', then the Pokémon is already favorited
+                and clicking the button will remove the Pokémon from your favorites. These favorites will
+                persist after reload, but will not persist if the webpage is opened in a different tab.
+            </li>
+            <li class="menu-info-list-item">
+                <h3 class="h5 fw-bold">View my favorite Pokémons?</h3>
+                You can view the Pokémon you have favorited by clicking the 'Favorites' link in the header.
+                This will automatically fill in the search form with the filters that are needed to show
+                your favorites. If you would like to input the search filters manually, or want to mix with
+                other filters, these Pokémon in your favorites can be viewed by filtering under the 'Favorites'
+                filter. It is done in the same way the types filtering works, where if you select the 'Only
+                favorites' option under the 'Favorite' section, with no other filters or text inputs,
+                all your favorites will be displayed in the search results. Since the favorites are
+                displayed just like any other filter, it means that you can filter within your favorites
+                just as you would any other filtering search (ex. find all your favorites that are water
+                type). These favorites will persist after reload, but will not persist if the webpage is
+                opened in a different tab.
+            </li>
+        </ul>
+     </dialog>
+    <main class="p-3">
+        <form class="container-fluid border rounded mb-5 p-0 bg-white" id="searchForm">
+            <div class="input-group">
+                <select class="input-group-text fw-medium" aria-label="Select search match pattern" name="pokemonSearchMatchPatternsSelect">
+                    <option value="contains" selected>Contains</option>
+                    <option value="matches">Matches</option>
+                    <option value="starts">Starts</option>
+                    <option value="ends">Ends</option>
+                    <option value="number">Number</option>
+                    <option value="regex">RegEx</option>
+                </select>
+                <span class="input-group-text d-none search-start-ellipsis">...</span>
+                <span class="input-group-text d-none search-regex-open">/</span>
+                <span class="input-group-text d-none search-number">#</span>
+                <input class="form-control flex-grow-1" type="search" name="searchInput" placeholder="Search" aria-label="Search">
+                <span class="input-group-text d-none search-end-ellipsis">...</span>
+                <span class="input-group-text d-none search-regex-close">/</span>
+                <button class="btn btn-outline-primary fw-medium" type="submit" name="searchSubmit">Search</button>
+            </div>
+            <div class="alert alert-danger m-2 py-2 d-none invalid-alert" role="alert"></div>
+            <button
+                class="btn btn-light dropdown-toggle m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#filterCollapse"
+                aria-expanded="false"
+                aria-controls="filterCollapse"
+            ><h2 class="fs-6 d-inline">Filters</h2></button>
+            <div class="collapse pokemon-filters" id="filterCollapse">
+                <ul class="container-fluid list-unstyled m-0 p-2 pt-0">
+                    <li class="mb-1">
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonFavoritesFilterSelect"><h3 class="fs-6 m-0">Favorite</h3></label>
+                            <select class="form-select" aria-label="Select favorites filter" id="pokemonFavoritesFilterSelect" name="pokemonFavoritesFilterSelect">
+                                <option value="none" selected>No filter</option>
+                                <option value="favorites">Only favorites</option>
+                                <option value="not-favorites">Only not favorites</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonTypesFilterSelect"><h3 class="fs-6 m-0">Type</h3></label>
+                            <select class="form-select" aria-label="Select type filter" id="pokemonTypesFilterSelect" name="pokemonTypesFilterSelect">
+                                <option value="none" selected>No filter</option>
+                                <option value="any">Any of selected types</option>
+                                <option value="all">All of selected types</option>
+                                <option value="ordered">In order of selected types</option>
+                                <option value="none-selected">None of selected types</option>
+                            </select>
+                        </div>
+                        <div class="collapse mt-1 pokemon-types-filter-collapse">
+                            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 m-3 mt-1 pokemon-types-filter"></div>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonGenerationsFilterSelect"><h3 class="fs-6 m-0">Generations</h3></label>
+                            <select class="form-select" aria-label="Select generations filter" id="pokemonGenerationsFilterSelect" name="pokemonGenerationsFilterSelect">
+                                <option value="none" selected>No filter</option>
+                                <option value="any">Any of selected generations</option>
+                                <option value="none-selected">None of selected generations</option>
+                            </select>
+                        </div>
+                        <div class="collapse mt-1 pokemon-generations-filter-collapse">
+                            <div class="alert alert-warning m-0 py-2" role="alert">
+                                Non-primary Pokémon varieties (such as Mega Evolutions) are not supported
+                                in this filter, and will be filtered out regardless of whether they match the filter
+                            </div>
+                            <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 m-3 mt-1 pokemon-generations-filter"></div>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonColorsFilterSelect"><h3 class="fs-6 m-0">Colors</h3></label>
+                            <select class="form-select" aria-label="Select colors filter" id="pokemonColorsFilterSelect" name="pokemonColorsFilterSelect">
+                                <option value="none" selected>No filter</option>
+                                <option value="any">Any of selected colors</option>
+                                <option value="none-selected">None of selected colors</option>
+                            </select>
+                        </div>
+                        <div class="collapse mt-1 pokemon-colors-filter-collapse">
+                            <div class="alert alert-warning m-0 py-2" role="alert">
+                                Non-primary Pokémon varieties (such as Mega Evolutions) are not supported
+                                in this filter, and will be filtered out regardless of whether they match the filter
+                            </div>
+                            <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6 row-cols-lg-8 m-3 mt-1 pokemon-colors-filter"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonShapesFilterSelect"><h3 class="fs-6 m-0">Shapes</h3></label>
+                            <select class="form-select" aria-label="Select shapes filter" id="pokemonShapesFilterSelect" name="pokemonShapesFilterSelect">
+                                <option value="none" selected>No filter</option>
+                                <option value="any">Any of selected shapes</option>
+                                <option value="none-selected">None of selected shapes</option>
+                            </select>
+                        </div>
+                        <div class="collapse mt-1 pokemon-shapes-filter-collapse">
+                            <div class="alert alert-warning m-0 py-2" role="alert">
+                                Non-primary Pokémon varieties (such as Mega Evolutions) are not supported
+                                in this filter, and will be filtered out regardless of whether they match the filter
+                            </div>
+                            <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6 row-cols-lg-8 m-3 mt-1 pokemon-shapes-filter"></div>
+                        </div>
+                    </li>
+                </ul>
+                <hr class="hr">
+            </div>
+            <button
+                class="btn btn-light dropdown-toggle m-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#orderCollapse"
+                aria-expanded="false"
+                aria-controls="orderCollapse"
+            ><h2 class="fs-6 d-inline">Order</h2></button>
+            <div class="collapse" id="orderCollapse">
+                <ul class="container-fluid list-unstyled m-0 p-2 pt-0">
+                    <li class="mb-1">
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonSearchOrder"><h3 class="fs-6 m-0">Search</h3></label>
+                            <select class="form-select" aria-label="Select favorites filter" id="pokemonSearchOrder" name="pokemonSearchOrder">
+                                <option value="number" selected>By Pokémon number</option>
+                                <option value="alphabet">Alphabetically</option>
+                                <option value="length">By name length</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="input-group">
+                            <label class="input-group-text" for="pokemonFavoriteOrder"><h3 class="fs-6 m-0">Favorite</h3></label>
+                            <select class="form-select" aria-label="Select type filter" id="pokemonFavoriteOrder" name="pokemonFavoriteOrder">
+                                <option value="none" selected>No order</option>
+                                <option value="first">Favorites first</option>
+                                <option value="last">Favorites last</option>
+                            </select>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </form>
+        <nav class="justify-content-end mb-3 d-none pokemon-pages max-w-fit" aria-label="pokemon pages navigation" data-primary="true">
+            <div class="d-flex flex-row flex-wrap justify-content-end align-items-center mb-2">
+                <div class="fs-5 fw-medium text-secondary page-range-text"></div>
+                <div class="dropdown ms-3 cards-per-page-select">
+                    <button class="btn btn-light border dropdown-toggle fw-medium" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cards per Page: <span class="fw-bold cards-per-page-text">20</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end text-end cards-per-page-options">
+                        <li><a class="dropdown-item ten" href="#" data-count="10">10</a></li>
+                        <li><a class="dropdown-item active twenty" href="#" aria-current="true" data-count="20">20</a></li>
+                        <li><a class="dropdown-item thirty" href="#" data-count="30">30</a></li>
+                        <li><a class="dropdown-item fifty" href="#" data-count="50">50</a></li>
+                        <li><a class="dropdown-item hundred" href="#" data-count="100">100</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="pagination justify-content-end m-0 p-0">
+                <li class="page-item page-leftmost"><a class="page-link" href="#"><<</a></li>
+                <li class="page-item page-left"><a class="page-link" href="#"><</a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-right"><a class="page-link" href="#">></a></li>
+                <li class="page-item page-rightmost"><a class="page-link" href="#">>></a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid px-0 d-none" id="pokemonCards">
+            <p class="fs-5 fw-medium text-secondary m-0 d-none pokemon-cards-none-text">No Pokémons matched your search</p>
+            <ul class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xxl-4 g-3 list-unstyled mb-0 d-none pokemon-cards-container"></ul>
+        </div>
+        <nav class="justify-content-end mt-3 d-none pokemon-pages max-w-fit" aria-label="pokemon pages navigation">
+            <div class="d-flex flex-row flex-wrap justify-content-end align-items-center mb-2">
+                <div class="fs-5 fw-medium text-secondary page-range-text"></div>
+                <div class="dropdown ms-3 cards-per-page-select">
+                    <button class="btn btn-light border dropdown-toggle fw-medium" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cards per Page: <span class="fw-bold cards-per-page-text">20</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end text-end cards-per-page-options">
+                        <li><a class="dropdown-item ten" href="#" data-count="10">10</a></li>
+                        <li><a class="dropdown-item active twenty" href="#" aria-current="true" data-count="20">20</a></li>
+                        <li><a class="dropdown-item thirty" href="#" data-count="30">30</a></li>
+                        <li><a class="dropdown-item fifty" href="#" data-count="50">50</a></li>
+                        <li><a class="dropdown-item hundred" href="#" data-count="100">100</a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="pagination justify-content-end m-0 p-0">
+                <li class="page-item page-leftmost"><a class="page-link" href="#"><<</a></li>
+                <li class="page-item page-left"><a class="page-link" href="#"><</a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-number"><a class="page-link" href="#"></a></li>
+                <li class="page-item page-right"><a class="page-link" href="#">></a></li>
+                <li class="page-item page-rightmost"><a class="page-link" href="#">>></a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <nav class="navbar bg-pokesearch-accent pokesearch-footer" data-bs-theme="dark">
+            <div class="container-fluid justify-content-end row row-cols-auto column-gap-3 p-2">
+                <ul class="navbar-nav col p-0">
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">AAA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">BBB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">CCC</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav col p-0">
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">DDD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">EEE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link py-0" href="#">FFF</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <div class="modal fade" id="pokemonFocusModal" tabindex="-1" aria-labelledby="pokemonModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl mt-pokesearch-header pokesearch-modal">
+            <div class="modal-content">
+                <div class="modal-header bg-pokesearch-light">
+                    <div class="row row-cols-auto me-3">
+                        <h2 class="col modal-title" id="pokemonModalLabel"></h2>
+                        <button class="col btn btn-light border d-flex align-items-center column-gap-2 ms-2 pokemon-favorite-button"></button>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid p-0 pokemon-types"></div>
+                    <div class="fs-5 fst-italic mt-2 pokemon-genus"></div>
+                    <div class="fst-italic pokemon-number"></div>
+                    <img class="d-block mx-auto pokemon-sprite-main" alt="hidden sprite" />
+                    <div class="row row-cols-2 row-cols-lg-4 justify-content-center g-3 mb-3 pokemon-sprite-secondary-container">
+                        <div class="col pokemon-caption-sprite-secondary default">
+                            <div class="text-center fw-medium">Default</div>
+                            <img class="d-block" alt="hidden sprite" />
+                        </div>
+                        <div class="col pokemon-caption-sprite-secondary shiny">
+                            <div class="text-center fw-medium">Shiny</div>
+                            <img class="d-block" alt="hidden sprite" />
+                        </div>
+                        <div class="col pokemon-caption-sprite-secondary female">
+                            <div class="text-center fw-medium">Female</div>
+                            <img class="d-block" alt="hidden sprite" />
+                        </div>
+                        <div class="col pokemon-caption-sprite-secondary female-shiny">
+                            <div class="text-center fw-medium">Female Shiny</div>
+                            <img class="d-block" alt="hidden sprite" />
+                        </div>
+                    </div>
+                    <p class="pokemon-description"></p>
+                    <p class="pokemon-form-description"></p>
+                    <div class="d-flex align-items-center mx-auto pokemon-gender-rate-bar">
+                        <div class="progress-stacked justify-content-center align-items-center position-relative flex-grow-1">
+                            <div class="progress z-overtop female-rate-bar" role="progressbar" aria-label="Female gender rate" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-female"></div>
+                            </div>
+                            <div class="progress z-overtop male-rate-bar" role="progressbar" aria-label="Male gender rate" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-male"></div>
+                            </div>
+                            <div class="position-absolute m-auto">no gender</div>
+                        </div>
+                    </div>
+                    <div><h3 class="d-inline fs-6">Generation: </h3><span class="pokemon-generation"></span></div>
+                    <div><h3 class="d-inline fs-6">Weight: </h3><span class="pokemon-weight"></span></div>
+                    <div><h3 class="d-inline fs-6">Height: </h3><span class="pokemon-height"></span></div>
+                    <div><h3 class="d-inline fs-6">Color: </h3><span class="pokemon-color"></span></div>
+                    <div><h3 class="d-inline fs-6">Shape: </h3><span class="pokemon-shape"></span></div>
+                    <div class="accordion mt-3">
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonAbilitiesHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonAbilitiesCollapse"
+                                    aria-expanded="false" aria-controls="pokemonAbilitiesCollapse"
+                                >Abilities</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonAbilitiesCollapse" aria-labelledby="pokemonAbilitiesHeading">
+                                <div class="accordion-body">
+                                    <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 pokemon-abilities-list"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonMovesHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonMovesCollapse"
+                                    aria-expanded="false" aria-controls="pokemonMovesCollapse"
+                                >Moves</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonMovesCollapse" aria-labelledby="pokemonMovesHeading">
+                                <div class="accordion-body">
+                                    <ul class="list-unstyled pokemon-moves-list">
+                                        <li class="mb-3 pokemon-levelup-moves-list">
+                                            <h4 class="fs-5">Taught through Level Up</h4>
+                                            <ul class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 list-disc"></ul>
+                                        </li>
+                                        <li class="mb-3 pokemon-breed-moves-list">
+                                            <h4 class="fs-5">Taught through Breeding</h4>
+                                            <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 list-disc"></ul>
+                                        </li>
+                                        <li class="mb-3 pokemon-machine-moves-list">
+                                            <h4 class="fs-5">Taught through Machines</h4>
+                                            <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 list-disc"></ul>
+                                        </li>
+                                        <li class="mb-3 pokemon-tutor-moves-list">
+                                            <h4 class="fs-5">Taught through Tutors</h4>
+                                            <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 list-disc"></ul>
+                                        </li>
+                                        <li class="pokemon-other-moves-list">
+                                            <h4 class="fs-5">Other</h4>
+                                            <ul class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 list-disc"></ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonBaseStatsHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonBaseStatsCollapse"
+                                    aria-expanded="false" aria-controls="pokemonBaseStatsCollapse"
+                                >Base Stats</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonBaseStatsCollapse" aria-labelledby="pokemonBaseStatsHeading">
+                                <div class="accordion-body">
+                                    <ul class="p-0 m-0 pokemon-base-stat-bars-list">
+                                        <li class="row mb-3">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">HP: </h4>
+                                            <div class="col">
+                                                <div class="progress hp-bar" role="progressbar" aria-label="Base hp bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row mb-3">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">Attack: </h4>
+                                            <div class="col">
+                                                <div class="progress attack-bar" role="progressbar" aria-label="Base attack bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div
+                                            ></div>
+                                        </li>
+                                        <li class="row mb-3">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">Defense: </h4>
+                                            <div class="col">
+                                                <div class="progress defense-bar" role="progressbar" aria-label="Base defense bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row mb-3">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">Special Attack: </h4>
+                                            <div class="col">
+                                                <div class="progress sp-attack-bar" role="progressbar" aria-label="Base special attack bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row mb-3">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">Special Defense: </h4>
+                                            <div class="col">
+                                                <div class="progress sp-defense-bar" role="progressbar" aria-label="Base special defense bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="row">
+                                            <h4 class="col-lg-4 col-xl-3 fs-5">Speed: </h4>
+                                            <div class="col">
+                                                <div class="progress speed-bar" role="progressbar" aria-label="Base speed bar" aria-valuemin="0" aria-valuemax="255">
+                                                    <div class="progress-bar"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonFormsHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonFormsCollapse"
+                                    aria-expanded="false" aria-controls="pokemonFormsCollapse"
+                                >Forms</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonFormsCollapse" aria-labelledby="pokemonFormsHeading">
+                                <div class="accordion-body pokemon-forms-list"></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonVarietiesHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonVarietiesCollapse"
+                                    aria-expanded="false" aria-controls="pokemonVarietiesCollapse"
+                                >Varieties</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonVarietiesCollapse" aria-labelledby="pokemonVarietiesHeading">
+                                <div class="accordion-body pokemon-varieties-list"></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h3 class="accordion-header" id="pokemonEvolutionsHeading">
+                                <button class="accordion-button collapsed fs-5 fw-medium" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#pokemonEvolutionsCollapse"
+                                    aria-expanded="false" aria-controls="pokemonEvolutionsCollapse"
+                                >Evolutions</button>
+                            </h3>
+                            <div class="accordion-collapse collapse" id="pokemonEvolutionsCollapse" aria-labelledby="pokemonEvolutionsHeading">
+                                <div class="accordion-body pokemon-evolution-line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
