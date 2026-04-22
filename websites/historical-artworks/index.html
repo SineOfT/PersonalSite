@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Artworks Visualization System</title>
+    <link rel="stylesheet" href="./libraries/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./libraries/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./libraries/use-bootstrap-select/dist/use-bootstrap-select.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../menu.css" />
+    <script type="text/javascript" src="./libraries/popper.min.js" defer></script>
+    <script type="text/javascript" src="./libraries/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script type="text/javascript" src="./libraries/d3.v7.js" defer></script>
+    <script type="text/javascript" src="./libraries/d3-fisheye/radial.js" defer></script>
+    <script type="text/javascript" src="./libraries/use-bootstrap-select/dist/use-bootstrap-select.min.js"></script>
+    <script type="module" src="./scripts/script.js" defer></script>
+    <script type="module" src="./scripts/resizer-controls.js" defer></script>
+    <script type="module" src="./scripts/map-zoom-controls.js" defer></script>
+    <script type="module" src="./scripts/map-view-controls.js" defer></script>
+    <script defer src="../../menu.js"></script>
+</head>
+<body>
+    <section class="menu-container h-auto">
+        <form action="../../#websites">
+            <button class="menu-home-btn home" type="submit"></button>
+        </form>
+        <button class="menu-info-btn-expand expand"></button>
+        <dialog class="menu-info">
+            <button class="menu-btn menu-info-btn-contract contract"></button>
+            <h1 class="menu-info-heading ft-large fw-bold">Historial Artworks</h1>
+            <p class="menu-info-text">
+                The concept of the visualization is that it shows the countries in which artworks have originated from,
+                as well as where they are displayed, and are connected through gradient lines.
+            </p>
+            <h2 class="menu-info-heading ft-medium fw-bold">Functionality:</h2>
+            <ul class="menu-info-list list-disc">
+                <li class="menu-info-list-item">
+                    <h3 class="h5 fw-bold">Visualizations</h3>
+                    A total of four visualizations to analyze different aspects of the dataset and compare between visualizations to find patterns.
+                    Interaction is connected between them, and hovering or clicking on countries or travels between countries highlights them on all visualizations.
+                    These four are:
+                    <ul>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h5 fw-bold d-inline">Map</h3><br />
+                            A map plotting countries, cities within countries, and travel lines for each artwork going from one country to another.
+                            These can be hovered to highlight it on all visualizations, or clicked to see it in the artworks visualization sidebar.
+                            It also supports changing projections from a traditional flat style to a radial style,
+                            which can be interacted with like a globe to explore by spinning and following lines.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Navigation: </h3>
+                                    By clicking on an area of the map, you are able to scroll to that region, centering on the screen.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Highlight Country: </h3>
+                                    By hovering over a country point, it will say how many artworks are originating and displayed in the country,
+                                    and highlight the country in the graph visualizations if present. Note that in order to do this,
+                                    no country nor travel can be focused unless there is a connection between the two.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Focus Country: </h3>
+                                    By clicking a country point, it will also focus on the country and present more details on the artwork visualization sidebar,
+                                    showing individual artworks. Clicking again will defocus it.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Highlight Travel: </h3>
+                                    If a country point is focused, hoving on a travel line that comes out of the country will say how many artworks
+                                    travelled in both directions on the travel path, and highlight the travel in the chord diagram if present.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Focus Travel: </h3>
+                                    If the above travel line is clicked, it will focus the travel between the two countries and present more details
+                                    on the artwork visualization sidebar, showing individual artworks. Clicking again will defocus it.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Lasso Selection: </h3>
+                                    By pressing down and dragging across the map, a lasso area will appear. Once the mouse is released,
+                                    the country points that are within the area will be added or removed from the filter based on the configured Map Controls.
+                                    <ul>
+                                        <li class="menu-info-nested-item">
+                                            If replace is selected (feather icon), the selected countries will replace the existing selection.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            If additive is selected (plus icon), the selected countries will be added to the existing selection.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            If subtractive is selected (minus icon), the selected countries will be removed from the existing selection.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    Note that the highlight on hover and lasso on drag features need to be enabled in the Map Controls.
+                                    They are enabled on default, but can be disabled to reduce noise or navigation complexity.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Projection: </h3>
+                                    Change the projection between flat and radial in the Map Controls.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Magnifying Glass Zoom: </h3>
+                                    Enable a magnifying glass zoom when clicking on the map, which can be enabled in the Map Controls.
+                                    When enabled, the radius and degree of zoom can be changed, which helps see details in local dense areas such as Europe.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Zoom: </h3>
+                                    Zoom in an out using the plus and minus icons in the bottom right corner.
+                                    This scales everything equally, and is good for global detail or big picture understanding.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    See how zoomed in and where the current position of the display is on the map in the display on the bottom left corner.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h5 fw-bold d-inline">Top Countries Bar Graph</h3><br />
+                            A bar graph plotting the countries that have the most artworks relating to them.
+                            The graph can be changed to plot by counting only artworks that originate from the country,
+                            artworks that are displayed in the country, or both.
+                            It can be hovered or clicked to see details about the country. It also supports advanced controls
+                            such as changing the number of countries in the graph, and applying non-linear scaling.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Legend and Graph Type: </h3>
+                                    There are 3 legends that are shown: Originating, Displayed, and Both.
+                                    <ul>
+                                        <li class="menu-info-nested-item">
+                                            If Originating is clicked, it will show only the originating artworks on the graph
+                                            and recompute the top countries.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            If Displayed is clicked, it will show only the displayed artworks on the graph
+                                            and recompute the top countries.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            If Both is clicked, it will show both the originating and displayed artworks on the graph
+                                            as stacked bars, and recompute the top countries.
+                                            Clicking on Both again will switch which bar is stacked on top of the other.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Highlight Country: </h3>
+                                    Hovering over a bar will show details about the number of artworks relevant to the country.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Focus Country: </h3>
+                                    Clicking on a bar will also focus on the country, showing more details in the artworks visualization sidebar.
+                                    Clicking again will defocus it.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Advanced Controls: </h3>
+                                    In the advanced controls:
+                                    <ul>
+                                        <li class="menu-info-nested-item">
+                                            The number of bars on the graph can be increased, allowing you to see more countries represented.
+                                            There is an upper limit of 20 to prevent the elements from getting too small and overflowing.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            The scale of the y axis can also be changed from a linear scale. If done,
+                                            larger values will have relatively less effect on the height of the bar,
+                                            thus allowing you to see bars with large differences in count.
+                                            However, note that since scaling is not linear, if bars are stacked the bar on the top will become
+                                            distorted and not be comparable to other bars in the graph. If you wish to analyze these bars,
+                                            either change the graph to look at only Originating or only Displayed,
+                                            or switch the order of the bars so the bar is on the bottom of the stack.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h5 fw-bold d-inline">Top Relationships Chord Diagram</h3><br />
+                            A chord diagram plotting the relationships between the top countries.
+                            The algorithm finds the combination of countries that have the largest total number of artworks shared between them,
+                            and plots them radially so they can be compared. Each country is color coded,
+                            and artwork travels are colored based on the color of the originating country. They can also be hovered, clicked,
+                            and controlled with advanced controls.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Highlight Country: </h3>
+                                    Hovering over a country will show what country is selected.
+                                    Since the chord diagram only shows a subset of the relationships,
+                                    it does not show all artworks that originate or are displayed in a country
+                                    and so the count is not shown as it is misleading.
+                                    Selections are highlighted on the map and the bar graph.
+                                    <ul>
+                                        <li class="menu-info-nested-item">
+                                            Hovering over the red part of the country arc highlights only the ribbons
+                                            for artworks that originate from the country.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            Hovering over the blue part of the country arc highlights only the ribbons
+                                            for artworks that are displayed in the country.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            Hovering over the colored part of the country arc highlights both.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            Hovering over the name of the country acts the same as hovering over the red part.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Focus Country: </h3>
+                                    Clicking on a country will also focus it, showing details in the artworks visualization sidebar.
+                                    Clicking again will defocus it.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Highlight Travel: </h3>
+                                    Hovering over a ribbon that travels from one country to another will show details
+                                    about how many artworks travel between the two countries in that direction.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Focus Travel: </h3>
+                                    Clicking on a ribbon will also show the details of the travel in the selected direction
+                                    on the artworks visualization sidebar. Clicking again will defocus it.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Advanced Controls: </h3>
+                                    In the advanced controls:
+                                    <ul>
+                                        <li class="menu-info-nested-item">
+                                            The number of countries in the diagram can be changed.
+                                            There is a maximum of 10, since any more would lead to both overcrowding of the circle,
+                                            and the number of unique colors that can be identified quickly has been studied
+                                            to not be much higher than 10 if at all.
+                                        </li>
+                                        <li class="menu-info-nested-item">
+                                            A scaling can be applied to the artwork counts in each ribbon.
+                                            Applying a scaling will relatively reduce the effect of larger counts on the width of the ribbons,
+                                            and at an extreme will make all ribbons the same width regardless of count.
+                                            Applying an extreme filter will shift the focus to number of artworks to number of countries
+                                            each country is sharing with.
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h5 fw-bold d-inline">Artwork Visualizations Sidebar</h3><br />
+                            An artworks visualization sidebar, which shows the relevant artworks when one of the other visualizations is clicked.
+                            It can show either the artworks originating and displayed in a country,
+                            or the artworks exchanged in both directions between two countries. It shows details such as the author, medium, year,
+                            and locations, as well as a thumbnail of the artwork and a link to the WGA site for more information.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Lock Focus: </h3>
+                                    You can also lock the selection by pressing the lock icon at the top of the sidebar.
+                                    This will ensure that clicking on a different country will not change the focus from this country.
+                                </li>
+                                <li class="menu-info-nested-item">
+                                    <h3 class="h6 fw-bold d-inline">Remove Focus: </h3>
+                                    You can also remove the focus by pressing on the close button at the top of the sidebar. 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-info-list-item">
+                    <h3 class="h5 fw-bold">Filtering</h3>
+                    Extensive filtering functionality, allowing the user to analyze subsets of the data, find patterns or trends,
+                    and explore the kinds of artworks that exist. These features include:
+                    <ul>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Artwork Forms: </h3>
+                            The form of artwork, such as paintings, sculptures, and architecture.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Artwork Themes: </h3>
+                            The theme of the artwork, such as mythological, historical, and landscape.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Artists: </h3>
+                            Artist name(s), with a searchable dropdown to select them from.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Countries: </h3>
+                            Country name(s), with a searchable dropdown to select them from.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Map Regions: </h3>
+                            Region(s) of the map, through a lassoing tool to select certain specific areas.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    The countries included in the lasso area are added to the country names filter.
+                                    Finer control can be achieved in the Map Controls interface,
+                                    which lets you choose between overriding previous selection,
+                                    appending the lasso to the existing selection, or removing the lasso from the existing selection.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Title Keywords: </h3>
+                            Keywords, allowing the user to type any phrase and see the works that contain it in the title.
+                            <ul>
+                                <li class="menu-info-nested-item">
+                                    Writing multiple keywords will run an OR operation to find title with any of the specified keywords,
+                                    while the AND operator can also be written to require the title to contain all the specified keywords.
+                                    For example, writing "flower AND water" (capitalization is needed) and adding it to the filters will
+                                    require the title to contain both words, such as the artwork with the title "Old Woman Watering Flowers".
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Timeframe: </h3>
+                            The timeframe, through a dual range slider to set both start year and end year. These are in steps of 50 years.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            <h3 class="h6 fw-bold d-inline">Other: </h3>
+                            Special filters such as ignoring artworks that originate and are displayed in the same country.
+                            This allows for pivoting the analysis to interactions strictly between different countries only.
+                        </li>
+                        <li class="menu-info-nested-item">
+                            All of these filters can be found in the filters tab at the top of the interface.
+                            Each filter has an info icon next to it, and hovering over it gives more information on what the filter is used for.
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-info-list-item">
+                    <h3 class="h5 fw-bold">Animations</h3>
+                    Smooth interaction animations so it is easy to see how data changes based on changes to the filters.
+                    The graphs have multi-step animations that make it clear that elements are no longer on the graph,
+                    how the remaining elements change, and what new elements are on the graph.
+                </li>
+                <li class="menu-info-list-item">
+                    <h3 class="h5 fw-bold">Performance</h3>
+                    Performance considerations such as lazy loading the artworks so they are not all loaded at once unnecessarily.
+                    Lazy loading is used in the artworks visulization sidebar, as well as the options in the filter dropdowns.
+                    <ul>
+                        <li class="menu-info-nested-item">
+                            Note that even though measures have been implemented where possible,
+                            the visualization system is still computationally expensive and may be slow on slower machines.
+                            Applying filters to reduce the number of artworks will help reduce the power load required to interact with the interface.
+                            It may also run a lot slower on the first run, and begin to run faster once caches are stored.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </dialog>
+    </section>
+    <div class="d-flex flex-column h-100">
+        <section id="filtersHeader" class="resizable-section pt-menu">
+            <div id="filtersContainer" class="p-3"></div>
+        </section>
+        <div id="filtersHeaderResizer" class="bar-resizer bar-h">
+            <div class="bar-label bar-label-start ms-3"><span>Filters</span></div>
+        </div>
+        <div class="d-flex flex-row h-100 flex-fill-remaining-space">
+            <aside id="visualizationsSidebar" class="resizable-section">
+                <div id="topCountriesGraphSVGContainer">
+                    <svg id="topCountriesGraphSVG"></svg>
+                </div>
+                <div id="countriesChordDiagramSVGContainer">
+                    <svg id="countriesChordDiagramSVG"></svg>
+                </div>
+            </aside>
+            <div id="visualizationsSidebarResizer" class="bar-resizer bar-v">
+                <div class="bar-label bar-label-start">
+                    <span>Visualizations</span>
+                </div>
+            </div>
+            <main class="flex-fill-remaining-space">
+                <div class="d-flex flex-column h-100">
+                    <section id="mapContainer" class="flex-fill-remaining-space">
+                        <div id="mapScroll" class="h-100 overflow-scroll scrollbar-hidden">
+                            <svg id="mapSVG" class="d-block mx-auto"></svg>
+                        </div>
+                        <div id="mapFocusDisplay"></div>
+                        <svg id="mapZoomDisplay"></svg>
+                        <div id="mapControls">
+                            <button id="mapZoomInBtn" class="btn map-zoom-btn">
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </button>
+                            <button id="mapZoomOutBtn" class="btn map-zoom-btn">
+                                <i class="bi bi-dash-circle-fill"></i>
+                            </button>
+                        </div>
+                    </section>
+                    <div id="controlsFooterResizer" class="bar-resizer bar-h">
+                        <div class="bar-label bar-label-end">
+                            <span>Map Controls</span>
+                        </div>
+                    </div>
+                    <section id="controlsFooter" class="resizable-section">
+                        <div class="d-grid-auto-fit-md gap-5 py-3 px-4">
+                            <div>
+                                <div class="d-flex flex-row align-items-center gap-3">
+                                    <label class="fw-bold" for="geoProjectionSwitch">Map Projection Type: </label>
+                                    <button class="btn p-0 fw-bold text-secondary info-tooltip" data-bs-toggle="tooltip" data-bs-title="
+                                        Flat projection shows countries like a traditional map, while orbital projection centers the view around the selected point.
+                                        Orbital projection also preserves distances, allowing you to compare how far other countries are from the selected."
+                                    >
+                                        <i class="bi bi-info-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div class="d-flex flex-row gap-1">
+                                    <span>Flat</span>
+                                    <div class="form-check form-check-reverse form-switch me-2">
+                                        <input class="form-check-input site-form-check-input switch-bidirectional" type="checkbox" role="switch" id="geoProjectionSwitch" switch />
+                                    </div>
+                                    <span>Orbital</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex flex-row align-items-center gap-3">
+                                    <div class="form-check form-check-reverse form-switch m-0 w-fit">
+                                        <label class="form-check-label fw-bold" for="highlightOnHoverSwitch">Highlight on Hover: </label>
+                                        <input class="form-check-input site-form-check-input" type="checkbox" role="switch" id="highlightOnHoverSwitch" switch checked />
+                                    </div>
+                                    <button class="btn p-0 fw-bold text-secondary info-tooltip" data-bs-toggle="tooltip" data-bs-title="
+                                        Enable to see country details when hovering over a country point.
+                                        If you have selected a country, you can also hover over travel lines to see more details."
+                                    >
+                                        <i class="bi bi-info-circle-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex flex-row align-items-center gap-3 mb-2">
+                                    <div class="form-check form-check-reverse form-switch m-0 w-fit">
+                                        <label class="form-check-label fw-bold" for="fisheyeEnableSwitch">Magnifying Glass Zoom on Click: </label>
+                                        <input
+                                            class="form-check-input site-form-check-input" type="checkbox" role="switch" id="fisheyeEnableSwitch"
+                                            data-bs-toggle="collapse" data-bs-target="#fisheyeControlsCollapse"
+                                            aria-expanded="false" aria-controls="fisheyeControlsCollapse"
+                                            switch
+                                        />
+                                    </div>
+                                    <button class="btn p-0 fw-bold text-secondary info-tooltip" data-bs-toggle="tooltip" data-bs-title="
+                                        When enabled, clicking on the map will expand the area to make it easier to see local information, applying a fisheye distortion.
+                                        The radius specifies the size of the expansion, and the distortion specifies how severe the expansion is."
+                                    >
+                                        <i class="bi bi-info-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div class="collapse" id="fisheyeControlsCollapse">
+                                    <div class="d-flex flex-row gap-3">
+                                        <label for="fisheyeRadiusRange" class="form-label m-0">Radius: </label>
+                                        <input type="range" class="form-range" id="fisheyeRadiusRange">
+                                    </div>
+                                    <div class="d-flex flex-row gap-3">
+                                        <label for="fisheyeDistortionRange" class="form-label m-0">Distortion: </label>
+                                        <input type="range" class="form-range" id="fisheyeDistortionRange" value="10">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="d-flex flex-row align-items-center gap-3 mb-2">
+                                    <div class="form-check form-check-reverse form-switch m-0 w-fit">
+                                        <label class="form-check-label fw-bold" for="lassoEnableSwitch">Lasso on Drag: </label>
+                                        <input
+                                            class="form-check-input site-form-check-input" type="checkbox" role="switch" id="lassoEnableSwitch"
+                                            data-bs-toggle="collapse" data-bs-target="#lassoControlsCollapse"
+                                            aria-expanded="true" aria-controls="lassoControlsCollapse"
+                                            switch checked />
+                                    </div>
+                                    <button class="btn p-0 fw-bold text-secondary info-tooltip" data-bs-toggle="tooltip" data-bs-title="
+                                        When enabled, dragging the mouse will begin a lasso selection, and when released all countries within the area
+                                        will be added to the countries filter. Change the append type to include previous selections in the lasso."
+                                    >
+                                        <i class="bi bi-info-circle-fill"></i>
+                                    </button>
+                                </div>
+                                <div class="collapse show" id="lassoControlsCollapse">
+                                    <div class="position-relative">
+                                        <input type="radio" class="btn-check" name="lassoAppendType" id="replace" value="replace" autocomplete="off" checked>
+                                        <label class="btn btn-outline-site-primary" for="replace">
+                                            <i class="bi bi-feather"></i>
+                                        </label>
+                                        <input type="radio" class="btn-check" name="lassoAppendType" id="additive" value="additive" autocomplete="off">
+                                        <label class="btn btn-outline-site-primary" for="additive">
+                                            <i class="bi bi-plus-square-dotted"></i>
+                                        </label>
+                                        <input type="radio" class="btn-check" name="lassoAppendType" id="subtractive" value="subtractive" autocomplete="off">
+                                        <label class="btn btn-outline-site-primary" for="subtractive">
+                                            <i class="bi bi-dash-square-dotted"></i>
+                                        </label>
+                                    </div>
+                                    <div><small id="lassoAppendTypeDescription"></small></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <div id="artworksFocusSidebarResizer" class="bar-resizer bar-v">
+                <div class="bar-label bar-label-end">
+                    <span>Artworks</span>
+                </div>
+            </div>
+            <aside id="artworksFocusSidebar" class="overflow-x-hidden">
+                <div class="d-flex flex-column h-100">
+                    <header id="artworksFocusHeader" class="d-flex flex-row align-items-center gap-2 p-3"></header>
+                    <div id="artworksFocusAccordion" class="accordion p-3 overflow-x-hidden"></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</body>
+</html>

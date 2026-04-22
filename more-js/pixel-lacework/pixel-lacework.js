@@ -110,6 +110,36 @@ class Display {
             "10j0o",
             "0C0C0C0C0C00a1a1a1a1a100404040404033Q33333Q33C0]2C0C0r2Ca1gQa1a1r7a14j}2404|M043v[Q333|#330Cf|2C0|fB00ag}Qa1|iY100k[|04{rM403ve|83{r@33C0f}Q0&|e2Ca1g[#2&[f7a14jer7s[fM043vVq||ri!330CWj|||NUB00aF&||||2Y100ks||||8L4033x|||||L33C0F|||||?0Ca1j{||||Z2a140]||||r20433$u|||&7330Cs2|||28C00a16(||u6a1004Iy||8K04033v0||Qs333C0CB{||3B0Ca19O&||281a140{&||Q{30433&|||||2330C&||}}|QC00at||8{||a100w|||{||84033%||(||G33C0!}|_||h0Ca1R%|x)|h0a140!||||i00433R@|||e0330CaeeeeeD9009&|fee[|2100{||AA}||003&||HD}||23C&|||A}||QCaS|||B/||ra14}||Eb|||143!}|HA}|^430R%|H9-|^4009![D00@f410",
          ],
+
+         bunny_2: [
+            "10o0o",
+            "oooooooooooo#%%%%%%%%%%%%oooooooooooo#%%%%%%%%%%%%oooooooooooo#%%%%%%%%%%%%oooooooooooo#%%%%%%%%%%%%oooooooooooo#%%%%%%10$%%%oooooo0r4Roo#%%%%%tfees%%oooo20feeeRo#%%0s^ieeees%o5s|oeeeeeeR#G{ifhee1Ree-o&o#eeee00dD#zneeeee400dtNpheeeee100e!keeeee4D00R45oeeeeDR100a~$eeeeeta200CWeeeeeD6w00RAgbeeee1cI00alDdSeee0C300CfSDaee4R120RlDdIeee3dS109e04TeeDaeS10c4asdeeSeDR10e04Reeeee4R4g1R1aeeeeek0wD0F1eeeee4%1g1s4deVeeVjoWD0dee4eee1%%d1jeeebeeAjoxD0feeedeVs%%d1deee4ee0moW4seeeDee4-%%d0geeeeeeSooW4seeee400%%%d0aeee100mooW49f0e40&8$%%d0S&510&h8ooW49&#2Rv#h~%%CRs%e1A$eDooW13ieDUkfDt%%C9jfV9Dfe3moWS9eD1ebeDs%%CSlD4aDeD0moW4Ga3Re1e0-%%"
+         ],
+
+         husky: [
+            "10o0o",
+            "UUdVUUUUeUUUCAbaAAAA4DAAAUU*dUUUCZVUUCADQDAAb{cAAAUU{ZVUUw}dUUCAw}cAAA^QDAAUU$|UUU*]ZVUCAw|ZAADH]BAAUUp|cee{1PVUCAw]|UUvH-cAAUUp|800{W|UUCAwT|20&|)ZAAUUO}800&~|dUCAwW84RbD}QAAUU{aV1da@|cUCAwieCaVe[QDAUU{ee1eee}ZUCAwaeDbeee{CAUdReqA}Dd4XUCA1e[H~|4e4CAUCC@|A{rbeSVCASd|Ht|8CD9AUDV[|9O&TV4VCD9ws2tROa0RAD10yI0y9800VCt0&32&a{|8RAw4{QL08&||8eCi&|rT{}|||2ApY||r!|||||d)[{||#}||||8Ai^|^^||||||dm*||}||||||QCV||]|||||r}cd*|r||||||}|CV||Ps||||[|cd*|^0s|||#||CV{|70{|ur||cdt|^0&|8{[||Ce)|M&|Q&#||cdD}rq}|&i||HCeS|H00si}|rddD*|Zb1i}||HAe4{|UDp}||rddeA|Z@&[|||DAeev|10#|||iddeD-^0i|||rAAeeV&]i|||rDedeeD}e||||fUAeeeV|||||fVVdeee[||||iDAA"
+         ],
+
+         pug: [
+            "10o0o",
+            "oooooooooooo#%%%%%%%%%%%%oooooooooooo#%%%%%%%%%7-%oooooooo50Ea#%%%%%%%0ii4$oooooo1srh4R#%%%%%s|#iD9$ooooN&||&41S#%%%7{]]ip19-ooo5|Ep]E301#%%4^qs%%D1a-oo5i[4pnfS04#%GrRrj1aqaR-oo{5a570RE03#%*HCmJaDs5A$ox^h@4S1e[VS#Gr^GCC300jR$opooWSS0006U#zoihbCC0dt3-NQh2d4V1IR99#*)80daas&9AvT_Hi443462B5U%{lRa0as0IytnxQ2930030umfe{Oa1ae406v%Vz_09a1dDOSlf-O80a10RD9L%4tQ}R1j104RkE9{3ICj00sA0%4tB8X0190s0jf9OJ040R41&s%3RB0a00CD1IoE0L202abd30~%9Rz0LRDpD1RoW0-&V1dWR30-%00L060h0A4smE904s0v10C1Q%5va83a4p0d&l#S6741d&e4s|$xv_TRA1eV0{Z#X{L9VCee0&|$(&Q81SRe3s}QE||ufa4UCso|?{||00001)e%Qx||Q{200|hn|?|||||70}oefQ]||||oqn^e@]?|||||}h}e@]Q]|||||o@ne||?"
+         ],
+
+         cat: [
+            "10o0o",
+            "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee4eeeeeeeeeeeDVeeeeeeeeeeeddeeeeeeeeeeVVeeeeeeeeeeDedeeeeeeeeeebDeeeeeeeeeeVebeeeeeeeeeedDeeeeeeeeeebebeeeeeeeee1eeReeeeeeeescew2eeeeeee&Zee{8deeeee&|de4eQaeeee&|Zee1e|Reee&|QeeDV@|2de*||aeebR}|Qaw||aeeebb|||D||ceeeDe!r[i{|ZeeebaD}f[*||3ee4Y#View||23eD{pr!ee{|Qd4R*#|4d1&||ceab||ZCRe||ZeVi)||cee[||deLU||5eee||_fVS)|riee[||{ibS||reee||(|r0}|reee[|Q|||||}^iee||(|||}i|reew|Q|||||8{eee(|{rir|NDiee[{_|fHs#-vfee_|{|}ckQYjee&{_|^|d{Z4geaQQ||}Zv|26ea[((|Q|9)||TVeQQ||7(|}||db[((|^8|i||8DeQ000&uQ{|800&deeeR1C00eeeaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+         ],
+
+         ragdoll: [
+            "10o0o",
+            "eeeeeeeeeeeeeee4eeeeeeeeeeeDReeeeeeeeeee0aeeeeeeeeee40eeeeeeeeeeD9ReeeeeeeeeeSAdeeeeeeaeeD]1eeeeee0deead0reeee0ReeVB6R}iee0CdeDdm1-||f0CbeeSfhR||^2FHeeNm%Mqo]DdXan|a%M}%@ha|Wei1aQ]e!e8eXd[RI&^fVG@R9Vef0p]iD[bNgMeDd-|reaZ@Pgbeed^of3}D[rHeea}|fS~ianidee[^eAC|TbqSeee]faR|rVk8fee}D00)|Zehjeenf4e1||4-Sheeib4R&|8aP-eeeea~9|QdSPaeVf39~)|Baafde!DRJX|iXa@DeEe0aO{|kUahdnSDRCv|Hu3!fefe3er{|sc9neneAU|||ZS4!feie9[|||r4boe[ee@||||ES!eeree}|c|r4bie[|e@||s|8R%ee||i}|^||1@he[||f||||ZU@ee||re|u|rDeie[|reee}r}e}ee||reere}r}ie[|]feee}||ree|^|eee[|r|fe[|}reee||]ree|}||fe}|^|ee[|||||]||}eee||||rr||]eee[||||]|||feee||||^}}|reee[||||n^||eeee"
+         ],
+      
+         bengal: [
+            "10o0o",
+            "eeeeeeeeeeeeeeeeeeeeeeeDdeeeeeeeeeeDFeeee4eeeeee)ceeeDXeeeeeaEeeeebheeeeS%VeeeDmfeeeDmhdeeebFfeee9%VeeeDdEdee1qhdeeebPAdeDmmneeeDV]dv3RiDfeeebGnSAUSDUeeeed%EVkvnVdeeeVDdaLg4Emeeee5*4S&%?seeeeVAf9C@q5beeeehdASfn)_eeee@*eVyd$deeeeebfYv6SeOeeeeVDMC*ae%beereCmTb_rece1%Gd$|!n8&Ge3STQV1jiNt9e4S8LM9tg[?y9fdgjIT?LfZSgRwe61tJSk@akbdMS@9pZ4f40Wi@UaBt52ah{ioe7SE3&@Q[@f|hedjT1WefEe4Ye8SHCaSeme44e@Uh24qee1c|reMS9asrbRkJ|he0754*ZXt({[eFs-a9!^B||[fV44VeH!|{][remSF3V4)Ef]|f4q6ARRSeh%|rekuJS@Sa}r||fDDA~a?9Rr}|ie-ScGLmm-]||e4FGkz1DLC{2ie@VDIk!AO00{eVdaS28L)|2|ie0DejR1m5||reV0SAMX5Gs||feAaAwkT0I&|reDC9V)qL0|||eeWUWCkaQIs|fe[A*CJ0gMQ0iee"
+         ]
       };
 
       if (!gray) this.white = true;
@@ -135,9 +165,9 @@ class Display {
       this.codeText.style.width =
          this.canvas.width < this.canvas.height ? "100%" : "calc(50vw - 50vh)";
 
-      if (input.includes("*")) {
-         this.gridWidth = Number(input.split("*")[0]);
-         this.gridHeight = Number(input.split("*")[1]);
+      if (input.includes(" * ")) {
+         this.gridWidth = Number(input.split(" * ")[0]);
+         this.gridHeight = Number(input.split(" * ")[1]);
 
          if (
             this.canvas.height / this.canvas.width <

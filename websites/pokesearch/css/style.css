@@ -31,28 +31,6 @@
 }
 
 
-/************************/
-/* PERSONAL SITE STYLES */
-/************************/
-
-
-.menu-button {
-    width: 5rem;
-    height: 5rem;
-    display: block;
-    background-color: #fffb;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-    cursor: pointer;
-}
-
-.menu-info-btn-expand {
-    position: static !important;
-
-}
-
-
 /***************************/
 /* BACKGROUND COLOR STYLES */
 /***************************/

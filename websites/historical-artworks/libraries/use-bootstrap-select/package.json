@@ -1,0 +1,80 @@
+{
+  "name": "use-bootstrap-select",
+  "type": "module",
+  "version": "2.2.1",
+  "description": "Create a select element using the native Bootstrap 5 dropdown UI",
+  "license": "MIT",
+  "homepage": "https://use-bootstrap-select.js.org",
+  "repository": "https://github.com/use-bootstrap/use-bootstrap-select",
+  "bugs": {
+    "url": "https://github.com/use-bootstrap/use-bootstrap-select/issues"
+  },
+  "keywords": [
+    "bootstrap select",
+    "bootstrap select2",
+    "dropdown select",
+    "bootstrap dropdown",
+    "bootstrap5"
+  ],
+  "source": "./src/lib/use-bootstrap-select.tsx",
+  "main": "./dist/use-bootstrap-select.esm.js",
+  "module": "./dist/use-bootstrap-select.esm.js",
+  "types": "./dist/use-bootstrap-select.esm.d.ts",
+  "libName": "UseBootstrapSelect",
+  "files": [
+    "dist",
+    "scss"
+  ],
+  "browserslist": [
+    ">= 0.5%",
+    "last 2 major versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 60",
+    "Firefox ESR",
+    "iOS >= 12",
+    "Safari >= 12",
+    "not Explorer <= 11"
+  ],
+  "scripts": {
+    "dev": "vite --host",
+    "prebuild": "tsc && eslint .",
+    "build": "jalankan build:*",
+    "build:js": "vite build -c vite.config.lib.ts",
+    "build:js:min": "esbuild dist/*.js --minify --outdir=dist --out-extension:.js=.min.js --tsconfig-raw='{}'",
+    "build:css": "sass --source-map --embed-sources src/lib:dist",
+    "build:css:prefix": "postcss dist/*.css --use autoprefixer --map --replace",
+    "build:css:min": "esbuild dist/*.css --minify --outdir=dist --out-extension:.css=.min.css",
+    "build:docs": "vite build",
+    "postbuild": "purgecss --css docs/assets/*.css --content docs/**/*.{html,js} --safelist use-bootstrap-select use-bootstrap-select-wrapper --output docs/assets/",
+    "preview": "vite preview --host",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "2.21.1",
+    "@fontsource/hind-siliguri": "5.0.13",
+    "@solidjs/router": "0.13.5",
+    "@types/bootstrap": "5.2.10",
+    "@types/node": "20.14.4",
+    "@types/prismjs": "1.26.4",
+    "autoprefixer": "10.4.19",
+    "bootstrap": "5.3.3",
+    "esbuild": "0.21.5",
+    "eslint": "9.5.0",
+    "jalankan": "0.0.1",
+    "postcss": "8.4.38",
+    "postcss-cli": "11.0.0",
+    "prettier": "3.3.2",
+    "prismjs": "1.29.0",
+    "purgecss": "6.0.0",
+    "sass": "1.77.6",
+    "solid-js": "1.8.17",
+    "tslib": "2.6.3",
+    "typescript": "5.4.5",
+    "vite": "5.3.1",
+    "vite-plugin-dts": "3.9.1",
+    "vite-plugin-full-reload": "1.1.0",
+    "vite-plugin-solid": "2.10.2"
+  }
+}

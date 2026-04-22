@@ -1,0 +1,2924 @@
+region,name,country,lat,lng
+köln,Cologne,Germany,50.93333,6.95
+cambridge,Cambridge,United States,42.3751,-71.10561
+munich,Munich,Germany,48.13743,11.57549
+st. petersburg,St Petersburg,Russia,59.93863,30.31413
+vienna,Vienna,Austria,48.20849,16.37208
+boston,Boston,United States,42.35843,-71.05977
+london,London,United Kingdom,51.50853,-0.12574
+prague,Prague,Czechia,50.08804,14.42076
+kromeriz,Kroměříž,Czechia,49.29785,17.39312
+odense,Odense,Denmark,55.39594,10.38831
+barcelona,Barcelona,Spain,41.38879,2.15899
+paris,Paris,France,48.85341,2.3488
+angoulême,Angoulême,France,45.64997,0.15345
+cherbourg,Cherbourg,France,49.63984,-1.61636
+rouen,Rouen,France,49.44313,1.09932
+écouen,Écouen,France,49.02062,2.38309
+modena,Modena,Italy,44.64783,10.92539
+rome,Rome,Italy,41.89193,12.51133
+fontainebleau,Fontainebleau,France,48.40908,2.70177
+sydney,Sydney,Australia,-33.86785,151.20732
+bologna,Bologna,Italy,44.49381,11.33875
+napoli,Naples,Italy,40.85216,14.26811
+florence,Florence,Italy,43.77925,11.24626
+città di castello,San Marino,San Marino,43.93667,12.44639
+schwerin,Schwerin,Germany,53.62937,11.41316
+middelburg,Middelburg,Netherlands,51.5,3.61389
+windsor,Windsor,United States,41.8526,-72.6437
+new york,New York,United States,40.71427,-74.00597
+københavn,Copenhagen,Denmark,55.67594,12.56553
+copenhagen,Copenhagen,Denmark,55.67594,12.56553
+stockholm,Stockholm,Sweden,59.32938,18.06871
+riva del garda,Riva del Garda,Italy,45.88577,10.84117
+cabárceno,Cabárceno Natural Park,Spain,43.36176,-3.84358
+cádiz,Cadiz,Spain,36.52672,-6.2891
+düsseldorf,Düsseldorf,Germany,51.22172,6.77616
+nördlingen,Nördlingen,Germany,48.85122,10.48868
+nancy,Nancy,France,48.68439,6.18496
+detroit,Detroit,United States,42.33143,-83.04575
+versailles,Versailles,France,48.80359,2.13424
+oxford,Oxford County,New Zealand,-43.16667,172.08333
+kirkcaldy,Kirkcaldy,United Kingdom,56.11683,-3.15999
+derbyshire,Derbyshire,United Kingdom,53.13543,-1.61125
+middlesex,Lowell,United States,42.63342,-71.31617
+la ferte-sous-jouarre,La Ferté-sous-Jouarre,France,48.9514,3.12724
+drottningholm,Drottningholm,Sweden,59.32513,17.8878
+milano,Milan,Italy,45.46427,9.18951
+lucca,Lucca,Italy,43.84369,10.50447
+siena,Siena,Italy,43.31822,11.33064
+danzig,Gdansk,Poland,54.35227,18.64912
+antwerpen,Antwerp,Belgium,51.22047,4.40026
+bruges,Bruges,Belgium,51.20892,3.22424
+firenze,Florence,Italy,43.77925,11.24626
+dresden,Dresden,Germany,51.05089,13.73832
+washington,Washington,United States,38.89511,-77.03637
+genoa,Genoa,Italy,44.40478,8.94439
+philadelphia,Philadelphia,United States,39.95238,-75.16362
+delft,Delft,Netherlands,52.00667,4.35556
+karlsruhe,Karlsruhe,Germany,49.00937,8.40444
+madrid,Madrid,Spain,40.4165,-3.70256
+kassel,Kassel,Germany,51.31667,9.5
+berlin,Berlin,Germany,52.52437,13.41053
+antwerp,Antwerp,Belgium,51.22047,4.40026
+amsterdam,Amsterdam,Netherlands,52.37403,4.88969
+frankfurt,Frankfurt am Main,Germany,50.11552,8.68417
+rotterdam,Rotterdam,Netherlands,51.9225,4.47917
+brussels,Brussels,Belgium,50.85045,4.34878
+budapest,Budapest,Hungary,47.49835,19.04045
+cologne,Cologne,Germany,50.93333,6.95
+uppsala,Uppsala,Sweden,59.85882,17.63889
+jesi,Iesi,Italy,43.52142,13.24368
+esztergom,Esztergom,Hungary,47.7928,18.74148
+geneve,Geneva,Switzerland,46.20222,6.14569
+arezzo,Arezzo,Italy,43.46276,11.88068
+rimini,Rimini,Italy,44.05755,12.56528
+perugia,Perugia,Italy,43.1122,12.38878
+venice,Venice,Italy,45.43713,12.33265
+amelia,Amélia Rodrigues Municipality,Brazil,-12.38975,-38.75153
+pisa,Pisa,Italy,43.70853,10.4036
+parma,Parma,Italy,44.79935,10.32618
+forli,Forlì,Italy,44.22177,12.04144
+terni,Terni,Italy,42.56335,12.64329
+sangüesa,Sangüesa,Spain,42.57483,-1.28283
+varignana,Varignana-Palesio,Italy,44.40629,11.50611
+loreto,Iquitos,Peru,-3.74814,-73.2529
+feodosiya,Feodosiya,Ukraine,45.03199,35.38153
+athens,Athens,Greece,37.98376,23.72784
+mount athos,Mount Athos,Greece,40.15838,24.32742
+alba,Alba Iulia,Romania,46.06667,23.58333
+turin,Turin,Italy,45.07049,7.68682
+impruneta,Impruneta,Italy,43.68453,11.25434
+bassano romano,Bassano Romano,Italy,42.22228,12.18785
+ferrara,Ferrara,Italy,44.83804,11.62057
+urbino,Urbino,Italy,43.72621,12.63633
+san francisco,Tegucigalpa,Honduras,14.0818,-87.20681
+vatican,Vatican City,Vatican City,41.90225,12.4533
+genova,Genoa,Italy,44.40478,8.94439
+mantua,Mantova,Italy,45.16031,10.79784
+bedano,Bedano-Andranogiso,Madagascar,-24.15,45
+venezia,Venice,Italy,45.43713,12.33265
+naples,Naples,Italy,40.85216,14.26811
+mexico,Mexico,Mexico,23,-102
+san severino marche,San Severino Marche,Italy,43.23028,13.1799
+macerata,Macerata,Italy,43.29789,13.45293
+belgrade,Belgrade,Serbia,44.80401,20.46513
+moscow,Moscow,Russia,55.75222,37.61556
+geneva,Geneva,Switzerland,46.20222,6.14569
+milan,Milan,Italy,45.46427,9.18951
+manchester,Manchester,United States,42.99564,-71.45479
+cleveland,Cleveland,United States,41.4995,-81.69541
+toulon,Toulon,France,43.12442,5.92836
+lisieux,Lisieux,France,49.1466,0.22925
+lombardy,Milan,Italy,45.46427,9.18951
+graz,Graz,Austria,47.06667,15.45
+poggio a caiano,Poggio a Caiano,Italy,43.81378,11.05186
+dijon,Dijon,France,47.31667,5.01667
+montpellier,Montpellier,France,43.61093,3.87635
+waccamaw,Lake Waccamaw,United States,34.31906,-78.50001
+dronrijp,Dronryp,Netherlands,53.2,5.65
+new haven,New Haven,United States,41.30815,-72.92816
+williamstown,Williamstown,United States,39.40063,-81.44818
+torrijos,Omar Torrijos Herrera,Panama,8.86179,-80.60149
+sigüenza,Siguenza,Spain,41.06892,-2.64308
+bruxelles,Brussels,Belgium,50.85045,4.34878
+wien,Vienna,Austria,48.20849,16.37208
+regensburg,Regensburg,Germany,49.01513,12.10161
+sankt florian bei linz,Bruck bei Tödling,Austria,48.22547,14.38226
+coburg,Coburg,Germany,50.25937,10.96384
+colmar,Colmar,France,48.08078,7.35584
+zevio,Zevio,Italy,45.37209,11.12929
+padua,Padua,Italy,45.40797,11.88586
+verona,Verona,Italy,45.43854,10.9938
+salzburg,Salzburg,Austria,47.79941,13.04399
+ljubljana,Ljubljana,Slovenia,46.05108,14.50513
+porto,Porto,Portugal,41.14961,-8.61099
+priego de córdoba,Priego de Córdoba,Spain,37.43807,-4.19523
+pavia,Pavia,Italy,45.19205,9.15917
+bergamo,Bergamo,Italy,45.69601,9.66721
+cremona,Cremona,Italy,45.13325,10.02129
+sarasota,Sarasota,United States,27.33643,-82.53065
+augsburg,Augsburg,Germany,48.37154,10.89851
+hertfordshire,Hertfordshire,United Kingdom,51.82974,-0.21699
+zürich,Zurich,Switzerland,47.36667,8.55
+settignano,Settignano,Italy,43.78284,11.32133
+il castello,Il Castello,Italy,46.32229,9.85697
+castello,Castello di Domagnano,San Marino,43.95417,12.48333
+skagen,Skagen,Denmark,57.72093,10.58394
+rutsker,Rutsker,Denmark,55.20793,14.74176
+pesaro,Pesaro,Italy,43.90921,12.9164
+scotland,Scotland,United States,40.4526,-92.14705
+greenwich,Greenwich,United Kingdom,51.47785,-0.01176
+castagno,Fattoria del Castagno,Italy,43.48333,10.91667
+legnaia,Legnaia,Italy,43.76906,11.21589
+melbourne,Melbourne,Australia,-37.814,144.96332
+ohio,Ohio,United States,40.25034,-83.00018
+metropolitan museum of art,Metropolitan Museum of Art,United States,40.77955,-73.96292
+baltimore,Baltimore,United States,39.29038,-76.61219
+pedralbes,Pedralbes,Spain,41.39046,2.11019
+pistoia,Pistoia,Italy,43.93064,10.92365
+altenburg,Altenburg,Germany,50.98763,12.43684
+mantova,Mantova,Italy,45.16031,10.79784
+bucharest,Bucharest,Romania,44.43225,26.10626
+intra,Tharangambadi,India,11.02764,79.85425
+south hadley,South Hadley,United States,42.25842,-72.57453
+?,Kampong Tok Barat,Malaysia,5.76667,102.41667
+orléans,New Orleans,United States,29.95465,-90.07507
+roma,Rome,Italy,41.89193,12.51133
+mira,Mira,Italy,45.4346,12.12942
+fiesole,Fiesole,Italy,43.80455,11.29487
+chantilly,Chantilly,France,49.19461,2.47124
+cortona,Cortona,Italy,43.27467,11.98533
+dublin,Dublin,Ireland,53.33306,-6.24889
+hampton court,Hampton Court Palace,United Kingdom,51.40309,-0.33697
+san giovanni valdarno,San Giovanni Valdarno,Italy,43.56757,11.52987
+bern,Bern,Switzerland,46.94809,7.44744
+princeton,Princeton,United States,40.34872,-74.65905
+fort worth,Fort Worth,United States,32.72541,-97.32085
+houston,Houston,United States,29.76328,-95.36327
+orvieto,Orvieto,Italy,42.71924,12.11249
+dunkerque,Dunkirk,France,51.0344,2.37681
+rennes,Rennes,France,48.11198,-1.67429
+gubbio,Gubbio,Italy,43.34996,12.57309
+montalcino,Montalcino,Italy,43.05397,11.48853
+bilina,Bílina,Czechia,50.54854,13.77535
+criquetot-sur-ouville,Criquetot-sur-Ouville,France,49.67362,0.85052
+eu,Eu,France,50.04606,1.42079
+moulins,Moulins,France,46.56459,3.33243
+poznan,Poznan,Poland,52.40692,16.92993
+southampton,Southampton,United Kingdom,50.90395,-1.40428
+lancut,Łańcut,Poland,50.06871,22.22912
+hartford,Hartford,United States,41.76371,-72.68509
+voltri,Voltri,Italy,44.42973,8.74855
+fidenza,Fidenza,Italy,44.86694,10.06039
+los angeles,Los Angeles,United States,34.05223,-118.24368
+toulouse,Toulouse,France,43.60426,1.44367
+sevilla,Seville,Spain,37.38283,-5.97317
+bilbao,Bilbao,Spain,43.26271,-2.92528
+castel bolognese,Castel Bolognese,Italy,44.31981,11.79903
+ghemme,Ghemme,Italy,45.59863,8.42013
+novara,Novara,Italy,45.44694,8.62118
+sibiu,Sibiu,Romania,45.8,24.15
+messina,Messina,Italy,38.19394,15.55256
+palermo,Palermo,Italy,38.1166,13.3636
+avignon,Avignon,France,43.94834,4.80892
+atri,Atri,Italy,42.57642,13.98899
+crevalcore,Crevalcore,Italy,44.71966,11.14765
+bremen,Bremen,Germany,53.07582,8.80717
+ticino,Lugano,Switzerland,46.01008,8.96004
+litomysl,Litomyšl,Czechia,49.86809,16.31298
+ile d\'aix,Île-d'Aix,France,46.01232,-1.17483
+brescia,Brescia,Italy,45.53558,10.21472
+heiligenkreuz,Heiligenkreuz im Lafnitztal,Austria,46.98917,16.26083
+pöllauberg,Pöllauberg,Austria,47.32077,15.86412
+carinthia,Carinthia,Slovenia,46.53005,14.94999
+wiener neustadt,Wiener Neustadt,Austria,47.80485,16.23196
+tyrol,Tyrol,Austria,47,11.5
+spittal an der drau,Spittal an der Drau,Austria,46.8,13.5
+melk,Melk,Austria,48.22737,15.33186
+volders,Volders,Austria,47.23695,11.5716
+stadl-paura,Stadl-Paura,Austria,48.08333,13.86667
+zwettl,Politischer Bezirk Zwettl,Austria,48.57435,15.17159
+osek,Osijek,Croatia,45.55111,18.69389
+bucovice,Bučovice,Czechia,49.14896,17.00191
+telc,Telč,Czechia,49.18418,15.45275
+tábor,Tabor,Slovenia,46.22235,15.01434
+ravenna,Ravenna,Italy,44.41344,12.20121
+istanbul,Istanbul,Turkey,41.01384,28.94966
+poreè,Lac Porée,Canada,54.78353,-69.66548
+el port de la selva,el Port de la Selva,Spain,42.33691,3.20492
+cardona,Cardona,Spain,41.91371,1.67855
+ripoll,Ripoll,Spain,42.20064,2.19033
+france,France,France,46,2
+tarragona,Tarragona,Spain,41.11905,1.24544
+boule-d\'amont,Boule-dAmont,France,42.5795,2.61375
+la seu d\'urgell,La Seu d'Urgell,Spain,42.35877,1.46144
+santes creus,Santes Creus,Spain,41.34645,1.36314
+besalú,Besalú,Spain,42.19893,2.69953
+lleida,Lleida,Spain,41.61674,0.62218
+egypt,Egypt,Egypt,27,30
+jutland,Aalborg,Denmark,57.048,9.9187
+roskilde,Roskilde,Denmark,55.64152,12.08035
+leiden,Leiden,Netherlands,52.15833,4.49306
+the hague,The Hague,Netherlands,52.07667,4.29861
+scheveningen,Scheveningen,Netherlands,52.10461,4.27557
+northamptonshire,Northamptonshire,United Kingdom,52.25,-0.83333
+essex,Lynn,United States,42.46676,-70.94949
+kent,Kent,United States,47.38093,-122.23484
+lincoln,Lincoln,United States,40.8,-96.66696
+hampshire,Concord,United States,43.20814,-71.53757
+cambridgeshire,Cambridgeshire,United Kingdom,52.36717,0.00433
+suffolk,Boston,United States,42.35843,-71.05977
+worcester,Worcester,United States,42.26259,-71.80229
+gloucester,Gloucester,United Kingdom,51.86568,-2.2431
+norfolk,Norfolk Island,Norfolk Island,-29.03333,167.95
+canterbury,Canterbury,New Zealand,-43.5,171.5
+sussex,Lewes,United States,38.77456,-75.13935
+lindisfarne,Lindisfarne Holy Island,United Kingdom,55.67807,-1.7997
+durham,Durham,United States,35.99403,-78.89862
+gloucestershire,Gloucestershire Airport,United Kingdom,51.89383,-2.1645
+worcestershire,Worcestershire,United Kingdom,52.16667,-2.16667
+north yorkshire,North Yorkshire,United Kingdom,54.1977,-1.39387
+yorkshire,West Yorkshire,United Kingdom,53.7,-1.58333
+nottinghamshire,Nottinghamshire,United Kingdom,53.12773,-1.01227
+oxfordshire,Oxford,United Kingdom,51.75222,-1.25596
+south yorkshire,South Yorkshire,United Kingdom,53.45,-1.25
+roche,Roche Caiman,Seychelles,-4.651,55.484
+glastonbury,Glastonbury,United Kingdom,51.14745,-2.72075
+ripon,Ripon,United Kingdom,54.13579,-1.52826
+salisbury,Salisbury,Dominica,15.43689,-61.43637
+somerset,Somerset Island,Canada,73.25144,-93.5003
+york,New York,United States,40.71427,-74.00597
+caernarvon,Mount Caernarvon,Australia,-31.40042,138.80814
+whitby,Whitby,Canada,43.91682,-78.91627
+devon,Devon,United Kingdom,50.7512,-3.81027
+bristol,Bristol,United Kingdom,51.45523,-2.59665
+windsor castle,Windsor Castle,United Kingdom,51.48365,-0.60502
+long melford,Long Melford,United Kingdom,52.07481,0.71639
+richmond upon thames,Kingston upon Thames,United Kingdom,51.41259,-0.2974
+lincolnshire,Lincolnshire,United Kingdom,53.18439,-0.27857
+cheshire,Cheshire,United States,41.49899,-72.90066
+hampstead,West Hampstead,United Kingdom,51.54904,-0.19141
+ghent,Ghent,Belgium,51.05,3.71667
+dinant,Dinant,Belgium,50.25807,4.91166
+ypres,Ieper,Belgium,50.85114,2.88569
+mechelen,Mechelen,Belgium,51.02574,4.47762
+\'s-hertogenbosch,'s-Hertogenbosch,Netherlands,51.69917,5.30417
+huy,Huy,Belgium,50.51894,5.23284
+beaune,Beaune,France,47.02413,4.83887
+leuven,Leuven,Belgium,50.87959,4.70093
+arras,Arras,France,50.29301,2.78186
+aire-sur-la-lys,Aire-sur-la-Lys,France,50.63871,2.39876
+modave,Modave,Belgium,50.44663,5.29575
+poitiers,Poitiers,France,46.58261,0.34348
+jouarre,La Ferté-sous-Jouarre,France,48.9514,3.12724
+germigny-des-prés,Germigny-des-Prés,France,47.84479,2.2695
+chapaize,Chapaize,France,46.55738,4.73537
+casteil,Casteil,France,42.53126,2.3938
+tournus,Tournus,France,46.56758,4.90574
+reims,Reims,France,49.26526,4.02853
+nivelles,Nivelles,Belgium,50.59833,4.32848
+saint-guilhem-le-désert,Saint-Guilhem-le-Désert,France,43.73381,3.54994
+saint-benoît-sur-loire,Saint-Benoît-sur-Loire,France,47.80561,2.31274
+conques,Conques,France,44.59945,2.39742
+jumièges,Jumièges,France,49.43324,0.81918
+anzy-le-duc,Anzy-le-Duc,France,46.31951,4.05919
+caen,Caen,France,49.18585,-0.35912
+saint-bertrand-de-comminges,Saint-Bertrand-de-Comminges,France,43.02716,0.57104
+saint-savin-sur-gartempe,Saint-Savin,France,46.56605,0.86381
+la-charité-sur-loire,La Charité-sur-Loire,France,47.18333,3.01667
+nevers,Nevers,France,46.98956,3.159
+saint-pierre-et-paul,Peter and Paul Fortress,Russia,59.95,30.31667
+bernay,Bernay,France,49.08888,0.59858
+malay,Malay,Kazakhstan,48.88333,81.48333
+venasque,Venasque,France,43.99595,5.14666
+saint-nectaire,Saint-Nectaire,France,45.58799,2.99276
+issoire,Issoire,France,45.54422,3.24901
+clermont-ferrand,Clermont-Ferrand,France,45.77969,3.08682
+orcival,Lac Orcival,Canada,48.04667,-76.28694
+saint-saturnin,Saint-Saturnin,France,44.4118,3.18862
+marmagne,Marmagne,France,47.62204,4.36826
+fontevraud,Fontevraud-l'Abbaye,France,47.18252,0.04897
+vézelay,Vézelay,France,47.46572,3.74559
+autun,Autun,France,46.95104,4.29869
+talmont-sur-gironde,Talmont-sur-Gironde,France,45.53333,-0.9
+périgueux,Périgueux,France,45.18691,0.71439
+tournai,Tournai,Belgium,50.60715,3.38932
+saint-gilles-du-gard,Saint-Gilles,France,43.67656,4.43024
+saint-denis,Saint-Denis,Réunion,-20.88231,55.4504
+fontgombault,Fontgombault,France,46.67373,0.98624
+alet-les-bains,Alet-les-Bains,France,42.99448,2.25621
+houdan,Houdan,Guadeloupe,16.30451,-61.5098
+saint-antonin-noble-val,Saint-Antonin-Noble-Val,France,44.15,1.76667
+auxerre,Auxerre,France,47.7996,3.57033
+sens,Sens,France,48.19738,3.28328
+le mans,Le Mans,France,48.0021,0.20251
+angers,Angers,France,47.47156,-0.55202
+jerusalem,Jerusalem,Israel,31.76904,35.21633
+syria,Syria,Syria,35,38
+saint-germer-de-fly,Saint-Germer-de-Fly,France,49.44281,1.77986
+loches,Loches,France,47.12858,0.99522
+cluny,Cluny Airport,Australia,-24.5167,139.617
+noyon,Noyon,France,49.58333,3
+laon,Laon,France,49.5631,3.62714
+provins,Lima,Peru,-12.04318,-77.02824
+mantes,Mantes-la-Jolie,France,48.99048,1.7167
+châlons-en-champagne,Châlons-en-Champagne,France,48.95393,4.36724
+soissons,Soissons,France,49.38167,3.32361
+pontigny,Pontigny,France,47.90529,3.71198
+rioux,Rioux-Martin,France,45.24838,0.00288
+braine,Braine-l'Alleud,Belgium,50.68363,4.36784
+saint-quentin,Saint-Quentin,France,49.84889,3.28757
+coutances,Coutances,France,49.04541,-1.44518
+fécamp,Fécamp,France,49.75787,0.37457
+les andelys,Les Andelys,France,49.24557,1.41168
+fère-en-tardenois,Fère-en-Tardenois,France,49.2,3.51667
+cunault,Trèves-Cunault,France,47.32068,-0.18458
+montmajour,Montmajour,France,43.688,4.636
+gordes,Gordes,France,43.9129,5.19892
+la roque-d\'anthéron,La Roque-d'Anthéron,France,43.71544,5.30973
+narbonne,Narbonne,France,43.18396,3.00141
+le thoronet,Le Thoronet,France,43.45174,6.30391
+rieux-minervois,Rieux-Minervois,France,43.28221,2.58691
+saintes,Saintes,France,45.74742,-0.63489
+saintes-maries-de-la-mer,Saintes-Maries-de-la-Mer,France,43.45214,4.42913
+fenioux,Fenioux,France,46.54458,-0.49399
+valcabrère,Valcabrère,France,43.03316,0.58162
+tarascon,Tarascon-sur-Ariège,France,42.8471,1.6056
+gisors,Gisors,France,49.28178,1.7801
+senlis,Senlis,France,49.20724,2.58661
+mont-saint-michel,Mont Saint-Michel,France,48.63603,-1.51139
+beauvais,Beauvais,France,49.43333,2.08333
+chartres,Chartres,France,48.44685,1.48925
+amiens,Amiens,France,49.9,2.3
+bourges,Bourges,France,47.08333,2.4
+troyes,Troyes,France,48.30073,4.08524
+saint-germain-en-laye,Saint-Germain-en-Laye,France,48.89643,2.0904
+bayeux,Bayeux,France,49.27732,-0.7039
+druyes-les-belles-fontaines,Druyes-les-Belles-Fontaines,France,47.54869,3.42178
+coucy-le-château,Coucy-le-Château-Auffrique,France,49.52083,3.32381
+puivert,Puivert,France,42.92045,2.04643
+quéribus,Château de Quéribus,France,42.83684,2.62157
+peyrepertuse,Duilhac-sous-Peyrepertuse,France,42.86667,2.56667
+montségur,Montségur,France,42.87143,1.8337
+carcassonne,Carcassonne,France,43.21649,2.34863
+saint-sulpice-de-favières,Saint-Sulpice-de-Favières,France,48.54136,2.18142
+évreux,Évreux,France,49.02414,1.15082
+rodez,Rodez,France,44.35258,2.57338
+auxois,Pouilly-en-Auxois,France,47.26238,4.55583
+albi,Albi,France,43.9298,2.148
+lyon,Lyon,France,45.74846,4.84671
+bordeaux,Bordeaux,France,44.84044,-0.5805
+vincennes,Vincennes,France,48.8486,2.43769
+cahors,Cahors,France,44.4491,1.43663
+la-ferté-milon,La Ferté-Milon,France,49.17453,3.12885
+nantes,Nantes,France,47.21725,-1.55336
+riom,Riom,France,45.89362,3.11264
+rue,Pointe La Rue,Seychelles,-4.67738,55.52173
+cléry-saint-andré,Cléry-Saint-André,France,47.82218,1.75091
+toul,Toul,France,48.68075,5.89115
+tours,Tours,France,47.39484,0.70398
+caudebec-en-caux,Caudebec-en-Caux,France,49.52577,0.72561
+alençon,Alençon,France,48.43476,0.09311
+bourg-en-bresse,Bourg-en-Bresse,France,46.20574,5.2258
+gaillon,Gaillon,France,49.16104,1.34016
+chenonceau,Chateau de Chenonceau,France,47.32573,1.07027
+azay-le-rideau,Azay-le-Rideau,France,47.26405,0.47132
+blois,Blois,France,47.59432,1.32912
+chambord,Chambord,Canada,48.43339,-72.06583
+villandry,Château de Villandry,France,47.34056,0.51278
+la tour-d\'aigues,La Tour-d'Aigues,France,43.72531,5.54796
+champigny-sur-veude,Champigny-sur-Veude,France,47.06522,0.32869
+boissy-saint-léger,Boissy-Saint-Léger,France,48.75149,2.51163
+rosny-sur-seine,Rosny-sur-Seine,France,48.99808,1.6313
+brissac,Cap Brissac,French Southern Territories,-48.76139,68.93394
+,Kampong Tok Barat,Malaysia,5.76667,102.41667
+abbeville,Abbeville,France,50.10521,1.83547
+aachen,Aachen,Germany,50.77664,6.08342
+lorsch,Lorsch,Germany,49.65,8.56667
+corvey,Imperial Abbey of Corvey,Germany,51.77819,9.41043
+fulda,Fulda,Germany,50.55162,9.67518
+gernrode,Gernrode,Germany,51.72575,11.13876
+alsace,Alsace,France,48.33333,7.43333
+hildesheim,Hildesheim,Germany,52.15077,9.95112
+mainz,Mainz,Germany,49.98419,8.2791
+speyer,Speyer,Germany,49.322165,8.438610
+essen,Essen,Germany,51.45657,7.01228
+reichenau-oberzell,Oberzell,Germany,47.68769,9.07848
+freckenhorst,Freckenhorst,Germany,51.92128,7.96552
+paulinzella,Forst Paulinzella,Germany,50.7,11.1
+alpirsbach,Alpirsbach,Germany,48.34507,8.40197
+calw-hirsau,Hirsau,Germany,48.73536,8.73568
+quedlinburg,Quedlinburg,Germany,51.78843,11.15006
+halberstadt,Halberstadt,Germany,51.89562,11.05622
+jerichow,Jerichow,Germany,52.5,12.0333
+minden,Minden,Germany,52.28953,8.91455
+bonn,Cologne Bonn Airport,Germany,50.87894,7.12292
+beuel-schwarzrheindorf,Schwarzrheindorf / Vilich-Rheindorf,Germany,50.7546,7.10778
+rosheim,Rosheim,France,48.4971,7.47105
+königslutter,Königslutter am Elm,Germany,52.25116,10.81683
+goslar,Goslar,Germany,51.90425,10.42766
+maulbronn,Maulbronn,Germany,48.99958,8.80337
+hesse,North Hesse,Germany,51.29553,9.41321
+maria laach,Maria Laach am Jauerling,Austria,48.30351,15.33915
+trier,Trier,Germany,49.75565,6.63935
+worms,Worms,Germany,49.63278,8.35916
+basel,Basel,Switzerland,47.55839,7.57327
+ratzeburg,Ratzeburg,Germany,53.69965,10.77256
+soest,Soest,Netherlands,52.17333,5.29167
+paderborn,Paderborn,Germany,51.71905,8.75439
+baden-württemberg,Baden-Wurttemberg,Germany,48.5,9
+oberstenfeld,Oberstenfeld,Germany,49.02611,9.32083
+bamberg,Bamberg,Germany,49.89873,10.90067
+limburg an der lahn,Limburg an der Lahn,Germany,50.3836,8.0503
+metz,Metz,France,49.11911,6.17269
+magdeburg,Magdeburg,Germany,52.12773,11.62916
+lübeck,Lübeck,Germany,53.86893,10.68729
+marburg,Marburg,Germany,50.80904,8.77069
+strasbourg,Strasbourg,France,48.58392,7.74553
+verden an der aller,Verden an der Aller,Germany,52.92343,9.23491
+stralsund,Stralsund,Germany,54.30911,13.0818
+freiburg,Freiburg im Breisgau,Germany,47.9959,7.85222
+landshut,Landshut,Germany,48.52961,12.16179
+doberan,Bad Doberan,Germany,54.10712,11.90051
+poland,Poland,Poland,52,20
+prenzlau,Prenzlau,Germany,53.3022,13.8481
+oppenheim,Oppenheim,Germany,49.8547,8.35974
+nuremberg,Nuremberg,Germany,49.45421,11.07752
+schwäbisch-gmünd,Schwäbisch Gmünd,Germany,48.79947,9.79809
+halle,Halle,Germany,51.48158,11.97947
+alsfeld,Alsfeld,Germany,50.75185,9.27082
+gdansk,Gdansk,Poland,54.35227,18.64912
+cracow,Krakow,Poland,50.06143,19.93658
+malbork,Malbork,Poland,54.03591,19.0266
+frankfurt am main,Frankfurt am Main,Germany,50.11552,8.68417
+wismar,Wismar,Germany,53.89314,11.45286
+fritzlar,Fritzlar,Germany,51.13181,9.27557
+neustadt,Neustadt,Germany,51.46725,10.46726
+braunschweig,Brunswick,Germany,52.26594,10.52673
+neubrandenburg,Neubrandenburg,Germany,53.56414,13.27532
+neisse,Neisse,Czechia,52.06944,14.75583
+annaberg,Annaberg-Buchholz,Germany,50.57953,13.00627
+torgau,Torgau,Germany,51.56016,12.99617
+retz,Pointe à Retz,Guadeloupe,16.36465,-61.50104
+lemgo,Lemgo,Germany,52.02786,8.89901
+heidelberg,Heidelberg,Germany,49.40768,8.69079
+celle,Celje,Slovenia,46.23092,15.26044
+bückeburg,Bückeburg,Germany,52.26065,9.04939
+mosbach,Mosbach,Germany,49.35357,9.15106
+herrenberg,Herrenberg,Germany,48.59523,8.86648
+stumpertenrod,Stumpertenrod,Germany,50.61563,9.18096
+büssfeld,Büßfeld,Germany,50.69567,9.00097
+sellnrod,Sellnrod,Germany,50.58094,9.09557
+brühl,Kapp Brühl,Svalbard and Jan Mayen,79.02133,30.35495
+hannover,Hanover,Germany,52.37052,9.73322
+hasselburg,Hasselburg,Germany,52.05879,9.48195
+ulm,Ulm,Germany,48.39841,9.99155
+ludwigsburg,Ludwigsburg,Germany,48.89731,9.19161
+rellingen,Rellingen,Germany,53.651,9.829
+ottobeuren,Ottobeuren,Germany,47.9413,10.29971
+mecklenburg,Schwerin,Germany,53.62937,11.41316
+pécs,Pécs,Hungary,46.0725,18.23083
+szombathely,Szombathely,Hungary,47.23088,16.62155
+pest county,Pest County,Hungary,47.41667,19.33333
+county offaly,County Offaly,Ireland,53.25,-7.5
+county wicklow,Wicklow Mountains,Ireland,53.08333,-6.33333
+ireland,Ireland,Ireland,53,-8
+holy island,Holy Island,United Kingdom,53.28333,-4.63333
+dingle peninsula,Dingle Peninsula,Ireland,52.18333,-10.16667
+tipperary,Tipperary,Ireland,52.47333,-8.15583
+cividale,Cividale del Friuli,Italy,46.09019,13.42861
+cividale del friuli,Cividale del Friuli,Italy,46.09019,13.42861
+vigolo marchese,Vigolo Marchese,Italy,44.87957,9.84438
+san domenico,Chiusano di San Domenico,Italy,40.93312,14.91634
+pomposa,Pomposa,Italy,44.85038,12.17203
+capua,Capua,Italy,41.10519,14.21269
+como,Como,Italy,45.80819,9.0832
+tuscania,Tuscania,Italy,42.41889,11.86846
+empoli,Empoli,Italy,43.71795,10.94758
+valenzano,Valenzano,Italy,41.04376,16.88491
+bari,Bari,Italy,41.12066,16.86982
+porto torres,Porto Torres,Italy,40.83375,8.40531
+casale monferrato,Casale Monferrato,Italy,45.13338,8.4525
+almenno san bartolomeo,Almenno San Bartolomeo,Italy,45.73912,9.58082
+assisi,Assisi,Italy,43.06671,12.62109
+prato,Prato,Italy,43.8805,11.09699
+troia,Troia,Italy,41.36428,15.3173
+trani,Trani,Italy,41.27733,16.41011
+bitonto,Bitonto,Italy,41.11006,16.69086
+spoleto,Spoleto,Italy,42.74071,12.73899
+ferentillo,Ferentillo,Italy,42.62027,12.78726
+cefalù,Cefalù,Italy,38.03856,14.02285
+monreale,San Gavino Monreale,Italy,39.55008,8.79065
+borutta,Borutta,Italy,40.52236,8.74352
+todi,Todi,Italy,42.77881,12.41202
+bulzi,Bulzi,Italy,40.84666,8.83026
+castelsardo,Castelsardo,Italy,40.91256,8.71453
+andria,Andria,Italy,41.23117,16.29797
+san gimignano,San Gimignano,Italy,43.4738,11.02975
+san galgano,Abbey of San Galgano,Italy,43.14945,11.15532
+vercelli,Vercelli,Italy,45.32163,8.41989
+piacenza,Piacenza,Italy,45.05242,9.69342
+viterbo,Viterbo,Italy,42.41937,12.1056
+vicenza,Vicenza,Italy,45.54672,11.5475
+massa marittima,Massa Marittima,Italy,43.04779,10.89293
+sirmione,Sirmione,Italy,45.49744,10.60507
+palazzo davanzati. florence,Museo di Palazzo Davanzati,Italy,43.77009,11.25296
+val d\'aosta,Aosta,Italy,45.73764,7.31722
+verrès,Verrès,Italy,45.66656,7.68911
+gradara,Gradara,Italy,43.93858,12.76965
+asti,Asti,Italy,44.90162,8.20751
+crema,Crema,Italy,45.36264,9.68176
+monza,Monza,Italy,45.58005,9.27246
+treviso,Treviso,Italy,45.66673,12.2416
+thiene,Thiene,Italy,45.7088,11.47959
+stra,Stra,Italy,45.41123,12.01418
+sabbioneta,Sabbioneta,Italy,44.99787,10.48848
+battaglia terme,Battaglia Terme,Italy,45.28531,11.78375
+cuzzano di grezzana,Cuzzano,Italy,45.5113,11.01347
+vilnius,Vilnius,Lithuania,54.68916,25.2798
+utrecht,Utrecht,Netherlands,52.09083,5.12222
+breda,Breda,Netherlands,51.58656,4.77596
+trondheim,Trondheim,Norway,63.43049,10.39506
+tum,Kon Tum,Vietnam,14.35451,108.00759
+kraków,Krakow,Poland,50.06143,19.93658
+kwidzyn,Kwidzyn,Poland,53.72495,18.93114
+kazimierz dolny,Kazimierz Dolny,Poland,51.31911,21.95502
+lisbon,Lisbon,Portugal,38.71667,-9.13333
+coimbra,Coimbra,Portugal,40.20564,-8.41955
+évora,Evora,Portugal,38.56667,-7.9
+alcobaça,Alcobaça,Portugal,39.55223,-8.97749
+tomar,Tomar,Portugal,39.60199,-8.40924
+bragança,Bragança,Portugal,41.83615,-6.76346
+batalha,Batalha,Portugal,39.66025,-8.82475
+mafra,Mafra,Brazil,-26.20093,-49.88932
+oporto,Porto,Portugal,41.14961,-8.61099
+braga,Braga,Portugal,41.55032,-8.42005
+scottish borders,Scottish Borders,United Kingdom,55.58333,-2.83333
+fife,Fife,United States,47.23927,-122.35707
+baños de cerrato,Baños de Cerrato,Spain,41.92084,-4.476
+san martín de montalbán,San Martín de Montalbán,Spain,39.70186,-4.38796
+león,León,Nicaragua,12.43527,-86.87862
+oviedo,Oviedo,Spain,43.36029,-5.84476
+lena,Pola de Lena,Spain,43.16089,-5.82878
+san cebrián de mazote,San Cebrián de Mazote,Spain,41.68022,-5.14847
+frómista,Frómista,Spain,42.26667,-4.40546
+santiago de compostela,Santiago de Compostela,Spain,42.88052,-8.54569
+jaca,Jaca,Spain,42.56898,-0.54987
+puente la reina,Puente La Reina – Gares,Spain,42.67291,-1.81412
+sahagún,Sahagún,Colombia,8.79717,-75.44242
+ávila,Ciego de Ávila,Cuba,21.8422,-78.76034
+zamora,Zamora Chinchipe,Ecuador,-4.25,-78.83333
+toro,Toro District,Uganda,0.5,30.5
+salamanca,Salamanca,Spain,40.96882,-5.66388
+granja de moreruela,Granja de Moreruela,Spain,41.82049,-5.75077
+torres del río,Torres,Brazil,-29.33528,-49.72694
+soria,Soria,Spain,41.76401,-2.46883
+segovia,Nueva Segovia Department,Nicaragua,13.7,-86.16667
+castile,Castile,Spain,41,-3.5
+santo domingo de silos,Santo Domingo de Silos,Spain,41.96639,-3.43475
+santa cruz de la serós,Santa Cruz de la Serós,Spain,42.52271,-0.67515
+loarre,Loarre,Spain,42.31432,-0.62588
+toledo,Toledo,Spain,39.8581,-4.02263
+burgos,Burgos,Spain,42.34106,-3.70184
+las huelgas,Monasterio de las Huelgas,Spain,42.33636,-3.72017
+teruel,Teruel,Spain,40.3456,-1.10646
+plasencia,Plasencia,Spain,40.03116,-6.08845
+palencia,Palencia,Spain,42.00955,-4.52406
+palma de mallorca,Palma,Spain,39.56939,2.65024
+seville,Seville,Spain,37.38283,-5.97317
+manzanares el real,Manzanares el Real,Spain,40.74064,-3.90053
+valladolid,Valladolid,Spain,41.65518,-4.72372
+astorga,Astorga,Spain,42.45879,-6.05601
+coca,Pizzo di Coca,Italy,46.0712,10.01095
+alcalá de henares,Alcalá de Henares,Spain,40.48205,-3.35996
+jerez de la frontera,Jerez de la Frontera,Spain,36.68645,-6.13606
+jaén,Jaén,Spain,37.76922,-3.79028
+la granja,Granja de Torrehermosa,Spain,38.31665,-5.56741
+valencia,Valencia,Venezuela,10.16153,-68.00044
+aranjuez,Aranjuez,Spain,40.03108,-3.60246
+pontevedra,Pontevedra,Spain,42.431,-8.64435
+lund,Lund,Sweden,55.70584,13.19321
+östergötland,Linköping,Sweden,58.41086,15.62157
+smaland,Småland,Sweden,57.3,15.05
+müstair,Müstair,Switzerland,46.62683,10.44624
+romainmôtier,Romainmôtier,Switzerland,46.69393,6.46086
+payerne,Payerne,Switzerland,46.82192,6.93817
+lausanne,Lausanne,Switzerland,46.516,6.63282
+solothurn,Solothurn,Switzerland,47.20791,7.53714
+lucerne,Lucerne,Switzerland,47.05048,8.30635
+quintanilla de las viñas,Quintanilla de las Viñas,Spain,42.12441,-3.48105
+el campillo,Campillo de Deleitosa,Spain,39.71327,-5.57595
+pembrokeshire,Pembrokeshire,United Kingdom,51.83333,-4.91667
+gwynedd,Ceremonial County Gwynedd,United Kingdom,52.91718,-3.95439
+denver,Denver,United States,39.73915,-104.9847
+bålsta,Bålsta,Sweden,59.5671,17.52781
+mariefred,Mariefred,Sweden,59.25963,17.223
+santorcaz,Santorcaz,Spain,40.47163,-3.23436
+harff,Harff,Germany,51.01667,6.53333
+preston,Preston,United Kingdom,53.76282,-2.70452
+leipzig,Leipzig,Germany,51.33962,12.37129
+meissen,Meissen,Germany,51.16158,13.4737
+province of arezzo,Arezzo,Italy,43.46276,11.88068
+grenoble,Grenoble,France,45.17869,5.71479
+weltenburg,Kloster Weltenburg,Germany,48.899,11.8202
+aldersbach,Aldersbach,Germany,48.58972,13.08971
+straubing,Straubing,Germany,48.88126,12.57385
+weingarten,Weingarten,Germany,50.97435,10.53905
+tegernsee,Tegernsee,Germany,47.7123,11.7582
+bavaria,Munich,Germany,48.13743,11.57549
+isleworth,Isleworth,United Kingdom,51.47518,-0.34246
+darmstadt,Darmstadt,Germany,49.87167,8.65027
+birmingham,Birmingham,United Kingdom,52.48142,-1.89983
+surrey,County of Surrey,Jamaica,18.08333,-76.56667
+padova,Padua,Italy,45.40797,11.88586
+dieppe,Dieppe,France,49.9216,1.07772
+schleissheim,Schleissheim,Austria,48.16063,14.07478
+marseille,Marseille,France,43.29695,5.38107
+dordrecht,Dordrecht,Netherlands,51.81,4.67361
+douai,Douai,France,50.37069,3.07922
+dessau,Dessau,Germany,51.83864,12.24555
+castelfiorentino,Castelfiorentino,Italy,43.60963,10.96772
+jura,Delémont,Switzerland,47.36493,7.34453
+château de chantilly,Chateau de Chantilly,France,49.1916,2.4852
+haiti,Haiti,Haiti,19.07582,-72.29616
+saint-dié,Saint-Dié,France,48.28429,6.94921
+rovigo,Rovigo,Italy,45.06982,11.79022
+kampen,Kampen,Netherlands,52.555,5.91111
+otterlo,Otterlo,Netherlands,52.1,5.77222
+haarlem,Haarlem,Netherlands,52.38084,4.63683
+torino,Turin,Italy,45.07049,7.68682
+piperno,Priverno,Italy,41.47047,13.17867
+wijk bij duurstede,Wijk bij Duurstede,Netherlands,51.97417,5.34167
+borgo a buggiano,Buggiano,Italy,43.87522,10.73482
+harlingen,Harlingen,Netherlands,53.17477,5.42244
+eichenzell,Eichenzell,Germany,50.49536,9.69672
+emden,Emden,Germany,53.36745,7.20778
+wesel?,Wesel,Germany,51.6669,6.62037
+münster,Münster,Germany,51.96236,7.62571
+dortmund,Dortmund,Germany,51.51494,7.466
+gent,Ghent,Belgium,51.05,3.71667
+chicago,Chicago,United States,41.85003,-87.65005
+san secondo,San Secondo Parmense,Italy,44.92218,10.23038
+soragna,Soragna,Italy,44.92686,10.12013
+ramsgate,Ramsgate,United Kingdom,51.33568,1.41797
+cumbria,Cumbria,United Kingdom,54.58333,-2.83333
+graçay,Graçay,France,47.14371,1.84733
+gochenée,Gochenée,Belgium,50.18426,4.75631
+meise,Meise,Belgium,50.93934,4.32655
+reggio emilia,Reggio Emilia,Italy,44.69825,10.63125
+stradella,Stradella,Italy,45.07445,9.30169
+fontignano,Fontignano,Italy,43.02436,12.1919
+ottawa,Ottawa,Canada,45.41117,-75.69812
+schwabisch-gmünd,Schwäbisch Gmünd,Germany,48.79947,9.79809
+hamburg,Hamburg,Germany,53.55073,9.99302
+-,Kampong Tok Barat,Malaysia,5.76667,102.41667
+dayton,Dayton,United States,39.75895,-84.19161
+lier,Lier,Norway,59.78663,10.2459
+illasi,Illasi,Italy,45.46663,11.18165
+nogent-sur-marne,Champigny-sur-Marne,France,48.81642,2.49366
+cava de\' tirreni,Cava de' Tirreni,Italy,40.69954,14.70773
+busto arsizio,Busto Arsizio,Italy,45.61128,8.84914
+rosslau,Dessau,Germany,51.83864,12.24555
+köthen,Köthen,Germany,51.75185,11.97093
+carrara,Carrara,Italy,44.07926,10.09789
+livorno,Livorno,Italy,43.54427,10.32615
+ponsacco,Ponsacco,Italy,43.62307,10.62661
+santa croce sull\'arno,Santa Croce sull'Arno,Italy,43.71924,10.77171
+eger,Eger,Hungary,47.90265,20.37329
+weimar,Weimar,Germany,50.9803,11.32903
+viarmes,Viarmes,France,49.13082,2.37074
+calvados,Calvados,France,49.09011,-0.30608
+cento,Cento,Italy,44.73099,11.28716
+latium,Rome,Italy,41.89193,12.51133
+bath,Bath,United Kingdom,51.3751,-2.36172
+indianapolis,Indianapolis,United States,39.76838,-86.15804
+murano,Murano,Italy,45.45857,12.35683
+lambeth,Lambeth Bluff,Heard and McDonald Islands,-53.18333,73.6
+bratislava,Bratislava,Slovakia,48.14816,17.10674
+thiverval-grignon,Thiverval-Grignon,France,48.84964,1.91729
+savignano,Savignano Irpino,Italy,41.22698,15.17933
+castiglion fiorentino,Castiglion Fiorentino,Italy,43.34308,11.91995
+marciano della chiana,Marciano della Chiana,Italy,43.30556,11.7849
+volterra,Volterra,Italy,43.4,10.86667
+pienza,Pienza,Italy,43.07873,11.67671
+bassano,San Bassano,Italy,45.24378,9.80954
+england,New England,United States,44,-71
+cittadella,Cittadella,Italy,45.64523,11.78453
+edinburgh,Edinburgh,United Kingdom,55.95206,-3.19648
+bassano del grappa,Bassano del Grappa,Italy,45.76656,11.72739
+nimes,Nîmes,France,43.83665,4.35788
+potsdam,Potsdam,Germany,52.39886,13.06566
+den haag,The Hague,Netherlands,52.07667,4.29861
+raleigh,Raleigh,United States,35.7721,-78.63861
+meuse,Meuse,France,48.97176,5.36371
+pannonhalma,Pannonhalma,Hungary,47.54946,17.75535
+lodi,Lodi,United States,38.1302,-121.27245
+pithiviers,Pithiviers,France,48.17185,2.25185
+zaragoza,Zaragoza,Spain,41.65606,-0.87734
+dol\'skoye,Dol’skoye,Russia,54.78435,36.43377
+cincinnati,Cincinnati,United States,39.12711,-84.51439
+milton abbas,Milton Abbas,United Kingdom,50.81596,-2.27469
+brighton,Brighton,United Kingdom,50.82838,-0.13947
+thionville,Thionville,France,49.35994,6.16044
+amboise,Amboise,France,47.41249,0.98266
+lorraine,Lorraine,France,48.76667,6.13333
+valenciennes,Valenciennes,France,50.35909,3.52506
+pittsburgh,Pittsburgh,United States,40.44062,-79.99589
+sarteano,Sarteano,Italy,42.99193,11.86472
+conegliano,Conegliano,Italy,45.88805,12.30201
+burford,Burford,United Kingdom,51.80915,-1.63628
+au im bregenzerwald,Au,Austria,47.30886,9.96673
+rheinau,Rheinau,Germany,48.66602,7.93659
+sankt urban,Sankt Urban,Austria,46.75,14.16667
+bezau,Bezau,Austria,47.38478,9.90139
+st gallen,Saint Gallen,Switzerland,47.42391,9.37477
+vorarlberg,Vorarlberg,Austria,47.25,9.91667
+kempten,Kempten (Allgäu),Germany,47.72674,10.31389
+stuttgart,Stuttgart,Germany,48.78232,9.17702
+nürnberg,Nuremberg,Germany,49.45421,11.07752
+sulzbach,Sulzbach,Germany,49.29882,7.05696
+slovakia,Slovakia,Slovakia,48.66667,19.5
+étampes,Étampes,France,48.43507,2.16233
+grassina,Grassina,Italy,43.72368,11.29068
+pasadena,Pasadena,United States,34.14778,-118.14452
+são paulo,São Paulo,Brazil,-23.5475,-46.63611
+glasgow,Glasgow,United Kingdom,55.86515,-4.25763
+besançon,Besançon,France,47.24878,6.01815
+warsaw,Warsaw,Poland,52.22977,21.01178
+pieve di soligo,Pieve di Soligo,Italy,45.89836,12.17128
+torrechiara,Torrechiara,Italy,44.65832,10.28314
+nyíregyháza,Nyíregyháza,Hungary,47.95539,21.71671
+pfarrkirchen,Pfarrkirchen,Germany,48.43205,12.93812
+parma(?),Parma,Italy,44.79935,10.32618
+vetralla,Vetralla,Italy,42.31787,12.07323
+el escorial,El Escorial,Spain,40.59144,-4.14738
+trento,Trento,Italy,46.06787,11.12108
+pau,Pau,France,43.31117,-0.35583
+atlanta,Atlanta,United States,33.749,-84.38798
+pieve di teco,Pieve di Teco,Italy,44.04706,7.91564
+saint louis,St Louis,United States,38.62727,-90.19789
+salem,Salem,United States,44.9429,-123.0351
+providence,Providence,United States,41.82399,-71.41283
+saint-mihiel,Saint-Mihiel,France,48.88746,5.55099
+saint-etienne,Saint-Etienne,France,45.43389,4.39
+brugge,Bruges,Belgium,51.20892,3.22424
+fossano,Fossano,Italy,44.55077,7.71922
+damrak amsterdam,Damrak,Netherlands,52.37604,4.89695
+pescia,Pescia,Italy,43.8871,10.68849
+cordova,Córdoba,Argentina,-31.40648,-64.18853
+perelada,Peralada Castle,Spain,42.30759,3.01097
+daroca,Daroca,Spain,41.11475,-1.41492
+acqui terme,Acqui Terme,Italy,44.67552,8.46934
+niort,Niort,France,46.32313,-0.45877
+lille,Lille,France,50.63297,3.05858
+isère,Grenoble,France,45.17869,5.71479
+pagnano,Pagnano,Italy,45.8088,11.88876
+cavallerleone,Cavallerleone,Italy,44.74014,7.66393
+ariccia,Ariccia,Italy,41.72063,12.6723
+castel gandolfo,Castel Gandolfo,Italy,41.74252,12.64888
+zagreb,Zagreb,Croatia,45.81444,15.97798
+sesto fiorentino,Sesto Fiorentino,Italy,43.83193,11.19924
+pontassieve,Pontassieve,Italy,43.77477,11.43109
+paredes de nava,Paredes de Nava,Spain,42.17047,-4.67706
+riello,Riello,Spain,42.82298,-6.02333
+montepulciano,Montepulciano,Italy,43.09998,11.78704
+lugano,Lugano,Switzerland,46.01008,8.96004
+chiavari,Chiavari,Italy,44.31771,9.32241
+stia,Stia,Italy,43.79877,11.70894
+carpentras,Carpentras,France,44.05507,5.04813
+san casciano,San Casciano in Val di Pesa,Italy,43.65975,11.18494
+solingen,Solingen,Germany,51.17343,7.0845
+langres,Langres,France,47.86263,5.33308
+felsted,Felsted,United Kingdom,51.85438,0.46863
+arles,Arles,France,43.67681,4.63031
+tarkhovka,Tarhovka,Russia,60.06687,29.97435
+ledøje,Ledøje,Denmark,55.70958,12.30169
+augusta county,Augusta,United States,44.31062,-69.77949
+gothenburg,Gothenburg,United States,40.92945,-100.16068
+palmanova,Palmanova,Italy,45.9054,13.30998
+schleswig,Schleswig-Holstein,Germany,54.2,9.75
+denmark,Denmark,Denmark,56,10
+uitgeest,Uitgeest,Netherlands,52.52917,4.70972
+la guillotière,La Guillotière,France,47.04689,-0.38442
+cottbus,Cottbus,Germany,51.75769,14.32888
+maastricht,Maastricht,Netherlands,50.84833,5.68889
+hillerød,Hillerød,Denmark,55.92791,12.30081
+montfoort,Montfoort Municipality,Netherlands,52.04767,4.94844
+bingen am rhein,Bingen am Rhein,Germany,49.96675,7.8992
+gorinchem,Gorinchem,Netherlands,51.83652,4.97243
+málaga,Málaga,Spain,36.72016,-4.42034
+poperinghe,Lac Poperinghe,Canada,47.70889,-76.2
+ribemont,Lac Ribemont,Canada,49.32667,-74.27917
+granada,Grenada,Grenada,12.11667,-61.66667
+belforte del chienti,Belforte del Chienti,Italy,43.16255,13.24538
+greenville,Greenville,United States,34.85262,-82.39401
+lo,Saint-Lô,France,49.11624,-1.09031
+leeuwarden,Leeuwarden,Netherlands,53.20139,5.80859
+lunéville,Lunéville,France,48.59273,6.49383
+girona,Girona,Spain,41.98311,2.82493
+eperjes,Eperjes,Hungary,46.68333,20.56667
+la bassé,Basse-Terre,Guadeloupe,15.99714,-61.73214
+varzy,Varzy,France,47.3581,3.38619
+setúbal,Setúbal,Portugal,38.5244,-8.8882
+bayreuth,Bayreuth,Germany,49.94782,11.57893
+bolsward,Bolsward,Netherlands,53.06555,5.53176
+isola bella,Isola Bella,Italy,37.85022,15.30069
+udine,Udine,Italy,46.0693,13.23715
+sibenik,Šibenik,Croatia,43.73429,15.8942
+arnold,Arnold,United States,38.43283,-90.37762
+castellamare di stabia,Hotel Europa Castellamare,Italy,40.69284,14.49024
+fontenay-aux-roses,Fontenay-aux-Roses,France,48.79325,2.29275
+tokyo,Tokyo,Japan,35.6895,139.69171
+kurashiki,Kurashiki,Japan,34.58333,133.76667
+nice,Nice,France,43.70313,7.26608
+minneapolis,Minneapolis,United States,44.97997,-93.26384
+panissières,Panissières,France,45.79185,4.34163
+le puy-en-velay,Le Puy-en-Velay,France,45.04366,3.88523
+warwickshire,Warwickshire,United Kingdom,52.33333,-1.58333
+san diego,San Diego,United States,32.71571,-117.16472
+amersfoort,Amersfoort,Netherlands,52.155,5.3875
+czech republic,Czechia,Czechia,49.75,15
+mirgorod,Myrhorod,Ukraine,49.96464,33.60861
+russia,Russia,Russia,60,100
+kiev,Kyiv,Ukraine,50.45466,30.5238
+minsk,Minsk,Belarus,53.9,27.56667
+cocentaina,Cocentaina,Spain,38.73975,-0.43976
+gerona,Nueva Gerona,Cuba,21.88759,-82.80662
+terrasa,Terrassa,Spain,41.56667,2.01667
+bissone,Santa Cristina e Bissone,Italy,45.15756,9.39976
+veszprém,Veszprém,Hungary,47.09327,17.91149
+murcia,Murcia,Spain,37.98704,-1.13004
+canda,Canda,Burundi,-3.58043,29.39055
+piombino dese,Piombino Dese,Italy,45.60964,11.99416
+vicoforte,Vicoforte,Italy,44.35,7.9
+s\'hertogenbosch,'s-Hertogenbosch,Netherlands,51.69917,5.30417
+malta,Malta,Malta,35.91667,14.43333
+monaco,Monaco,Monaco,43.73141,7.41903
+arnemuiden,Arnemuiden,Netherlands,51.50167,3.675
+savona,Savona,Italy,44.30905,8.47715
+ajaccio,Ajaccio,France,41.91886,8.73812
+chaumont,Chaumont,France,48.11121,5.14134
+veurne,Veurne,Belgium,51.07316,2.66803
+honfleur,Honfleur,France,49.41985,0.23294
+le havre,Le Havre,France,49.49346,0.10785
+carlisle,Carlisle,United States,34.78315,-91.74652
+aberdeen,Aberdeen,Hong Kong,22.24802,114.15289
+la rochelle,La Rochelle,France,46.16308,-1.15222
+sassuolo,Sassuolo,Italy,44.5432,10.7848
+montauban,Montauban,France,44.01759,1.3542
+meaux,Meaux,France,48.96014,2.87885
+northampton,Bethlehem,United States,40.62593,-75.37046
+sas van gent,Sas van Gent,Netherlands,51.2275,3.79861
+hyères,Hyères,France,43.12038,6.12857
+bar,Bar,Montenegro,42.0937,19.09841
+le puy,Le Puy-en-Velay,France,45.04366,3.88523
+martigues,Martigues,France,43.40735,5.05526
+cambrai,Cambrai,France,50.17596,3.23472
+fermignano,Fermignano,Italy,43.69311,12.65437
+vigevano,Vigevano,Italy,45.31407,8.85437
+vatican palace,Palace of Justice,Vatican City,41.90418,12.47046
+makkum,Makkŭm-do,South Korea,34.62167,126.11778
+oslo,Oslo,Norway,59.91273,10.74609
+frankfurt/oder,Frankfurt,Germany,52.34714,14.55062
+poli,Mexico City,Mexico,19.42847,-99.12766
+strassburg,Strasbourg,France,48.58392,7.74553
+new hampshire,Concord,United States,43.20814,-71.53757
+deventer,Deventer,Netherlands,52.255,6.16389
+osteno,Claino con Osteno,Italy,46.00665,9.08462
+cesena,Cesena,Italy,44.1391,12.24315
+laren,Laren,Netherlands,52.25667,5.22778
+zwammerdam,Zwammerdam,Netherlands,52.10583,4.72639
+pavlovsk,Pavlovsk,Russia,59.68333,30.43472
+courrières,Courrières,France,50.45701,2.94725
+gotha,Gotha,Germany,50.94823,10.70193
+stowe,Morrisville-Stowe State Airport,United States,44.53734,-72.61528
+mannheim,Mannheim,Germany,49.4891,8.46694
+montignac,Montignac-le-Coq,France,45.33675,0.22263
+temesvár,Banat of Temesvar,Serbia,45.5,21
+miskolc,Miskolc,Hungary,48.10306,20.77806
+tóalmás,Tóalmás,Hungary,47.50782,19.66657
+chatsworth,Chatsworth,United States,42.9161,-96.51642
+kansas city,Kansas City,United States,39.09973,-94.57857
+verneuil-en-halatte,Verneuil-en-Halatte,France,49.27914,2.5241
+blérancourt,Blérancourt,France,49.51667,3.15
+oudenaerde,Oudenaarde,Belgium,50.85168,3.60891
+sneek,Sneek,Netherlands,53.03297,5.6589
+calais,Calais,France,50.95194,1.85635
+kirkharle,Kirkharle,United Kingdom,55.13237,-1.98585
+buckinghamshire,Buckinghamshire,United Kingdom,51.83479,-0.79912
+hamilton,Hamilton,Bermuda,32.2949,-64.78303
+toronto,Toronto,Canada,43.70643,-79.39864
+brogel,Grote-Brogel,Belgium,51.15281,5.5059
+winterthur,Winterthur,Switzerland,47.50564,8.72413
+banbury,Banbury,United Kingdom,52.0632,-1.34222
+brussel,Brussels,Belgium,50.85045,4.34878
+portsmouth,Portsmouth,United States,43.07704,-70.75766
+braunsberg?,Braunsberg,Germany,51.4,9.2
+stargard,Stargard,Poland,53.33672,15.0499
+tangermünde,Tangermünde,Germany,52.54463,11.97647
+belluno,Belluno,Italy,46.14262,12.2156
+liège,Liège,Belgium,50.63373,5.56749
+st petersburg,St Petersburg,Russia,59.93863,30.31413
+mulhouse,Mulhouse,France,47.75205,7.32866
+molsheim,Molsheim,France,48.54042,7.49199
+mugello,Barberino di Mugello,Italy,43.9993,11.23676
+washington d.c.,Washington,United States,38.89511,-77.03637
+naaldwijk,Naaldwijk,Netherlands,51.99417,4.20972
+zurich,Zurich,Switzerland,47.36667,8.55
+burghausen,Burghausen,Germany,48.16925,12.83139
+pirmasens,Pirmasens,Germany,49.20145,7.60529
+port sunlight,Port Sunlight,United Kingdom,53.35413,-2.99847
+liverpool,Liverpool,United Kingdom,53.41058,-2.97794
+puerto rico,Puerto Rico,Puerto Rico,18.2494,-66.50101
+hanau,Hanau,Germany,50.13423,8.91418
+ludwigslust,Ludwigslust,Germany,53.32917,11.49714
+florida,South Florida,United States,26.5,-81
+pommersfelden,Pommersfelden,Germany,49.76667,10.81667
+rijswijk,Rijswijk,Netherlands,52.03634,4.32501
+almadén,Almaden,Australia,-17.33941,144.67762
+montabone,Montabone,Italy,44.69875,8.39064
+moncalvo,Moncalvo,Italy,45.05057,8.26277
+vittoriosa,Birgu,Malta,35.89157,14.51765
+lima,Lima,Peru,-12.04318,-77.02824
+waddesdon manor,Waddesdon Manor,United Kingdom,51.84235,-0.93754
+inverigo,Inverigo,Italy,45.73795,9.21836
+vevey,Vevey,Switzerland,46.46299,6.84345
+calcar,Calcar,Canada,46.78341,-78.23283
+bevagna,Bevagna,Italy,42.93748,12.61488
+sicily,Sicily,Italy,37.62304,13.93457
+milazzo,Milazzo,Italy,38.22008,15.24023
+mataró,Mataró,Spain,41.54211,2.4445
+dokkum,Dokkum,Netherlands,53.32224,5.99697
+teplice,Teplice,Czechia,50.6404,13.82451
+almagro,Diego de Almagro,Chile,-26.39022,-70.04556
+columbus,Columbus,United States,39.96118,-82.99879
+el paso,El Paso,United States,31.75872,-106.48693
+la brigue,La Brigue,France,44.06253,7.61601
+pigna,Pigna,Italy,43.93205,7.66123
+taggia,Taggia,Italy,43.84612,7.85223
+vác,Vác,Hungary,47.77591,19.13612
+vitoria,Vitoria-Gasteiz,Spain,42.84998,-2.67268
+possagno,Possagno,Italy,45.84795,11.88467
+cardiff,Cardiff,United Kingdom,51.48,-3.18
+enschede,Enschede,Netherlands,52.21833,6.89583
+caravaggio,Caravaggio,Italy,45.49627,9.64165
+odessa,Odesa,Ukraine,46.48572,30.74383
+montserrat,Montserrat,Montserrat,16.75,-62.2
+la valletta,Valletta,Malta,35.89968,14.5148
+syracuse,Syracuse,United States,43.04812,-76.14742
+san giovanni bianco,San Giovanni Bianco,Italy,45.87342,9.6542
+freiburg im breisgau,Freiburg im Breisgau,Germany,47.9959,7.85222
+st. florian,Lac Florian,Canada,49.13139,-70.73194
+christkindl,Christkindl,Austria,48.0385,14.38634
+montirone,Montirone,Italy,45.44638,10.22877
+ellwangen,Ellwangen,Germany,48.96164,10.13173
+passau,Passau,Germany,48.5665,13.43122
+gazzada,Gazzada Schianno,Italy,45.77948,8.83563
+montegrino,Montegrino Valtravaglia,Italy,45.97398,8.76743
+matera,Matera,Italy,40.66599,16.60463
+caldogno,Caldogno,Italy,45.6078,11.5028
+wakefield,Wakefield,United Kingdom,53.68331,-1.49768
+avilés,Avilés,Spain,43.55473,-5.92483
+anizy-le-château,Anizy-le-Château,France,49.50678,3.45119
+gournay-sur-marne,Gournay-sur-Marne,France,48.86223,2.58452
+rueil-malmaison,Rueil-Malmaison,France,48.8765,2.18967
+cerreto guidi,Cerreto Guidi,Italy,43.75851,10.88191
+allegheny city,Pittsburgh,United States,40.44062,-79.99589
+asciano,Asciano,Italy,43.23232,11.56655
+córdoba,Córdoba,Argentina,-31.40648,-64.18853
+cordoba,Córdoba,Argentina,-31.40648,-64.18853
+llerena,Llerena,Spain,38.23537,-6.0739
+wilkes-barre,Wilkes-Barre,United States,41.24591,-75.88131
+altona,Altona,Germany,53.55,9.93333
+ath,Ath,Belgium,50.62937,3.77801
+caullery,Caullery,France,50.08476,3.37292
+dampierre,Dampierre-sur-Boutonne,France,46.06713,-0.41311
+serravalle,Serravalle,San Marino,43.96897,12.48167
+barnard castle,Barnard Castle,United Kingdom,54.54312,-1.91705
+samer,Sa‘īd-e S̄āmer,Iran,31.79528,48.44831
+portland,Portland,United States,45.52345,-122.67621
+nese,Nese,Norway,59.5023,7.71324
+campione,Campione d'Italia,Italy,45.96818,8.97181
+sesto calende,Sesto Calende,Italy,45.72608,8.63397
+arpino,Arpino,Italy,41.64705,13.61155
+university of california,Palo Alto,United States,37.44188,-122.14302
+aix-en-provence,Aix-en-Provence,France,43.5283,5.44973
+canberra,Canberra,Australia,-35.28346,149.12807
+buffalo,Buffalo,United States,42.88645,-78.87837
+merion,Indianapolis,United States,39.76838,-86.15804
+göteborg,Gothenburg,Sweden,57.70716,11.96679
+kingston upon hull,Hull,United Kingdom,53.7446,-0.33525
+norton,Norton,United States,39.78439,-99.90348
+lichfield,Lichfield,United Kingdom,52.68154,-1.82549
+le mée-sur-seine,Le Mée-sur-Seine,France,48.53157,2.62829
+warrington,Warrington,United Kingdom,53.39254,-2.58024
+villeneuve-les-avignon,Villeneuve-lès-Avignon,France,43.96773,4.79258
+bollène,Bollène,France,44.28124,4.74891
+williamsburg,Williamsburg,United States,37.2707,-76.70746
+châlons-sur-marne,Châlons-en-Champagne,France,48.95393,4.36724
+ivry,Ivry-sur-Seine,France,48.81568,2.38487
+luch kostroma,Kolkhoz Luch,Russia,57.81667,41.13333
+malmaison,Rueil-Malmaison,France,48.8765,2.18967
+salsomaggiore,Salsomaggiore Terme,Italy,44.81592,9.98637
+riedlingen,Riedlingen,Germany,48.15455,9.47558
+zwiefalten,Zwiefalten,Germany,48.23396,9.46232
+flensburg,Flensburg,Germany,54.78805,9.43722
+baarle,Baarle-Hertog,Belgium,51.40504,4.89226
+salò,Salò,Italy,45.60685,10.5205
+wagstadt,Bílovec,Czechia,49.75639,18.01581
+feldkirch,Feldkirch,Austria,47.23306,9.6
+pomarance,Pomarance,Italy,43.29592,10.87223
+ronco scrivia,Ronco Scrivia,Italy,44.61357,8.95042
+trieste,Trieste,Italy,45.64953,13.77678
+steinfurt,Steinfurt,Germany,52.15045,7.33664
+chamagne,Chamagne,France,48.40825,6.28001
+fêre-en-tardenois,Fère-en-Tardenois,France,49.2,3.51667
+sint-eloois-vijve,Sint-Eloois-Vijve,Belgium,50.90911,3.41545
+anderlecht,Anderlecht,Belgium,50.83619,4.31454
+bar-le-duc,Bar-le-Duc,France,48.77275,5.16108
+oldenburg,Oldenburg,Germany,53.14118,8.21467
+southwark,Southwark,Canada,45.50398,-73.48837
+deptford,Deptford Rock,Indonesia,-8.2,114.38333
+liverpool?,Liverpool,United Kingdom,53.41058,-2.97794
+osnabrück,Osnabrück,Germany,52.27264,8.0498
+grizane,Grižane,Croatia,45.20083,14.72167
+scherpenheuvel,Scherpenheuvel,Belgium,50.98075,4.97552
+aelst,Mielen-boven-Aalst,Belgium,50.75644,5.21421
+amatrice,Amatrice,Italy,42.62664,13.29509
+l\'aquila,L’Aquila,Italy,42.35055,13.39954
+doesburg,Doesburg,Netherlands,52.0125,6.13889
+san quirico di lucca,San Quirico di Moriano,Italy,43.9,10.51667
+södermanland,Eskilstuna,Sweden,59.36661,16.5077
+solesmes,Solesmes,France,50.18468,3.49799
+sotteville-les-rouen,Sotteville-lès-Rouen,France,49.40972,1.09005
+mülheim,Mülheim,Germany,51.43218,6.87967
+innsbruck,Innsbruck,Austria,47.26266,11.39454
+isola di san clemente,San Clemente Island,United States,32.90004,-118.50091
+gaeta,Gaeta,Italy,41.21408,13.57082
+east bergholt,East Bergholt,United Kingdom,51.97785,1.01761
+montreal,Montreal,Canada,45.50884,-73.58781
+tapiau,Gvardeysk,Russia,54.64772,21.06513
+linz,Linz,Austria,48.30639,14.28611
+wuppertal,Wuppertal,Germany,51.25627,7.14816
+correggio,Correggio,Italy,44.76737,10.78345
+hoorn,Hoorn,Netherlands,52.6425,5.05972
+flanders,Bruges,Belgium,51.20892,3.22424
+porlezza,Porlezza,Italy,46.03714,9.12921
+herentals,Herentals,Belgium,51.17655,4.83248
+lessines,Lessines,Belgium,50.71104,3.83579
+lisboa,Lisbon,Portugal,38.72509,-9.1498
+sintra,Sintra,Portugal,38.80097,-9.37826
+tiverton,Tiverton,United States,41.62594,-71.21338
+bedarieux,Bédarieux,France,43.61602,3.15892
+ipswich,Ipswich,United Kingdom,52.05917,1.15545
+norwich,Norwich,United Kingdom,52.62783,1.29834
+ornans,Ornans,France,47.10749,6.14306
+lons-le-saunier,Lons-le-Saunier,France,46.67535,5.55575
+pontarlier,Pontarlier,France,46.90347,6.35542
+saint-gall,Saint Gallen,Switzerland,47.42391,9.37477
+doubs,Doubs,France,47.19967,6.43487
+soucy,Lac Soucy,Canada,58.35852,-69.8821
+göttingen,Göttingen,Germany,51.53443,9.93228
+gouda,Gouda,Netherlands,52.01667,4.70833
+sidney,Sydney,Australia,-33.86785,151.20732
+neerlinter,Neerlinter,Belgium,50.83971,5.02287
+wittenberg,Wittenberg,Germany,51.8661,12.64973
+kronach,Kronach,Germany,50.23963,11.33308
+schneeberg,Le Schneeberg,Germany,49.47559,6.42919
+naumburg,Naumburg,Germany,51.14987,11.80979
+mexico city,Mexico City,Mexico,19.42847,-99.12766
+brno,Brno,Czechia,49.19522,16.60796
+eisenach,Eisenach,Germany,50.9807,10.31522
+schaffhausen,Schaffhausen,Switzerland,47.69732,8.63493
+kronberg,Kronberg,Germany,50.181,8.513
+bautzen,Bautzen,Germany,51.18035,14.43494
+kettering,Kettering,United Kingdom,52.39836,-0.72571
+wolfenbüttel,Wolfenbüttel,Germany,52.16442,10.54095
+pforzheim,Pforzheim,Germany,48.88436,8.69892
+university of maryland,University of Baltimore,United States,39.30592,-76.61668
+cerano,Cerano,Italy,45.40915,8.78351
+varese,Varese,Italy,45.82058,8.82511
+ascoli piceno,Ascoli Piceno,Italy,42.85351,13.57395
+alkmaar,Alkmaar,Netherlands,52.63167,4.74861
+rossville,Rossville,United States,39.13611,-95.95166
+stupinigi,Stupinigi,Italy,44.99529,7.60481
+levada di piombino dese,Levada,Italy,45.62449,12.05686
+vlieland,Vlieland,Netherlands,53.27443,4.9796
+kisszeben,Sabinov,Slovakia,49.10309,21.0988
+newfoundland,Newfoundland and Labrador,Canada,52,-56
+bedfordshire,Bedfordshire,United Kingdom,52,-0.5
+hainaut,Charleroi,Belgium,50.41136,4.44448
+bergen,Bergen,Norway,60.39299,5.32415
+mirandola,Mirandola,Italy,44.88515,11.06902
+trau,Buffalo Island,Vietnam,14.13787,109.2941
+vicovaro,Vicovaro,Italy,42.01924,12.90001
+visegrád,Višegrad,Bosnia and Herzegovina,43.7826,19.29256
+ancona,Ancona,Italy,43.60717,13.5103
+killinick,Killinick,Ireland,52.25278,-6.45056
+istambul,Istanbul,Turkey,41.01384,28.94966
+bitche,Bitche,France,49.05232,7.42992
+saint-florent-le-vieil,Saint-Florent-le-Vieil,France,47.36069,-1.01515
+oudewater,Oudewater Municipality,Netherlands,52.0284,4.86243
+santa barbara,Santa Barbara,United States,34.42083,-119.69819
+algiers,Algiers,Algeria,36.73225,3.08746
+mâcon,Decatur,United States,39.84031,-88.9548
+rueil,Rueil-Malmaison,France,48.8765,2.18967
+bayonne,Bayonne,France,43.49316,-1.473
+watford,Watford,United Kingdom,51.65531,-0.39602
+pest,Pest County,Hungary,47.41667,19.33333
+farmington,Farmington,United States,42.46448,-83.37632
+neuchâtel,Neuchâtel,Switzerland,46.99179,6.931
+münchen,Munich,Germany,48.13743,11.57549
+monthermé,Monthermé,France,49.88465,4.73013
+charenton-saint-maurice,Saint-Maurice,France,48.82182,2.42716
+chapel hill,Chapel Hill,United States,35.9132,-79.05584
+hamoir,Hamoir,Belgium,50.42675,5.53304
+heusden,Heusden,Netherlands,51.73417,5.13889
+würzburg,Würzburg,Germany,49.79391,9.95121
+château d\'anet,Château d'Anet,France,48.85848,1.43865
+sedan,Sedan,France,49.70187,4.94028
+joigny,Joigny,France,47.98288,3.40096
+granville,Granville,France,48.83792,-1.59714
+vic-sur-seille,Vic-sur-Seille,France,48.78195,6.53079
+cérilly,Cérilly,France,47.86609,4.49574
+colleville,Colleville-Montgomery,France,49.27528,-0.30052
+quimper,Quimper,France,47.99597,-4.09795
+san piero a sieve,San Piero a Sieve,Italy,43.96251,11.32426
+champigneulles,Champigneulles,France,48.73404,6.16181
+maubeuge,Maubeuge,France,50.27875,3.97267
+petit-rechain,Petit-Rechain,Belgium,50.61489,5.83417
+seneffe,Seneffe,Belgium,50.53135,4.26301
+pozzuoli,Pozzuoli,Italy,40.84394,14.0952
+schio,Schio,Italy,45.71262,11.35671
+rosenheim,Rosenheim,Germany,47.85637,12.12247
+kappel,Ebnat-Kappel,Switzerland,47.26195,9.12473
+sankt margarethen,Sankt Margarethen im Burgenland,Austria,47.80335,16.60875
+praha,Prague,Czechia,50.08804,14.42076
+pfullendorf,Pfullendorf,Germany,47.9261,9.2578
+armentières,Armentières,France,50.68568,2.88214
+grüngiebing,Grüngiebing,Germany,48.23875,12.22123
+reus,Reus,Spain,41.15612,1.10687
+grottaferrata,Grottaferrata,Italy,41.78664,12.67144
+venezia ?,Venice,Italy,45.43713,12.33265
+aalst,Aalst,Belgium,50.93604,4.0355
+esslingen,Esslingen am Neckar,Germany,48.73961,9.30473
+gurk,Gurk,Austria,46.87389,14.29167
+anrath,Anrath,Austria,48.30098,13.84865
+balf,Balf,Hungary,47.651,16.66511
+szentgotthárd,Szentgotthárd,Hungary,46.95261,16.27358
+sopron,Sopron,Hungary,47.68501,16.59049
+roermond,Roermond,Netherlands,51.19417,5.9875
+kalkar,Kalkar,Germany,51.73907,6.29101
+ruabon,Ruabon,United Kingdom,52.9878,-3.03883
+loire,Nantes,France,47.21725,-1.55336
+assens,Assens Kommune,Denmark,55.29958,10.07952
+oberbergheim,Oberbergheim,Germany,51.4914,8.22887
+sommevoire,Sommevoire,France,48.41134,4.84172
+mons,Mons,Belgium,50.45413,3.95229
+saint-omer,Saint-Omer,France,50.74834,2.26091
+renaix,Ronse,Belgium,50.74574,3.6005
+pontoise,Pontoise,France,49.05,2.1
+nogent-sur-seine,Nogent-sur-Seine,France,48.49372,3.50262
+saint-lô,Saint-Lô,France,49.11624,-1.09031
+l\'île-bouchard,L'Île-Bouchard,Canada,45.81318,-73.34306
+buonconvento,Buonconvento,Italy,43.13314,11.48363
+ledegem,Ledegem,Belgium,50.87383,3.15129
+sacramento,Sacramento,United States,38.58157,-121.4944
+montfort l\'amaury,Montfort-l'Amaury,France,48.77275,1.81309
+el paular,Santa María de El Paular,Spain,40.8887,-3.8878
+le quesnoy,Quesnoy-sur-Deûle,France,50.71359,2.99996
+springfield township,Springfield,United States,39.80172,-89.64371
+dol-de-bretagne,Dol-de-Bretagne,France,48.54976,-1.75104
+cherbourg-octeville,Cherbourg,France,49.63984,-1.61636
+mamiano di traversetolo,Minigolf Mamiano,Italy,44.67249,10.34267
+kreuzlingen,Kreuzlingen,Switzerland,47.65051,9.17504
+erlangen,Erlangen,Germany,49.59099,11.00783
+zaventem,Zaventem,Belgium,50.88365,4.47298
+shrewsbury,Shrewsbury,United Kingdom,52.71009,-2.75208
+centcelles,Villa-mausoleo de Centcelles,Spain,41.1558,1.22616
+cairo,Cairo,Egypt,30.06263,31.24967
+san vitale,Megliadino San Vitale,Italy,45.19577,11.52402
+spiekershausen,Spiekershausen,Germany,51.34966,9.55994
+krefeld,Krefeld,Germany,51.33645,6.55381
+blakrog,Over Blåkrog,Denmark,55.00582,9.62335
+helsinki,Helsinki,Finland,60.16952,24.93545
+waterloo,Waterloo,Belgium,50.71469,4.3991
+egtved,Egtved,Denmark,55.61613,9.30763
+hessisches landesmuseum darmstadt,Darmstadt Hessisches Landesmuseum (HLM),Germany,49.8747,8.65306
+deurne,Deurne Municipality,Netherlands,51.43701,5.82245
+carentan,Carentan,France,49.30312,-1.24806
+normandy,Normandy,United States,38.72088,-90.29734
+chichester,Chichester,United States,42.10176,-74.30931
+frankfurt/main,Frankfurt am Main,Germany,50.11552,8.68417
+berlin-mitte,Mitte,Germany,52.52003,13.40489
+berlin-charlottenburg,Charlottenburg,Germany,52.51667,13.28333
+feldsberg,Valtice,Czechia,48.74069,16.75499
+swabia,Swabia,Germany,48,9
+oostende,Ostend,Belgium,51.21551,2.927
+mauritius,Mauritius,Mauritius,-20.3,57.58333
+wörlitz,Wörlitz,Germany,51.84172,12.42116
+blaubeuren,Blaubeuren Abbey,Germany,48.41215,9.78427
+saxony,Lower Saxony,Germany,52.83333,9.16667
+barnsley,Barnsley,United Kingdom,53.55,-1.48333
+goes,Goes,Netherlands,51.50417,3.88889
+maaseik,Maaseik,Belgium,51.09802,5.78379
+averbode,Averbode,Belgium,51.02887,4.98067
+kreuznach,Bad Kreuznach,Germany,49.8414,7.86713
+pozsony,Bratislava,Slovakia,48.14816,17.10674
+middenbeemster,Middenbeemster,Netherlands,52.54917,4.9125
+sèvres,Deux-Sèvres,France,46.53918,-0.30838
+luvigliano di torreglia,Luvigliano,Italy,45.35,11.7
+valduggia,Valduggia,Italy,45.72722,8.3273
+rovetta,Rovetta,Italy,45.89178,9.98212
+alzano lombardo.,Alzano Lombardo,Italy,45.73681,9.72638
+clusone,Clusone,Italy,45.88663,9.94646
+voorburg,Voorburg,Netherlands,52.07417,4.35972
+mandello del lario,Mandello del Lario,Italy,45.92199,9.31974
+sandrigo,Sandrigo,Italy,45.66083,11.58921
+leghorn,Livorno,Italy,43.54427,10.32615
+kecskemét,Kecskemét,Hungary,46.90618,19.69128
+rimaszombat,Rimavská Sobota,Slovakia,48.38284,20.02239
+targu mures,Târgu Mureş,Romania,46.54245,24.55747
+viseu,Viseu,Portugal,40.82747,-7.79816
+thrussington,Thrussington,United Kingdom,52.75455,-1.0424
+varallo,Varallo Pombia,Italy,45.66784,8.6285
+saronno,Saronno,Italy,45.62513,9.03517
+crespano del grappa,Crespano del Grappa,Italy,45.82793,11.83358
+porto maurizio,Porto Maurizio,Italy,43.87954,8.02326
+university park,University Park,United States,25.74649,-80.36755
+wessobrunn,Wessobrunn,Germany,47.87407,11.02461
+birnau,Gora Birnau,Russia,54.2535,59.246
+sarzana,Sarzana,Italy,44.11178,9.9622
+vaduz,Vaduz,Liechtenstein,47.14151,9.52154
+utiel,Utiel,Spain,39.56667,-1.2
+briançon,Briançon,France,44.89978,6.64201
+grafenegg,Grafenegg,Austria,48.43745,15.74375
+bebele,Bebele,Germany,47.60918,10.67465
+burglengenfeld,Burglengenfeld,Germany,49.20379,12.04452
+haigerloch,Haigerloch,Germany,48.36614,8.80357
+pas-de-calais,Calais,France,50.95194,1.85635
+olomouc,Olomouc,Czechia,49.59552,17.25175
+kleve,Kleve,Germany,51.78826,6.13865
+zoutleeuw,Zoutleeuw,Belgium,50.83316,5.10376
+thurgau,Thurgau,Switzerland,47.5562,9.07686
+donaueschingen,Donaueschingen,Germany,47.95514,8.49707
+malpaga,Malpaga,Italy,45.61707,9.75872
+cergy,Cergy,France,49.03645,2.07613
+brusata,Brusata,Switzerland,45.84379,8.96578
+melide,Melide,Switzerland,45.95455,8.94725
+ala,Al Ahmadi,Kuwait,29.07694,48.08389
+santa bona nuova,Santa Bona Nuova,Italy,45.699,12.20775
+dallas,Dallas,United States,32.78306,-96.80667
+rheims,Reims,France,49.26526,4.02853
+huesca,Huesca,Spain,42.13615,-0.4087
+saragossa,Zaragoza,Spain,41.65606,-0.87734
+nouans-le-fontaines,Nouans-les-Fontaines,France,47.13638,1.29851
+heidelberg.,Heidelberg,Germany,49.40768,8.69079
+bisceglie,Bisceglie,Italy,41.24264,16.50104
+monopoli,Monopoli,Italy,40.94918,17.29717
+grasse,Grasse,France,43.65783,6.92537
+st quentin,Saint-Quentin,France,49.84889,3.28757
+bar-sur-aube,Bar-sur-Aube,France,48.23315,4.7064
+zadar,Zadar,Croatia,44.11578,15.22514
+coral gables,Coral Gables,United States,25.72149,-80.26838
+mondavio,Mondavio,Italy,43.67468,12.96601
+chiusi,Chiusi,Italy,43.01418,11.94791
+santacroce,Kielce,Poland,50.87033,20.62752
+villa basilica,Villa Basilica,Italy,43.92572,10.64518
+le buis,Le Buis,France,46.03577,1.2021
+san ildefonso,San Ildefonso Sola,Mexico,16.55974,-96.9706
+uthlede,Uthlede,Germany,53.3167,8.58333
+greifswald,Greifswald,Germany,54.08905,13.40244
+owosso,Owosso,United States,42.9978,-84.17664
+hellerup,Hellerup,Denmark,55.73204,12.57093
+uzes,Uzès,France,44.01251,4.41973
+neuburg,Neuburg an der Donau,Germany,48.73218,11.18709
+heilbronn,Heilbronn,Germany,49.13995,9.22054
+kratzau,Chrastava,Czechia,50.81693,14.96884
+nottingham,Nottingham,United Kingdom,52.9536,-1.15047
+bagno a ripoli,Bagno a Ripoli,Italy,43.75115,11.32252
+la rochefoucauld,La Rochefoucauld,France,45.74101,0.38587
+siracusa,Syracuse,Italy,37.07542,15.28664
+noto,Noto-jima,Japan,37.11667,137
+ragusa,Ragusa,Italy,36.92574,14.72443
+milwaukee,Milwaukee,United States,43.0389,-87.90647
+sudbury,Sudbury,Canada,46.49,-80.99001
+hasselt,Hasselt,Belgium,50.93106,5.33781
+monte rotondo,Santo Stefano Rotondo,Italy,41.88466,12.49671
+basildon park,Queen's Park,United Kingdom,51.64167,0.41746
+saint-dié-des-vosges,Saint-Dié,France,48.28429,6.94921
+pori,Pori,Finland,61.48072,21.78518
+espoo,Espoo,Finland,60.2052,24.6522
+andorno micca,Andorno Micca,Italy,45.61054,8.05589
+castellazzo,Castellazzo Bormida,Italy,44.84353,8.579
+casole d\'elsa,Casole d'Elsa,Italy,43.34115,11.04794
+giaveno,Giaveno,Italy,45.04435,7.34722
+koblenz,Koblenz,Germany,50.35357,7.57883
+veneto,Veneto,Italy,45.5,11.75
+helmond,Helmond,Netherlands,51.48167,5.66111
+cantabria,Santander,Spain,43.46589,-3.80493
+buenos aires,Buenos Aires,Argentina,-34.61315,-58.37723
+virginia,Charleston,United States,38.34982,-81.63262
+san antonio,San Antonio,United States,29.42412,-98.49363
+lagny-sur-marne,Lagny-sur-Marne,France,48.86667,2.71667
+ill.,Ill,France,48.70112,7.93062
+fabriano marche,Fabriano,Italy,43.33941,12.90327
+breslau,Wroclaw,Poland,51.10286,17.03006
+marennes,Marennes,France,45.82268,-1.10514
+vesoul,Vesoul,France,47.62604,6.14251
+japan,Japan,Japan,35.68536,139.75309
+rieti,Rieti,Italy,42.40476,12.85735
+seattle,Seattle,United States,47.60621,-122.33207
+comunanza,Comunanza,Italy,42.95719,13.41341
+cercina,Cercina,Italy,43.85,11.26667
+san donnino,Casella-San Donnino,Italy,45.31801,10.10212
+tavernelle val di pesa,Tavernelle in Val di Pesa,Italy,43.5618,11.17275
+narni,Narni,Italy,42.51956,12.52758
+pratolino,Villa di Pratolino,Italy,43.85957,11.30364
+san sebastiano curone,San Sebastiano Curone,Italy,44.78633,9.06446
+faenza,Faenza,Italy,44.29007,11.87948
+molfetta,Molfetta,Italy,41.20036,16.59905
+conway,Conway,United States,35.26221,-92.70132
+altdamm,Dąbie,Poland,53.40027,14.67644
+rode,Port Sudan,Sudan,19.61745,37.21644
+tortosa,Tortosa,Spain,40.81249,0.5216
+cascina,Cascina,Italy,43.67557,10.55494
+castelfranco,Castelfranco Emilia,Italy,44.59445,11.04979
+castelfranco veneto,Castelfranco Veneto,Italy,45.67146,11.92755
+vespignano,Vespignano,Italy,44.23333,11.73333
+chaalis,Fontaine-Chaalis,France,49.16667,2.68333
+boville ernica,Boville Ernica,Italy,41.64252,13.4727
+sarnano,Sarnano,Italy,43.03475,13.29818
+springfield,Springfield,United States,39.80172,-89.64371
+delaware,Delaware,United States,39.00039,-75.49992
+val di pesa,San Casciano in Val di Pesa,Italy,43.65975,11.18494
+san casciano val di pesa,San Casciano in Val di Pesa,Italy,43.65975,11.18494
+montargis,Montargis,France,47.99696,2.73261
+st malo,St-Malo,France,48.64738,-2.00877
+san martino,San Martino Siccomario,Italy,45.1634,9.14062
+viboldone,Viboldone,Italy,45.38555,9.27744
+hamelin,Hamelin,Germany,52.10397,9.35623
+chevilly,Chevilly-Larue,France,48.76476,2.3503
+houghton-on-the-hill,Houghton on the Hill,United Kingdom,52.62663,-0.99546
+adelaide,Adelaide,Australia,-34.92866,138.59863
+groot zundert,Zundert,Netherlands,51.47167,4.65556
+groningen,Groningen,Netherlands,53.21917,6.56667
+rochester,Rochester,United States,42.68059,-83.13382
+tel aviv,Tel Aviv,Israel,32.08088,34.78057
+hiroshima,Hiroshima,Japan,34.4,132.45
+walsall,Walsall,United Kingdom,52.58528,-1.98396
+cuenca,Cuenca,Ecuador,-2.8953,-78.9963
+saint-ouen,St Ouen,Jersey,49.22667,-2.20556
+longarone,Longarone,Italy,46.26579,12.29992
+tsarskoye selo,Pushkin,Russia,59.71417,30.39642
+epsom,Lake Epsom,Australia,-21.48333,148.83333
+exeter,Exeter,United Kingdom,50.7236,-3.52751
+fladbury,Fladbury,United Kingdom,52.11421,-2.00769
+tewkesbury,Tewkesbury,United Kingdom,51.99244,-2.1601
+fairford,Fairford,United States,31.16823,-88.06417
+erfurt,Erfurt,Germany,50.97734,11.03536
+königsfelden,Abbey of Königsfelden,Switzerland,47.48026,8.21782
+lüneburg,Lüneburg,Germany,53.2509,10.41409
+berne,Bern,Switzerland,46.94809,7.44744
+stege,Stege,Montenegro,42.65528,18.78278
+fuendetodos,Fuendetodos,Spain,41.34245,-0.95988
+montefalco,Montefalco,Italy,42.89084,12.64827
+klosterneuburg,Klosterneuburg,Austria,48.30521,16.32522
+zwolle,Zwolle,Netherlands,52.5125,6.09444
+schmidmühlen,Schmidmühlen,Germany,49.26898,11.92429
+formeaso,Formeaso,Italy,46.45472,13.02222
+beckum,Beckum,Germany,51.75571,8.04075
+tourcoing,Tourcoing,France,50.72391,3.16117
+candia,Heraklion,Greece,35.32787,25.14341
+syros,Syros,Greece,37.44145,24.91922
+iraklion,Heraklion,Greece,35.32787,25.14341
+monforte de lemos,Monforte de Lemos,Spain,42.52165,-7.51422
+siedlce,Siedlce,Poland,52.16772,22.29006
+nebraska,Nebraska,United States,41.50028,-99.75067
+sitges,Sitges,Spain,41.23506,1.81193
+andújar,Andújar,Spain,38.03922,-4.05077
+illescas,Illescas,Spain,40.13581,-3.85713
+salford,Salford,United Kingdom,53.48771,-2.29042
+l\'isle-sur-le-doubs,L’Isle-sur-le-Doubs,France,47.44629,6.58463
+turns,Tirns,Netherlands,53.05834,5.62637
+alzano,Alzano Lombardo,Italy,45.73681,9.72638
+rorai grande,Rorai Grande,Italy,45.97222,12.61
+pitaru,Pitaru,Romania,44.59061,25.58407
+oppido lucano,Oppido Lucano,Italy,40.76174,15.98818
+argenteuil,Argenteuil,France,48.94788,2.24744
+saint cyr l\'ecole,Saint-Cyr-l'École,France,48.79865,2.06814
+sundhauser,Sundhäuser,Germany,54.43301,11.18202
+lindenhardt,Lindenhardt,Germany,51.04215,8.60567
+stuppach,Stuppach,Germany,49.44596,9.75108
+aschaffenburg,Aschaffenburg,Germany,49.97704,9.15214
+geraardsbergen,Geraardsbergen,Belgium,50.77343,3.88223
+düsseldorf-altstadt,Altstadt Hotel Rheinblick,Germany,51.22723,6.77323
+schwetzingen,Schwetzingen,Germany,49.38217,8.5823
+lari,Lari,Italy,43.56606,10.59211
+fivizzano,Fivizzano,Italy,44.23784,10.1265
+belvedere di aquileia,Belvedere,Italy,45.72954,13.39084
+saint-pol-de-léon,Saint-Pol-de-Léon,France,48.68494,-3.98764
+guadalajara,Guadalajara,Mexico,20.67738,-103.34749
+baranów sandomierski,Gmina Baranów Sandomierski,Poland,50.4937,21.5371
+lens,Lens,France,50.43302,2.82791
+cholet,Cholet,France,47.05893,-0.87974
+fossombrone,Fossombrone,Italy,43.69017,12.81173
+einsiedeln,Einsiedeln,Switzerland,47.12849,8.74735
+mondsee,Mondsee,Austria,47.81667,13.38333
+cagliari,Cagliari,Italy,39.23054,9.11917
+torano,Torano Nuovo,Italy,42.82305,13.77729
+montbard,Montbard,France,47.62294,4.337
+hessen,Hesse,Germany,50.55,9
+altmannstein,Altmannstein,Germany,48.8992,11.65203
+rott-am-inn,Rott am Inn,Germany,47.98188,12.12809
+weyarn,Weyarn,Germany,47.85838,11.79923
+kircheiselfing,Eiselfing,Germany,48.04114,12.24272
+nenningen,Nenningen,Germany,48.71039,9.86229
+rott am inn,Rott am Inn,Germany,47.98188,12.12809
+rottenbuch,Rottenbuch,Germany,47.73333,10.96667
+greenock,Greenock,United Kingdom,55.94838,-4.76121
+medina sidonia,Medina-Sidonia,Spain,36.45695,-5.92717
+gorizia,Gorizia,Italy,45.94088,13.62167
+arnhem,Arnhem,Netherlands,51.98,5.91111
+alicante,Alicante,Spain,38.34517,-0.48149
+vijciems,Vijciems,Latvia,57.58605,25.95323
+altenau,Altenau,Germany,51.67115,8.71811
+älvsborg,New Elfsborg Fortress,Sweden,57.68547,11.83841
+shropshire,Shropshire,United Kingdom,52.66667,-2.75
+lanark,Lanark,United States,42.10225,-89.83345
+ostend,Ostend,Belgium,51.21551,2.927
+frameries,Frameries,Belgium,50.40578,3.89603
+lõcse,Levoča,Slovakia,49.02173,20.59212
+heverlee,Heverlee,Belgium,50.86426,4.69597
+stavanger,Stavanger,Norway,58.97005,5.73332
+uden,Uden,Netherlands,51.66083,5.61944
+blackburn,Blackburn,United Kingdom,53.75,-2.48333
+asparn an der zaya,Asparn an der Zaya,Austria,48.58333,16.5
+clonakilty,Clonakilty,Ireland,51.62306,-8.87056
+rhode island,Rhode Island,United States,41.75038,-71.49978
+richmond,Richmond,United States,37.93576,-122.34775
+karise,Karise,Denmark,55.30734,12.1972
+kuttenberg,Kutná Hora,Czechia,49.94839,15.26816
+remscheid,Remscheid,Germany,51.17983,7.1925
+dorchester,Summerville,United States,33.0185,-80.17565
+waltham,Waltham,United States,42.37649,-71.23561
+revel,Tallinn,Estonia,59.43696,24.75353
+plymouth,New Plymouth,New Zealand,-39.06667,174.08333
+villabé,Villabé,France,48.58949,2.45096
+kwaremont,Kwaremont,Belgium,50.77677,3.5238
+st. gallen,Saint Gallen,Switzerland,47.42391,9.37477
+cheltenham,Cheltenham,United Kingdom,51.90006,-2.07972
+linköping,Linköping,Sweden,58.41086,15.62157
+weigmannsdorf,Weigmannsdorf,Germany,50.83907,13.38289
+kaltenbrunn,Deutsch Kaltenbrunn,Austria,47.0888,16.1069
+belfort,Belfort,France,47.64218,6.85385
+memmingen,Memmingen,Germany,47.98372,10.18527
+vannes,Vannes,France,47.65688,-2.76205
+nijmegen,Nijmegen,Netherlands,51.8425,5.85278
+rothenburg,Rothenburg upon Tauber,Germany,49.37885,10.18711
+rothenburg ob der tauber,Rothenburg upon Tauber,Germany,49.37885,10.18711
+doncaster,Doncaster,United Kingdom,53.52285,-1.13116
+powys,Ceremonial County Powys,United Kingdom,52.23852,-3.36834
+stettin,Szczecin,Poland,53.42894,14.55302
+wiltshire,Wiltshire,United Kingdom,51.327862,-1.934586
+stourhead,Stourhead,United Kingdom,51.10611,-2.31778
+eye,Sleepy Eye,United States,44.29718,-94.72415
+new zealand,New Zealand,New Zealand,-42,174
+neusohl,Banská Bystrica,Slovakia,48.73947,19.14932
+zaltbommel,Zaltbommel,Netherlands,51.81,5.24444
+hörde,Hörde,Germany,51.48371,7.5003
+moravia,Brno,Czechia,49.19522,16.60796
+purkersdorf,Purkersdorf,Austria,48.20769,16.17539
+máramarossziget,Sighetu Marmaţiei,Romania,47.93195,23.88603
+baia mare,Baia Mare,Romania,47.65729,23.56808
+szeged,Szeged,Hungary,46.253,20.14824
+duffel,Duffel,Belgium,51.09576,4.51178
+dyrham park,Dyrham Park,United Kingdom,51.4797,-2.3715
+kaufbeuren,Kaufbeuren,Germany,47.88238,10.62192
+giverny,Giverny,France,49.07685,1.52998
+oels,Oleśnica,Poland,51.21338,17.38986
+weinheim,Weinheim,Germany,49.54887,8.66697
+valls,Valls,Spain,41.28612,1.24993
+terrassa,Terrassa,Spain,41.56667,2.01667
+merseyside,Merseyside,United Kingdom,53.4,-3.08333
+vermont,Vermont,United States,44.00034,-72.74983
+namur,Namur,Belgium,50.4669,4.86746
+leeds,Leeds,United Kingdom,53.79648,-1.54785
+newburgh,Newburgh,United States,37.94449,-87.40529
+guipúzcoa,Donostia / San Sebastian,Spain,43.31283,-1.97499
+königswinter,Königswinter,Germany,50.67734,7.19245
+saluzzo,Costigliole Saluzzo,Italy,44.56453,7.48543
+connecticut,Connecticut,United States,41.66704,-72.66648
+black forest,Black Hill Conservation Park,Australia,-34.87495,138.72565
+cheny,Cheny,France,47.95166,3.5334
+vejen,Vejen Municipality,Denmark,55.48117,9.13795
+segorbe,Segorbe,Spain,39.85,-0.48333
+játiva,Río Játiva,Ecuador,0.8,-77.83333
+montagnana,Montagnana,Italy,45.23229,11.46483
+allentown,Allentown,United States,40.60843,-75.49018
+avon,Avon Park,United States,27.59587,-81.50619
+luneville,Lunéville,France,48.59273,6.49383
+laxenburg,Laxenburg,Austria,48.06833,16.35607
+château d\'oiron,Château d'Oiron,France,46.95167,-0.07758
+wellesley,Province Wellesley,Malaysia,5.41667,100.41667
+buttigliera alta,Buttigliera Alta,Italy,45.06836,7.43254
+viipuri,Vyborg,Russia,60.70763,28.75283
+beaumetz-les-loges,Beaumetz-lès-Loges,France,50.24278,2.65611
+bourgogne,Bourgogne,France,47.25,4.16667
+shadwell,Shadwell,United Kingdom,51.51135,-0.05663
+bredstedt,Bredstedt,Germany,54.61868,8.96441
+raadvad,Raadvad,Denmark,55.80482,12.56002
+randers,Randers,Denmark,56.4607,10.03639
+warszawa,Warsaw,Poland,52.22977,21.01178
+wales,Sydney,Australia,-33.86785,151.20732
+overschie,Overschie,Netherlands,51.93863,4.42766
+kortrijk,Kortrijk,Belgium,50.82803,3.26487
+lattrop,Lattrop,Netherlands,52.42667,6.97639
+kentucky,Kentucky,United States,38.20042,-84.87762
+fuente de la higuera,Fuente-Higuera,Spain,38.49545,-2.24362
+fünen,Funen,Denmark,55.33333,10.5
+saint-paulien,Saint-Geneys-près-Saint-Paulien,France,45.16157,3.824
+chur,Chur,Switzerland,46.84986,9.53287
+arolsen,Bad Arolsen,Germany,51.37982,9.01445
+mödling,Mödling,Austria,48.08605,16.28921
+helsingör,Elsinore,Denmark,56.03606,12.6136
+zierikzee,Zierikzee,Netherlands,51.65,3.91944
+bridlington,Burlington,United States,40.07122,-74.86489
+tetschen,Děčín,Czechia,50.78215,14.21478
+forchtenberg,Forchtenberg,Germany,49.28867,9.56026
+dendermonde,Dendermonde,Belgium,51.02869,4.10106
+güstrow,Güstrow,Germany,53.7972,12.17337
+kiel,Kiel,Germany,54.32133,10.13489
+zandvliet,Zandvliet,Belgium,51.35929,4.30999
+termonde,Dendermonde,Belgium,51.02869,4.10106
+schöneben,Schöneben,Austria,47.18333,15.46667
+szentes,Szentes,Hungary,46.65834,20.2608
+debrecen,Debrecen,Hungary,47.53167,21.62444
+schladen,Schladen,Germany,52.02218,10.53967
+kelheim,Kelheim,Germany,48.91725,11.88618
+baumgarten,Baumgarten im Burgenland,Austria,47.73895,16.50056
+la sarraz,La Sarraz,Switzerland,46.65863,6.51077
+wesel,Wesel,Germany,51.6669,6.62037
+stirling,Stirling,United Kingdom,56.11903,-3.93682
+tilburg,Tilburg,Netherlands,51.55551,5.0913
+steinach am brenner,Steinach am Brenner,Austria,47.08333,11.46667
+neresheim,Neresheim,Germany,48.75511,10.33041
+isle of man,Isle of Man,Isle of Man,54.25,-4.5
+delfshaven,Delfshaven,Netherlands,51.90488,4.45315
+twenthe,Twenthe Kanaal,Netherlands,52.16425,6.19655
+obergiblen,Obergiblen,Austria,47.26667,10.4
+memphis,Memphis,United States,35.14953,-90.04898
+tobol\'sk,Gorodskoy Okrug Gorod Tobol’sk,Russia,58.22825,68.3433
+bad wildungen,Bad Wildungen,Germany,51.11963,9.12475
+arboga,Arboga,Sweden,59.39387,15.83882
+kalmar,Kalmar,Sweden,56.66157,16.36163
+malmö,Malmo,Sweden,55.60587,13.00073
+frederiksvaerk,Frederiksværk,Denmark,55.97073,12.0225
+aker,Aker,Norway,60.015575,11.155594
+lillehammer,Lillehammer,Norway,61.11514,10.46628
+weilheim,Weilheim-Schongau,Germany,47.80895,10.9883
+kulmbach,Kulmbach,Germany,50.10068,11.45032
+bazin,Lac-Bazin,Canada,48.61708,-78.72849
+bradford,Bradford,United Kingdom,53.79391,-1.75206
+lwow,Lviv,Ukraine,49.83826,24.02324
+épinal,Épinal,France,48.18324,6.45304
+orgelet,Orgelet,France,46.52096,5.61049
+montréal,Montreal,Canada,45.50884,-73.58781
+marne,Champigny-sur-Marne,France,48.81642,2.49366
+douvres-la-délivrande,Douvres-la-Délivrande,France,49.29472,-0.38039
+romeno,Romeno,Italy,46.39452,11.1192
+morshansk,Morshansk,Russia,53.44325,41.81061
+nonant-le-pin,Nonant-le-Pin,France,48.70622,0.22026
+roubaix,Roubaix,France,50.69421,3.17456
+joinville-le-pont,Joinville-le-Pont,France,48.82538,2.47458
+saint-andré-de-cubzac,Saint-André-de-Cubzac,France,44.99455,-0.44443
+auch,Auch,France,43.64561,0.58856
+vrana,Vrana,Croatia,43.948308,15.554527
+palazzolo acreide,Palazzolo Acreide,Italy,37.06261,14.90593
+zara,Zadar,Croatia,44.11578,15.22514
+fourquevaux,Fourquevaux,France,43.50674,1.61674
+uslar,Uslar,Germany,51.6569,9.63501
+hanover,Hanover,Jamaica,18.41667,-78.13333
+nova scotia,Halifax,Canada,44.64269,-63.57688
+vaux-le-vicomte,Vaux-le-Vicomte,France,48.5661,2.71435
+maincy,Maincy,France,48.54977,2.70017
+montfort-sur-risle,Montfort-sur-Risle,France,49.29579,0.66319
+puiseaux,Puiseaux,Canada,49.66688,-78.98287
+füssen,Füssen,Germany,47.57143,10.70171
+dormans,Dormans,France,49.07392,3.63819
+arc-et-senans,Arc-et-Senans,France,47.03127,5.77027
+tournan,Tournan-en-Brie,France,48.74146,2.772
+modigliana,Modigliana,Italy,44.15954,11.79286
+tata,Tata Province,Morocco,29.66667,-7.83333
+moosburg,Moosburg,Germany,48.47089,11.93811
+bromberg,Bydgoszcz,Poland,53.1235,18.00762
+richelieu,Saint-Jean-sur-Richelieu,Canada,45.30713,-73.26259
+schaerbeek,Schaarbeek,Belgium,50.86935,4.37737
+schrobenhausen,Schrobenhausen,Germany,48.56067,11.26071
+vinci,Vinci,Italy,43.78133,10.92365
+tongerlo,Tongerlo,Belgium,51.10622,4.91638
+venezia?,Venice,Italy,45.43713,12.33265
+menaggio,Menaggio,Italy,46.02075,9.23907
+guastalla,Guastalla,Italy,44.91172,10.66186
+martín muñoz de las posadas,Martín Muñoz de las Posadas,Spain,40.99546,-4.59672
+montreuil,Montreuil,France,48.86415,2.44322
+joinville,Joinville,Brazil,-26.30444,-48.84556
+schwabisch gmünd,Schwäbisch Gmünd,Germany,48.79947,9.79809
+kibarta,Kybartai,Lithuania,54.63858,22.76316
+nebreziny,Nebřeziny,Czechia,49.92064,13.41371
+aisne,Aisne,France,49.5,3.5
+poscante,Poscante,Italy,45.78417,9.68823
+hesdin,Hesdin,France,50.37349,2.0382
+gyõr,Győr,Hungary,47.68333,17.63512
+ardenno,Ardenno,Italy,46.16714,9.64729
+nagykároly,Carei,Romania,47.68333,22.46667
+tivoli,Tivoli,Italy,41.95952,12.8016
+limoges,Limoges,France,45.83362,1.24759
+hørsholm,Hørsholm,Denmark,55.88098,12.50111
+middlebury,Middlebury,United States,41.67533,-85.7061
+bologna.,Bologna,Italy,44.49381,11.33875
+vila rica,Vila Rica Airport,Brazil,-9.98056,-51.13951
+brazil,Brazil,Brazil,-10,-55
+bournazel,Cité de Bournazel,Morocco,33.57,-7.55
+wilanów,Wilanów,Poland,52.16311,21.08748
+meersburg am bodensee,Hotel Restaurant Schuetzen - Meersburg am Bodensee,Germany,47.69701,9.27082
+carona,Carona,Italy,46.02149,9.78494
+nivå,Kriva Niva,North Macedonia,42.07361,21.42222
+viggiù,Viggiù,Italy,45.87096,8.90861
+rivoli,Rivoli,Italy,45.07073,7.51465
+sluis,Sluis Municipality,Netherlands,51.3349,3.51974
+erkelenz,Erkelenz,Germany,51.07947,6.31531
+woluwe-saint-lambert,Woluwe-Saint-Lambert,Belgium,50.84389,4.42912
+montreux,Montreux,Switzerland,46.43301,6.91143
+siena (?),Siena,Italy,43.31822,11.33064
+asolo,Asolo,Italy,45.78854,11.91701
+recanati,Recanati,Italy,43.40381,13.55379
+krakow,Krakow,Poland,50.06143,19.93658
+iesi,Iesi,Italy,43.52142,13.24368
+trescore,Trescore Balneario,Italy,45.69409,9.84173
+split,Split,Croatia,43.50891,16.43915
+ponteranica,Ponteranica,Italy,45.73248,9.65175
+new orleans,New Orleans,United States,29.95465,-90.07507
+cingoli,Cingoli,Italy,43.37573,13.20787
+homburg vor der höhe,Bad Homburg,Germany,50.22683,8.61816
+stefanesti,Ştefăneşti,Moldova,46.70466,29.37444
+luino,Luino,Italy,46.00185,8.74512
+kalundborg,Kalundborg,Denmark,55.67954,11.08864
+cornwall,County of Cornwall,Jamaica,18.25,-77.9
+gdañsk,Gdansk,Poland,54.35227,18.64912
+findo gask,Findo Gask,United Kingdom,56.36255,-3.61542
+helensburgh,Helensburgh,United Kingdom,56.00614,-4.72648
+kilmacolm,Kilmacolm,United Kingdom,55.8947,-4.62643
+cork,Cork,Ireland,51.89797,-8.47061
+strathclyde,Strathclyde,United Kingdom,55.81209,-4.02649
+capolago,Capolago,Switzerland,45.90368,8.97922
+frascati,Frascati,Italy,41.8091,12.67942
+tricesimo,Tricesimo,Italy,46.16058,13.21566
+jindrichuv hradec,Jindřichův Hradec,Czechia,49.14404,15.00301
+ceský krumlov,Český Krumlov,Czechia,48.81091,14.31521
+fano,Fano,Italy,43.84052,13.01665
+maiano,Maiano,Italy,43.79382,11.30414
+cassano magnago,Cassano Magnago,Italy,45.66917,8.82673
+pastrana,La Pastrana,Mexico,16.51993,-93.89017
+serpukhov,Serpukhov,Russia,54.9198,37.41618
+san angelo in vado,Sant'Angelo in Vado,Italy,43.66526,12.41757
+meulebeke,Meulebeke,Belgium,50.95,3.29378
+shelburne,Shelburne County,Canada,43.85016,-65.28212
+pont-a-mousson,Pont-à-Mousson,France,48.90702,6.05635
+balleroy,Balleroy,France,49.18119,-0.83785
+berny,Berny-en-Santerre,France,49.86656,2.8516
+château de blois,Château de Chambord,France,47.616,1.517
+maisons-lafitte,Château de Maisons-Lafitte,France,48.9468,2.15424
+klagenfurt,Klagenfurt,Austria,46.62472,14.30528
+bassiano,Bassiano,Italy,41.55154,13.02732
+szokolya,Szokolya,Hungary,48.26667,21.3
+camerano,Camerano,Italy,43.52774,13.55257
+elberfeld,Elberfeld,United States,38.15977,-87.44835
+bellpuig,Bellpuig,Spain,41.62595,1.01144
+vertaizon,Vertaizon,France,45.76983,3.2865
+angarano,Villa Angarano,Italy,45.78054,11.72357
+eisenstadt,Eisenstadt,Austria,47.84565,16.52327
+apeldoorn,Apeldoorn,Netherlands,52.21,5.96944
+frankenthal,Frankenthal,Germany,49.53414,8.35357
+seagrave,Seagrave,Canada,44.20012,-78.94957
+leicester,Leicester,United Kingdom,52.6386,-1.13169
+haydon bridge,Haydon Bridge,United Kingdom,54.97486,-2.2468
+marly,Marly-le-Roi,France,48.86667,2.08333
+montevarchi,Montevarchi,Italy,43.5252,11.57238
+sant celoni,Sant Celoni,Spain,41.68921,2.48965
+ichnya,Ichnya,Ukraine,50.86258,32.39425
+cascia di reggello,Borgo a Cascia,Italy,43.67155,11.51495
+andilla,Andilla Municipality,Spain,39.82862,-0.79168
+capannole,Capannole,Italy,43.44237,11.62347
+panicale,Panicale,Italy,43.0283,12.09993
+castiglione olona,Castiglione Olona,Italy,45.75256,8.87278
+lyre,Lyre,Ireland,52.08306,-8.85778
+genève,Geneva,Switzerland,46.20222,6.14569
+niederrotweil,Niederrotweil,Germany,48.08546,7.61298
+breisach,Breisach,Germany,48.03279,7.58294
+antol,Svätý Anton,Slovakia,48.41923,18.9401
+cabestany,Cabestany,France,42.68141,2.9409
+perelada castle,Peralada Castle,Spain,42.30759,3.01097
+hluboká,Hluboká,Czechia,49.84558,16.07154
+besztercebánya,Banská Bystrica,Slovakia,48.73947,19.14932
+spisská sobota,Spisska Sobota,Slovakia,49.06487,20.31784
+karlstein,Karlstein am Main,Germany,50.04865,9.0287
+vilafranca del penedes,Vilafranca del Penedès,Spain,41.34618,1.69713
+salerno,Salerno,Italy,40.67545,14.79328
+campione d\'italia,Campione d'Italia,Italy,45.96818,8.97181
+langenargen,Langenargen,Germany,47.59858,9.54163
+zirc,Zirc,Hungary,47.26362,17.87373
+sümeg,Sümeg,Hungary,46.97703,17.28209
+pápa,Pápa,Hungary,47.33004,17.4674
+zaandam,Zaandam,Netherlands,52.43854,4.82643
+croydon,Croydon Airport,Australia,-18.225,142.258
+cuenza,San Martín de la Cuenza,Spain,42.40334,-4.92282
+viadana,Viadana,Italy,44.93553,10.51898
+meckenheim,Meckenheim,Germany,50.62388,7.02942
+anzin,Anzin,France,50.37201,3.50387
+sant pere de roda,Sant Pere de Rodes,Spain,42.32327,3.16664
+l\'estany,l'Estany,Spain,41.86924,2.11223
+wells,Spanish Wells,Bahamas,25.54538,-76.77057
+southwell,Southwell,United Kingdom,53.07804,-0.95538
+ely,Ely,United States,47.90324,-91.86709
+kilpeck,Kilpeck,United Kingdom,51.96938,-2.80746
+malmesbury,Malmesbury,United Kingdom,51.58175,-2.09708
+avebury,Avebury,United Kingdom,51.41667,-1.86667
+st albans,St Albans,United Kingdom,51.75,-0.33333
+saint-benoit-sur-loire,Saint-Benoît-sur-Loire,France,47.80561,2.31274
+moissac,Moissac,France,44.1045,1.08474
+saulieu,Saulieu,France,47.28023,4.22857
+chauvigny,Chauvigny,France,46.56979,0.64346
+elne,Elna,France,42.60432,2.97176
+charlieu,Lac Charlieu,Canada,47.04722,-72.02833
+la chaize-le-vicomte,La Chaize-le-Vicomte,France,46.67277,-1.29234
+saint-génis-des-fontaines,Saint-Génis-des-Fontaines,France,42.54325,2.9206
+arles-sur-tech,Arles,France,42.45654,2.63457
+souillac,Îlot Souillac,Madagascar,-24.75,47.21667
+beaulieu-sur-dordogne,Beaulieu-sur-Dordogne,France,44.97832,1.83834
+neuilly-en-donjon,Neuilly-en-Donjon,France,46.34495,3.88565
+saint-julien-de-jonzy,Saint-Julien-de-Jonzy,France,46.23648,4.14421
+semur-en-brionnais,Semur-en-Brionnais,France,46.26626,4.09466
+fontevrault,Fontevraud-l'Abbaye,France,47.18252,0.04897
+beaucaire,Beaucaire,France,43.80806,4.64417
+spieskappel,Spieskappel,Germany,50.96457,9.32046
+gelnhausen,Gelnhausen,Germany,50.20164,9.18742
+freising,Freising,Germany,48.40351,11.74876
+freiberg,Freiberg,Germany,50.91089,13.33881
+merseburg,Merseburg,Germany,51.35478,11.98923
+freudenstadt,Landkreis Freudenstadt,Germany,48.47694,8.45889
+riesenbeck,Riesenbeck,Germany,52.26076,7.627
+mariental,Mariental,Namibia,-24.62705,17.96471
+aquileia,Aquileia,Italy,45.7683,13.36779
+rivolta d\'adda,Rivolta d'Adda,Italy,45.46962,9.51251
+orta,Orta Günəypəyə,Azerbaijan,40.08863,46.73021
+moscufo,Moscufo,Italy,42.42713,14.05434
+pamplona,Pamplona,Spain,42.81687,-1.64323
+silos,Los Silos,Spain,28.3661,-16.81552
+compostela,Santiago de Compostela,Spain,42.88052,-8.54569
+uncastillo,Uncastillo,Spain,42.35963,-1.12842
+villalcázar de sirga,Villalcázar de Sirga,Spain,42.31662,-4.54278
+burgo de osma,Burgo de Osma-Ciudad de Osma,Spain,41.60363,-3.06524
+palma de majorca,Palma,Spain,39.56939,2.65024
+beckó,Bečko Korito,Montenegro,42.92139,18.52167
+székesfehérvár,Székesfehérvár,Hungary,47.18995,18.41034
+oudenaarde,Oudenaarde,Belgium,50.85168,3.60891
+tiel,Tiel,Netherlands,51.88667,5.42917
+konstanz,Konstanz,Germany,47.66033,9.17582
+seligenstadt,Seligenstadt,Germany,50.0432,8.97394
+st osyth,Saint Osyth,United Kingdom,51.8,1.08333
+wisconsin,Wisconsin,United States,44.50024,-90.00041
+koper,Koper,Slovenia,45.5482,13.72963
+pašman,Municipality of Pašman,Croatia,43.95562,15.38567
+šibenik,Šibenik,Croatia,43.73429,15.8942
+northern italy,Northern Italy,Italy,45.941570,11.445675
+lower austria,Wachau,Austria,48.33333,15.41667
+steiermark,Styria,Austria,47.25,15.16667
+styria,Styria,Austria,47.25,15.16667
+upper austria,Linz,Austria,48.30639,14.28611
+bohemia,České Budějovice,Czechia,48.97447,14.47434
+constantinople,Istanbul,Turkey,41.01384,28.94966
+eastern pyrenees,Mediterranean Pyrenees,Spain,42.5,2.25
+winchester,Winchester,United States,36.12997,-115.11889
+st. albans,St Albans,United Kingdom,51.75,-0.33333
+hereford,Hereford,United Kingdom,52.05684,-2.71482
+wallonia,Wallonia,Belgium,50.5,4.75
+brabant,Eindhoven,Netherlands,51.44083,5.47778
+artois,Artois,United States,39.61984,-122.19479
+loiret,Loiret,France,47.93598,2.30173
+burgundy,Bourgogne,France,47.25,4.16667
+poitou,Poitou,France,46.66667,-0.5
+languedoc-roussillon,Languedoc-Roussillon,France,43.66667,3.16667
+centre-val de loire,Centre-Val de Loire,France,47.5,1.75
+midi-pyrénées,Midi-Pyrénées,France,43.75,1.5
+seine-maritime,Rouen,France,49.44313,1.09932
+bourgogne-franche-comté,Bourgogne-Franche-Comté,France,47.06981,5.04822
+provence,Aix-en-Provence,France,43.5283,5.44973
+auvergne,Auvergne-Rhône-Alpes,France,45.482,5.37437
+lower normandy,Lower Normandy,France,48.93333,-0.53333
+pays-de-la-loire,Pays de la Loire,France,47.5,-0.83333
+charente,Royan,France,45.62811,-1.03153
+charente-maritime,Royan,France,45.62811,-1.03153
+dordogne,Dordogne,France,45.12735,0.73504
+roussillon,Languedoc-Roussillon,France,43.53333,3.23333
+île-de-france,Paris,France,48.85341,2.3488
+pays de la loire,Pays de la Loire,France,47.5,-0.83333
+picardy,Picardy,Australia,-22.62636,148.45952
+champagne,Champagne,France,49,4.5
+poitou-charentes,Poitou,France,46.66667,-0.5
+anjou,Anjou,Canada,45.60008,-73.54917
+aude,Aude,France,43.08333,2.5
+ariège,Ariège,France,43,1.5
+languedoc,Languedoc-Roussillon,France,43.66667,3.16667
+rhône-alpes,Lyon,France,45.74846,4.84671
+bresse,Bourg-en-Bresse,France,46.20574,5.2258
+indre-et-loire,Tours,France,47.39484,0.70398
+the paris,Paris,United States,35.29203,-93.72992
+vaucluse,Vaucluse,France,44,5.16667
+val-de-marne,Champigny-sur-Marne,France,48.81642,2.49366
+yvelines,Yvelines,France,48.80546,1.85696
+maine-et-loire,Cholet,France,47.05893,-0.87974
+saint-cloud,Saint Cloud,United States,45.5608,-94.16249
+steinbach,Steinbach,Canada,49.52579,-96.68451
+rhineland-palatinate,Rheinland-Pfalz,Germany,49.66667,7.5
+north rhine-westphalia,Cologne,Germany,50.93333,6.95
+the black forest,Black Forest,United States,39.01305,-104.70081
+saxony-anhalt,Magdeburg,Germany,52.12773,11.62916
+rhineland,Rhineland,Canada,49.16359,-97.66292
+lower saxony,Lower Saxony,Germany,52.83333,9.16667
+schleswig-holstein,Schleswig-Holstein,Germany,54.2,9.75
+lotharingia,Lorraine,France,48.76667,6.13333
+mecklenburg-vorpommern,Mecklenburg-Vorpommern,Germany,53.83333,12.5
+brandenburg,Brandenburg,Germany,52.45905,13.01582
+württemberg,Baden-Wurttemberg,Germany,48.5,9
+silesia,Silesia,Poland,51,18
+lippe,Lippe-Atakh,Russia,63.71611,119.87167
+lower rhine,Lower Germany (Roman province),Germany,50.93872,6.96038
+ják,Sīāh Jāk,Iran,28.9231,61.3072
+zsámbék,Zsámbék,Hungary,47.54814,18.72011
+emilia,Romagna,Italy,44.5,12.25
+emilia-romagna,Romagna,Italy,44.5,12.25
+campania,Naples,Italy,40.85216,14.26811
+tuscany,Florence,Italy,43.77925,11.24626
+apulia,Bari,Italy,41.12066,16.86982
+sardinia,Sardinia,Italy,40,9
+piedmont,Piedmont,United States,37.82437,-122.23163
+umbria,Umbria,Italy,43,12.5
+lazio,Rome,Italy,41.89193,12.51133
+the marches,The Marches,Italy,43.5,13.25
+hungary,Hungary,Hungary,47,20
+lithuania,Lithuania,Lithuania,55.41667,24
+south holland,The Hague,Netherlands,52.07667,4.29861
+central poland,Poland,Poland,52,20
+lesser poland,Krakow,Poland,50.06143,19.93658
+portugal,Portugal,Portugal,39.6945,-8.13057
+alentejo,Viana do Alentejo Municipality,Portugal,38.33645,-8.00011
+braganca,Bragança,Portugal,41.83615,-6.76346
+estremadura,Extremadura,Spain,39.16667,-6.16667
+qelez,Qelëz,Albania,42.08972,19.895
+dunfermline,Dunfermline,United Kingdom,56.07156,-3.45887
+asturias,Gijón,Spain,43.53573,-5.66152
+navarre,Pamplona,Spain,42.81687,-1.64323
+castile and león,León,Spain,42.60003,-5.57032
+galicia,Galicia,Spain,42.75508,-7.86621
+aragon,Zaragoza,Spain,41.65606,-0.87734
+extremadura,Extremadura,Spain,39.16667,-6.16667
+castile-león,León,Spain,42.60003,-5.57032
+majorca,Palma,Spain,39.56939,2.65024
+andalusia,Seville,Spain,37.38283,-5.97317
+vaud,Lausanne,Switzerland,46.516,6.63282
+liguria,Liguria,Italy,44.5,8.83333
+italy,Italy,Italy,42.83333,12.83333
+southern netherlands,Parq Holland,Israel,29.57398,34.95971
+bawit,Bāwīţ,Egypt,27.55132,30.71861
+northern netherlands,Holland,United States,42.78752,-86.10893
+eisgrub,Lednice,Czechia,48.79992,16.80339
+the veneto,Natural Park of the River Sile,Italy,45.65777,12.22377
+south tyrol,Bolzano,Italy,46.49067,11.33982
+westphalie,Cologne,Germany,50.93333,6.95
+brünn,Brno,Czechia,49.19522,16.60796
+upper rhine,Rhine,United States,43.86277,-87.95676
+limburg,Maastricht,Netherlands,50.84833,5.68889
+austria,Austria,Austria,47.33333,13.33333
+westphalia,Cologne,Germany,50.93333,6.95
+the upper rhine,Rhine,United States,43.86277,-87.95676
+upper bavaria,Munich,Germany,48.13743,11.57549
+germany,Germany,Germany,51.5,10.5
+upper hungary,Węgry,Poland,50.74319,18.01741
+lérida,Lleida,Spain,41.61674,0.62218
+wels,Wels-Land District,Austria,48.1166,13.96637
+the loire region,Panorama on the Château de Montsoreau-Museum of contemporary art and the village,France,47.2203,0.06172
+palestine,Palestine,Palestine,31.92157,35.20329
+pyrénées-orientales,Rivesaltes,France,42.76929,2.87378
+western pyrenees,Gascony,France,43.5,0
+saint-gilles,Saint-Gilles,France,43.67656,4.43024
+beaulieu,Beaulieu-sur-Dordogne,France,44.97832,1.83834
+holland,Netherlands,Netherlands,52.25,5.75
+aragón,Zaragoza,Spain,41.65606,-0.87734
+tkon,Municipality of Tkon,Croatia,43.91996,15.41639
+amherst,Amherst,United States,42.36723,-72.51852
+worksop,Worksop,United Kingdom,53.30182,-1.12404
+careggi,Villa Medici at Careggi,Italy,43.80915,11.24957
+ingolstadt,Ingolstadt,Germany,48.76508,11.42372
+vyšehrad,Vyšehrad,Czechia,50.06425,14.41829
+byzantium,Istanbul,Turkey,41.01384,28.94966
+ethiopia,Ethiopia,Ethiopia,9,39.5
+abba garima,Āba Gerīma,Ethiopia,14.16436,38.95195
+mesopotamia,Iraq,Iraq,33,44
+north africa ?,Hargeisa,Somalia,9.56,44.065
+southern egypt,Mişr Khēl,Afghanistan,33.77704,68.37142
+echternach,Echternach,Luxembourg,49.81212,6.41846
+citeaux,Gilly-lès-Cîteaux,France,47.16571,4.98079
+st. albans abbey,St Albans Abbey railway station,United Kingdom,51.74472,-0.3425
+bury,Bury,United Kingdom,53.6,-2.3
+reading,Reading,United Kingdom,51.45625,-0.97113
+stonyhurst,Stonyhurst,Sri Lanka,7.11667,80.58333
+northern england,New England,United States,44,-71
+abbotsbury,Abbotsbury,Australia,-33.8701,150.86119
+southern england,Rutland - Southern Vermont Regional Airport,United States,43.52714,-72.94664
+peterborough,Peterborough,United Kingdom,52.57364,-0.24777
+lavanttal,Bad Sankt Leonhard im Lavanttal,Austria,46.96278,14.79167
+london or westminster,Ripley's Believe It Or Not!,United Kingdom,51.51018,-0.13386
+east anglia,South East,United Kingdom,51.4,-0.5
+meuse area,Meuse,France,48.97176,5.36371
+jena,Jena,Germany,50.92878,11.5899
+the southern netherlands,Holland,United States,42.12762,-123.53895
+northumbria,Mount Northumbria,Canada,66.56745,-65.36403
+epernay,Épernay,France,49.04,3.95922
+northern france,Saint-Pierre,Saint Pierre and Miquelon,46.77914,-56.1773
+saint-sever,Saint-Sever,France,43.75726,-0.57181
+mosan region,Stora Mosan,Sweden,61,15.75
+saint-bertin,Lac Bertin,Canada,49.54611,-71.41972
+north-western france,Lille,France,50.63297,3.05858
+bourg en bresse,Bourg-en-Bresse,France,46.20574,5.2258
+eastern france,Mamoudzou,Mayotte,-12.78234,45.22878
+romania,Romania,Romania,46,25
+reichenau,Reichenau Island,Germany,47.69336,9.0675
+southern germany,Jerman Vrh,Slovenia,45.92373,15.31343
+helmarshausen,Helmarshausen,Germany,51.62921,9.46129
+st. gall,Saint Gallen,Switzerland,47.42391,9.37477
+antioch,Antioch,United States,38.00492,-121.80579
+rossano calabro,Corigliano Calabro,Italy,39.59553,16.51907
+acre,Acre,Brazil,-9,-70
+armagh,Armagh,United Kingdom,54.35,-6.66667
+in rome,Rome,United States,34.25704,-85.16467
+benevento,Benevento,Italy,41.1307,14.77816
+canosa di puglia,Canosa di Puglia,Italy,41.21954,16.06768
+montecassino,Monte Cassino,Italy,41.48916,13.81222
+southern italy,Italy,Italy,42.83333,12.83333
+north-central italy,Nueva Italia de Ruiz,Mexico,19.02492,-102.09318
+the po valley,‘Emeq HaH̱ula,Israel,33.15715,35.60619
+maas region,Land van Maas en Waal,Netherlands,51.83333,5.5
+novgorod,Nizhny Novgorod,Russia,56.32867,44.00205
+tábara,Tabara,Togo,9.48333,0.6
+seu de urgell,La Seu d'Urgell,Spain,42.35877,1.46144
+hagen,Mt Hagen,Papua New Guinea,-5.85746,144.23058
+seville university,Real Fabrica de Tabaco,Spain,37.3808,-5.99051
+santiponce,Santiponce,Spain,37.43352,-6.04479
+lerma,Lerma,Italy,44.63577,8.71323
+lublin province,Lublin,Poland,51.25,22.56667
+zamosc,Zamość,Poland,50.72314,23.25196
+appeldorn,Appeldorn,Germany,51.72317,6.34905
+marble hill house,Marble Hill House,United Kingdom,51.44947,-0.31332
+dover,Dover,United States,39.15817,-75.52437
+west yorkshire,West Yorkshire,United Kingdom,53.7,-1.58333
+torcello,Torcello,Italy,45.49648,12.41747
+trastevere. rome,Trastevere,Italy,41.88333,12.46667
+otranto,Otranto,Italy,40.14789,18.48682
+tiefenbronn,Tiefenbronn,Germany,48.82398,8.80129
+recklinghausen,Recklinghausen,Germany,51.61379,7.19738
+moravský krumlov,Moravský Krumlov,Czechia,49.04893,16.31169
+vic,Vic,Spain,41.93012,2.25486
+biron di monteviale,Biron,Italy,45.55071,11.49071
+tolentino,Tolentino,Italy,43.20918,13.28524
+lamego,Lamego Municipality,Portugal,41.10229,-7.81025
+medina de rioseco,Medina de Rioseco,Spain,41.86475,-5
+bruchsal,Bruchsal,Germany,49.12426,8.59804
+gaibach,Schloss Gaibach,Germany,49.89117,10.22682
+vierzehnheiligen,Kloster Vierzehnheiligen,Germany,50.11568,11.05483
+remiremont,Remiremont,France,48.01754,6.5882
+sansepolcro,Sansepolcro,Italy,43.57258,12.13858
+ravello,Ravello,Italy,40.64932,14.61167
+barletta,Barletta,Italy,41.31429,16.28165
+norrköping,Norrköping,Sweden,58.59419,16.1826
+aarhus,Aarhus,Denmark,56.15674,10.21076
+fabriano,Fabriano,Italy,43.33941,12.90327
+maine,Maine,United States,45.50032,-69.24977
+helsingør,Elsinore,Denmark,56.03606,12.6136
+toruñ,Torun,Poland,53.01375,18.59814
+barentin,Barentin,France,49.54533,0.95515
+gennevilliers,Gennevilliers,France,48.93333,2.3
+compiègne,Compiègne,France,49.41794,2.82606
+sankt wolfgang,Trnovska Vas,Slovenia,46.52019,15.88657
+st. wolfgang,Trnovska Vas,Slovenia,46.52019,15.88657
+racconigi,Racconigi,Italy,44.76598,7.67893
+fratta polesine,Fratta Polesine,Italy,45.02819,11.64265
+fanzolo di vedelago,Fanzolo,Italy,45.71218,11.99023
+maser,Maser,Italy,45.8074,11.975
+meledo di sarego,Meledo,Italy,45.43821,11.4156
+province of vicenza,Vicenza,Italy,45.54672,11.5475
+castenaso,Castenaso,Italy,44.51398,11.46842
+forlí,Forlì,Italy,44.22177,12.04144
+gripsholm,Gripsholmfjellet,Svalbard and Jan Mayen,79.78333,11.8
+san cassiano,San Cassiano,Italy,40.05631,18.33392
+fontanellato,Fontanellato,Italy,44.88167,10.17218
+nîmes,Nîmes,France,43.83665,4.35788
+austin,Austin,United States,30.26715,-97.74306
+bolbec,Bolbec,France,49.57321,0.47339
+berlin-nikolassee,Nikolassee,Germany,52.4227,13.18508
+ferrières-en-brie,Ferrières-en-Brie,France,48.82352,2.70664
+newark,Newark,United States,39.68372,-75.74966
+foligno,Foligno,Italy,42.95488,12.70268
+doorn,Doorn,Netherlands,52.03343,5.34571
+omaha,Omaha,United States,41.25626,-95.94043
+monterchi,Monterchi,Italy,43.48733,12.11054
+spello,Spello,Italy,42.99231,12.66632
+laigueglia,Laigueglia,Italy,43.9759,8.15823
+trapani,Trapani,Italy,38.0176,12.53617
+riga,Riga,Latvia,56.946,24.10589
+sanguinetto,Sanguinetto,Italy,45.18567,11.14412
+galuzzo,Ákra Kaloutoí,Greece,36.64038,27.11285
+carmignano,Carmignano,Italy,43.81027,11.01494
+loano,Loano,Italy,44.12777,8.25743
+moritzburg,Moritzburg,Germany,51.15922,13.68021
+cortemaggiore,Cortemaggiore,Italy,44.99185,9.92844
+susegana,Susegana,Italy,45.85604,12.25741
+folleville,Saint-Maclou-de-Folleville,France,49.68155,1.10631
+sterrebeek,Sterrebeek,Belgium,50.86171,4.49375
+belvoir castle,Belvoir Castle,United Kingdom,52.89453,-0.78255
+durham county,Durham,United States,35.99403,-78.89862
+new britain,New Britain,United States,41.66121,-72.77954
+mondovi,Mondovì,Italy,44.39603,7.81764
+oberzell,Oberzell,Germany,50.33211,9.71111
+naturno,Naturns,Italy,46.64801,11.00129
+malles,Mals,Italy,46.68791,10.54655
+middleton,Middleton,United States,42.59509,-71.01616
+gotland,Visby,Sweden,57.64089,18.29602
+county tipperary,Tipperary,Ireland,52.47333,-8.15583
+county kildare,Co Kildare,Ireland,53.16667,-6.75
+bobbio,Bobbio,Italy,44.76832,9.38415
+fontaine-chaalis,Fontaine-Chaalis,France,49.16667,2.68333
+certaldo,Certaldo,Italy,43.54768,11.03924
+branitz,Branitz,Germany,51.73845,14.36608
+grandcamp,Grandcamp-Maisy,France,49.38333,-1.03333
+cobh,Cobh,Ireland,51.85046,-8.2948
+bavarian alps,Bavarian Alps,Austria,47.5,11
+miami beach,Miami Beach,United States,25.79065,-80.13005
+massa,Souss-Massa,Morocco,30.42539,-9.56566
+anghiari,Anghiari,Italy,43.54104,12.05832
+caprarola,Caprarola,Italy,42.32308,12.23848
+vallès oriental,Mollet del Vallès,Spain,41.54026,2.21306
+bad arolsen,Bad Arolsen,Germany,51.37982,9.01445
+museo carmen thyssen málaga,Museo Carmen Thyssen,Spain,36.72148,-4.42283
+schwaz,Politischer Bezirk Schwaz,Austria,47.26667,11.76667
+le mas d\'agenais,Le Mas-d'Agenais,France,44.41108,0.21739
+rijksmuseum. amsterdam,Rijksmuseum Amsterdam,Netherlands,52.35999,4.88536
+isselburg-anholt,Anholt,Germany,51.85111,6.42488
+wroclaw,Wroclaw,Poland,51.1,17.03333
+albenga,Albenga,Italy,44.04997,8.21829
+auckland,Manukau,New Zealand,-36.99282,174.87986
+baden,Stuttgart,Germany,48.78232,9.17702
+lecce,Lecce,Italy,40.35481,18.17244
+gottingen,Göttingen,Germany,51.53443,9.93228
+münnerstadt,Münnerstadt,Germany,50.24636,10.20187
+kaposvár,Kaposvár,Hungary,46.36667,17.8
+greece,Greece,Greece,39,22
+el pardo,Fuencarral-El Pardo,Spain,40.4984,-3.7314
+fuente el saz,Fuente el Saz de Jarama,Spain,40.63868,-3.52123
+la verna,La Verna,Italy,43.7,11.93333
+arcevia,Arcevia,Italy,43.50177,12.945
+peretola,Florence Airport,Italy,43.80995,11.2051
+bibbiena,Bibbiena,Italy,43.69655,11.81354
+pian di mugnone,Pian di Mugnone,Italy,43.8181,11.29585
+valence,Valence,France,44.9256,4.90956
+claremont,Claremont,United States,43.37674,-72.34676
+pürgg,Pürgg-Trautenfels,Austria,47.56191,14.07127
+appiano,Appiano Gentile,Italy,45.73499,8.98103
+léon,León,Nicaragua,12.43527,-86.87862
+central france,Gallia,United States,38.82467,-82.31691
+berzé-la-ville,Berzé-la-Ville,France,46.36322,4.70386
+south-eastern france,Frans Kaisiepo Airport,Indonesia,-1.19002,136.108
+saint-chef,Lac du Chef,Canada,49.61417,-71.44667
+montoire-sur-le-loir,Montoire-sur-le-Loir,France,47.75316,0.86525
+tavant,Tavant,France,47.12616,0.38867
+saint-plancard,Saint-Plancard,France,43.17159,0.57517
+cressac,Cressac-Saint-Genis,France,45.45,0.01667
+montmorillon,Montmorillon,France,46.42645,0.86963
+lavaudieu,Lavaudieu,France,45.26282,3.45391
+reichenau-niederzell,Reichenau,Germany,47.68885,9.06355
+frauenchiemsee,Frauenchiemsee,Germany,47.87289,12.42575
+schwarzrheindorf,Schwarz Rheindorf,Germany,50.75074,7.11643
+western germany,Germany,Germany,51.5,10.5
+dormagen,Dormagen,Germany,51.09683,6.83167
+macedonia,North Macedonia,North Macedonia,41.66667,21.75
+galliano,Galliano,Italy,44.01725,11.29353
+central italy,Central Italy,Italy,42.83829,12.24145
+civate,Civate,Italy,45.82808,9.34294
+lambach,Lambach Abbey,Austria,48.09101,13.87702
+anagni,Anagni,Italy,41.7435,13.15542
+subiaco,Subiaco,Italy,41.92619,13.08906
+zillis,Zillis,Switzerland,46.6341,9.4423
+trent,Stoke-on-Trent,United Kingdom,53.00415,-2.18538
+presov,Prešov,Slovakia,48.99839,21.23393
+kosice,Košice,Slovakia,48.71395,21.25808
+chambéry,Chambéry,France,45.56628,5.92079
+christchurch,Christchurch,New Zealand,-43.53333,172.63333
+vlissingen,Flushing,Netherlands,51.4425,3.57361
+jacksonville,Jacksonville,United States,30.33218,-81.65565
+neuburg an der donau,Neuburg an der Donau,Germany,48.73218,11.18709
+dorset,Cape Dorset Airport,Canada,64.23094,-76.52862
+luxembourg,Luxembourg,Luxembourg,49.75,6.16667
+brest,Brest,Belarus,52.09755,23.68775
+nava del rey,Nava del Rey,Spain,41.37667,-5.10473
+sala baganza,Sala Baganza,Italy,44.71563,10.22622
+monte san savino,Monte San Savino,Italy,43.33213,11.72663
+ann arbor,Ann Arbor,United States,42.27756,-83.74088
+ponte casale,Ponte Galeria-La Pisana,Italy,41.84634,12.33925
+zdar,Zadar,Croatia,44.11578,15.22514
+lodge park,Anaconda Smelter Stack State Park,United States,46.11104,-112.91337
+monte carlo,Monte Carlo,Monaco,43.73976,7.42732
+province of udine,Udine,Italy,45.49127,9.23694
+lonigo,Lonigo,Italy,45.38576,11.38402
+castelnuovo d\'elsa,Castelnuovo d'Elsa,Italy,43.63504,10.93768
+montbéliard,Montbéliard,France,47.50957,6.79823
+sögel,Sögel,Germany,52.85,7.51667
+nienberge,Nienberge,Germany,51.99561,7.55527
+veresegyház,Veresegyház,Hungary,47.6459,19.29536
+salzkammergut,Sankt Wolfgang im Salzkammergut,Austria,47.73932,13.44666
+ascona,Ascona,Switzerland,46.15451,8.77327
+saint-tropez,Saint-Tropez,France,43.26764,6.64049
+aquila,L’Aquila,Italy,42.35055,13.39954
+tampere,Tampere,Finland,61.49911,23.78712
+altomonte,Altomonte,Italy,39.699,16.12999
+peoria,Peoria,United States,33.5806,-112.23738
+charlottenlund,Charlottenlund,Denmark,55.75238,12.5745
+vienne,Vienna,Austria,48.20849,16.37208
+camprena,Camprena,Italy,43.72201,11.8148
+aversa,Aversa,Italy,40.97259,14.20745
+hampton court palace,Hampton Court Palace,United Kingdom,51.40309,-0.33697
+bad säckingen,Bad Säckingen,Germany,47.55371,7.94612
+admont,Admont,Austria,47.57537,14.46075
+putbus,Putbus,Germany,54.35078,13.48171
+rügen,Rügen Island,Germany,54.41667,13.4
+varallo sesia,Varallo Sesia,Italy,45.81383,8.25814
+ettal,Lower Mortlock Islands - Ettal Atoll,Micronesia,5.592,153.562
+levanto,Levanto,Italy,44.17424,9.6167
+heino,Heino,Netherlands,52.43661,6.23282
+harvard,Harvard University,United States,42.377,-71.11666
+schweinfurt,Schweinfurt,Germany,50.04937,10.22175
+missouri,Missouri,United States,38.25031,-92.50046
+clinton,Clinton,United States,32.34153,-90.32176
+minnesota,Minnesota,United States,46.25024,-94.25055
+iowa,Iowa,United States,42.00027,-93.50049
+indiana,"Indianapolis-Carmel-Anderson, IN",United States,39.74743,-86.20614
+horpács,Horpács,Hungary,47.99718,19.12911
+polesden lacey,Polesden Lacey,United Kingdom,51.25,-0.36667
+kunsthistorisches museum,Kunsthistorisches Museum,Austria,48.20371,16.36126
+boppard,Boppard,Germany,50.22355,7.56975
+massanzago,Massanzago-Ca' Baglioni-San Dono,Italy,45.5563,12.00731
+camerino,Camerino,Italy,43.13866,13.06785
+verolanuova,Verolanuova,Italy,45.32834,10.07857
+montecchio maggiore,Montecchio Maggiore,Italy,45.50369,11.412
+kansas,Kansas,United States,38.50029,-98.50063
+longa di schiavon,Longa,Italy,45.6806,11.64249
+san lorenzo de el escorial,El Escorial,Spain,40.59144,-4.14738
+bressanone,Brixen,Italy,46.71503,11.65598
+sankt joachimsthal,Jáchymov,Czechia,50.35846,12.93465
+bártfa,Bardejov,Slovakia,49.29175,21.27271
+nyírbátor,Nyírbátor,Hungary,47.83333,22.13333
+northern netherland,New York,United States,40.71427,-74.00597
+jelling,Jelling,Denmark,55.75588,9.4258
+south netherlands,The Hague,Netherlands,52.07667,4.29861
+limousin,Limousin,France,45.76667,1.7
+saint-sulpice-les-feuilles,Saint-Sulpice-les-Feuilles,France,46.31826,1.36753
+maurs,Lac Maurs,Canada,49.61917,-73.80917
+altötting,Altötting,Germany,48.22533,12.67665
+brunswick,New Brunswick,Canada,46.5001,-65.99878
+selm,Khirbet Selm,Lebanon,33.22931,35.42407
+ratingen,Ratingen,Germany,51.29724,6.84929
+lüneberg,Lüneburg,Namibia,-23.66995,18.08693
+wasserburg,Wasserburg am Inn,Germany,48.0525,12.22341
+selmecbánya,Banská Štiavnica,Slovakia,48.44858,18.91003
+buda,Buda-Kashalyova District,Belarus,52.70843,30.56726
+monsummano terme,Monsummano Terme,Italy,43.8672,10.81295
+edam,Edam Kulle,Greenland,77,-18.56667
+crete,Crete,Greece,35.15585,24.89502
+sinai,South Sinai,Egypt,29,33.8
+pskov,Pskov,Russia,57.81404,28.34493
+yaroslavl,Yaroslavl,Russia,57.62987,39.87368
+northern russia,Las Vegas,United States,36.17497,-115.13722
+tirol,Innsbruck,Austria,47.26266,11.39454
+jihlava,Jihlava,Czechia,49.3961,15.59124
+vyssi brod,Průsmyk Vyšebrodský,Austria,48.56667,14.31667
+friesland,Leeuwarden,Netherlands,53.20139,5.80859
+romsey,Romsey,United Kingdom,50.98906,-1.49989
+damme,Damme,Belgium,51.25147,3.28144
+kortrijk-dutsel,Kortrijk-Dutsel,Belgium,50.92676,4.80799
+ile de france,Paris,France,48.85341,2.3488
+châteauroux,Châteauroux,France,46.81248,1.69362
+the mosan region,Mīsan,Iran,38.8812,46.4422
+jouy-en-josas,Jouy-en-Josas,France,48.75909,2.16966
+ecouis,Lac Écouis,Canada,49.24444,-73.87639
+poligny,Poligny,France,46.83712,5.70505
+tonnerre,Cap Tonnerre,New Caledonia,-20.4,164.11667
+bayel,Lac Bayel,Canada,46.31472,-75.32722
+middle-rhine,El Ghîné,Lebanon,34.03861,35.71083
+mainfranken,Schweinfurt,Germany,50.04937,10.22175
+algäu region,Allgäu,Germany,47.58333,10.16667
+victoria,Victoria,Seychelles,-4.62001,55.45501
+eichstätt,Eichstätt,Germany,48.88854,11.19675
+south germany,Villa Alemana,Chile,-33.04823,-71.3729
+north germany,San Germán,Puerto Rico,18.11468,-67.03573
+siegburg,Siegburg,Germany,50.80019,7.20769
+gniezno,Gniezno,Poland,52.53481,17.58259
+wechselburg,Wechselburg,Germany,51.00214,12.77661
+rhine valley,Rhine Valley,Germany,51.307,6.83673
+middle rhine,El Ghîné,Lebanon,34.03861,35.71083
+rheinberg,Rheinberg,Germany,51.54649,6.59525
+lower bavaria,Landshut,Germany,48.52961,12.16179
+königsberg,Königsberg in Bayern,Germany,50.0808,10.56761
+figline valdarno,Figline Valdarno,Italy,43.61995,11.47191
+galatina,Galatina,Italy,40.17416,18.17032
+valle d\'aosta,Aosta,Italy,45.73764,7.31722
+issogne,Issogne,Italy,45.65496,7.68571
+aosta,Aosta,Italy,45.73764,7.31722
+puglia,Canosa di Puglia,Italy,41.21954,16.06768
+susa,Shusha,Azerbaijan,39.76006,46.74989
+gelderland,Nijmegen,Netherlands,51.8425,5.85278
+the maas region,Herbert C. Maas Airport,United States,42.47138,-87.91252
+beverwijk,Beverwijk,Netherlands,52.48333,4.65694
+northeast spain,Pine,United States,46.12077,-92.74127
+north-western spain,Matthew Spain Airport,Belize,17.1859,-89.01033
+villalcazar de sirga,Villalcázar de Sirga,Spain,42.31662,-4.54278
+camarzana de tera,Camarzana de Tera,Spain,42.00736,-6.00253
+barrios de colina,Barrios de Colina,Spain,42.38443,-3.42898
+northern switzerland,Switzerland,United States,38.82616,-85.037
+staffordshire,Staffordshire,United Kingdom,52.8577,-2.03686
+pont aux choux,Rue du Pont aux Choux,France,48.86121,2.36547
+deruta,Deruta,Italy,42.98465,12.4176
+noventa padovana,Noventa Padovana,Italy,45.41667,11.95
+tienen,Tienen,Belgium,50.80745,4.9378
+oristano,Oristano,Italy,39.9036,8.59257
+palaia,Nisída Palaiá Kamméni,Greece,36.39738,25.37983
+radicofani,Radicofani,Italy,42.89618,11.76839
+san quirico d\'orcia,San Quirico d'Orcia,Italy,43.05782,11.60525
+northumberland,Northumberland,United States,37.88244,-76.47171
+caserta,Caserta,Italy,41.07262,14.33231
+camaldoli,Camaldoli,Italy,43.79359,11.82031
+mont-dauphin,Mont-Dauphin,France,44.66841,6.62235
+ligornetto,Ligornetto,Switzerland,45.86161,8.95166
+switzerland,Switzerland,Switzerland,47.00016,8.01427
+chemnitz,Chemnitz,Germany,50.8357,12.92922
+chemnitz-altendorf,Altendorf,Germany,50.83716,12.88035
+nostell priory,Nostell Priory,United Kingdom,53.65298,-1.38968
+wallington,Wallington,United States,40.85316,-74.11375
+novokuznetsk,Novokuznetsk,Russia,53.75752,87.13599
+lokeren,Lokeren,Belgium,51.10364,3.99339
+ninove,Ninove,Belgium,50.82776,4.02657
+stamford,Stamford,United States,41.05343,-73.53873
+arouca,Arouca Municipality,Portugal,40.92658,-8.27251
+imola,Imola,Italy,44.35916,11.7132
+bra,Bra,Italy,44.69776,7.85128
+grappa,Seren del Grappa,Italy,45.99594,11.85624
+brodie castle,Brodie Castle,United Kingdom,57.5983,-3.70849
+wiesbaden-schierstein,Schierstein,Germany,50.04457,8.19788
+michigan,Michigan,United States,44.25029,-85.50033
+huntingdon,Huntingdon,United States,40.4848,-78.01028
+zepperen,Zepperen,Belgium,50.82139,5.24769
+wednesbury,Wednesbury,United Kingdom,52.5514,-2.02355
+greater london,London,United Kingdom,51.50853,-0.12574
+saarbrücken,Saarbrücken,Germany,49.23262,7.00982
+turku,Turku,Finland,60.45148,22.26869
+petworth,Petworth,United States,38.94594,-77.02498
+ambierle,Ambierle,France,46.10558,3.89323
+san marino,San Marino,San Marino,43.9367,12.4463
+north east lincolnshire,Lincolnshire,United States,38.22313,-85.62135
+wouw,Wouw,Netherlands,51.52167,4.39028
+the netherlands,Netherlands,Netherlands,52.25,5.75
+illinois,Illinois,United States,40.00032,-89.25037
+derby,Derby,United States,41.32065,-73.089
+leicestershire,Leicestershire,United Kingdom,52.66667,-1.11407
+fót,Fót,Hungary,47.6177,19.1887
+vöslau,Bad Vöslau,Austria,47.96533,16.21359
+university of oxford,Miami University Airport,United States,39.50727,-84.78263
+zala,Zala County,Hungary,46.66667,16.83333
+oberelchingen,Oberelchingen,Germany,48.44903,10.08236
+bad schussenried,Bad Schussenried,Germany,48.00468,9.65741
+wies,Nowa Wieś Lęborska,Poland,54.55878,17.72756
+steinhausen,Steinhausen,Switzerland,47.1951,8.48581
+grimbergen,Grimbergen,Belgium,50.93409,4.37213
+burnley,Burnley,United Kingdom,53.8,-2.23333
+kenwood,Kenwood,United States,39.21061,-84.36716
+guadalupe,Guadeloupe,Guadeloupe,16.25,-61.58333
+überlingen,Überlingen,Germany,47.76977,9.17136
+kremsmünster,Kremsmünster,Austria,48.0529,14.12919
+bedburg-hau,Bedburg-Hau,Germany,51.76457,6.21012
+remagen,Remagen,Germany,50.57879,7.22703
+private collection,,,,
+augusburg,,,,
+sassoferato,,,,
+winthertur,,,,
+borgo san sepolcro,,,,
+episcopio di sarno,,,,
+bucureºti,,,,
+vicchio nell mugello,,,,
+siena ,Siena,Italy,43.31822,11.33064
+ile d\'aix,Île-d'Aix,France,46.01232,-1.17483
+tahull,,,,
+boule-d\'amont,Boule-dAmont,France,42.5795,2.61375
+la seu d\'urgell,La Seu d'Urgell,Spain,42.35877,1.46144
+herefordshire,Herefordshire Shoal,,8.58333,117.01667
+winds,Marisule/East Winds,Saint Lucia,14.05407,-60.96849
+castle,New Castle,United States,39.65948,-75.56359
+\'s-hertogenbosch,'s-Hertogenbosch,Netherlands,51.69917,5.30417
+paray-le-mondial,,,,
+cerisy-le-fôret,,,,
+clermont-ferrend,,,,
+fontevraud abbey,,,,
+les,Les Abymes,Guadeloupe,16.273,-61.50507
+elys,Elys Corner,United States,40.2365,-74.47737
+la roque-d\'anthéron,La Roque-d'Anthéron,France,43.71544,5.30973
+la tour-d\'aigues,La Tour-d'Aigues,France,43.72531,5.54796
+saint-cloude,,,,
+constance,Lake Constance region,,47.61495,9.39765
+steinbach bei michelstadt,,,,
+limburg-on-the-haardt,,,,
+ribauville,,,,
+swäbisch-hall,,,,
+kamp-linfort,,,,
+monte siepi,,,,
+val d\'aosta,Aosta,Italy,45.73764,7.31722
+olivienza,,,,
+quelez,,,,
+abbey of san salvad,,,,
+de leyre,Leyre,France,44.66444,-1.02306
+eunate,,,,
+royal tobacco factory,,,,
+colle di valdelse,,,,
+benedikternbeuern,,,,
+cava de\' tirreni,Cava de' Tirreni,Italy,40.69954,14.70773
+santa croce sull\'arno,Santa Croce sull'Arno,Italy,43.71924,10.77171
+kézdimárkosfalva,,,,
+pntypool,,,,
+enkhuize,,,,
+würmersdorf,,,,
+dol\'skoye,Dol’skoye,Russia,54.78435,36.43377
+barrow,Barrow Canyon,,72.5,-154
+castel monaperto,,,,
+hainsberg bei aachen,,,,
+darmstadt-mathildenhöhe,,,,
+volciano di salò,,,,
+canapale,,,,
+windisch-matrei,,,,
+münster ,Münster,Germany,51.96236,7.62571
+rees,Pegunungan Van Rees,Indonesia,-2.5616,138.1476
+private collectioin,,,,
+the kremer collection,,,,
+truro,Truro Shoal,,16.31667,116.68333
+s\'hertogenbosch,'s-Hertogenbosch,Netherlands,51.69917,5.30417
+bouy-sur-ovin,,,,
+south pacific,South,United States,33.45876,-90.15081
+zuid-polsbroek,,,,
+sant\'arcangelo di romagna,,,,
+various collections,,,,
+tsarskoe selo,,,,
+trino vercellese,,,,
+modonico,,,,
+scaria,,,,
+sanct gürgen,,,,
+salincorno,,,,
+sainte-barbe de samana,,,,
+villa castelvecchio di cigoli,,,,
+l\'aquila,L’Aquila,Italy,42.35055,13.39954
+bolton-le-moor,,,,
+rovenna,,,,
+oostzan,,,,
+oostsanen,,,,
+saint hyppolyte,,,,
+ordrupgaard,,,,
+château d\'anet,Château d'Anet,France,48.85848,1.43865
+bøevnov,,,,
+oberulpoint,,,,
+location unknown,,,,
+canale di gorto,,,,
+klosterneuzell,,,,
+l\'île-bouchard,L'Île-Bouchard,Canada,45.81318,-73.34306
+montfort l\'amaury,Montfort-l'Amaury,France,48.77275,1.81309
+kiala estate,,,,
+garden between feldsberg,,,,
+ eisgrub,Lednice,Czechia,48.79992,16.80339
+luisium,,,,
+midden-beemster,,,,
+hanswijk,,,,
+frederikshald,,,,
+wessobrun,,,,
+schmidham bei griesbach,,,,
+ballysillan,,,,
+pirano d\'istria,,,,
+kattentak,,,,
+s matteo della decima,,,,
+san matteo della decima,,,,
+casole d\'elsa,Casole d'Elsa,Italy,43.34115,11.04794
+schwedt an der oder,,,,
+monte oliveto maggiore,,,,
+blandy-en-brie,,,,
+mühlbrecht,,,,
+l\'isle-sur-le-doubs,L’Isle-sur-le-Doubs,France,47.44629,6.58463
+saint cyr l\'ecole,Saint-Cyr-l'École,France,48.79865,2.06814
+spodnj sorica,,,,
+lonedo di lugo vicentino,,,,
+solofra,Solofra,Italy,40.83343,14.83705
+tritschengreith,,,,
+sleghien,,,,
+hanbury hall,,,,
+heemskerck,Heemskerck Seamount,,-36.25,159.41667
+hemishem,,,,
+mobellán,,,,
+anwerpen,,,,
+mathildenhöhe,,,,
+nem haven,,,,
+schloss wolfegg,,,,
+loucká u øedhoštì,,,,
+loucká u redhošte,,,,
+somogysom,,,,
+sant\'agata di mugello,,,,
+château d\'oiron,Château d'Oiron,France,46.95167,-0.07758
+paprotzan,,,,
+kuckädel,,,,
+obergibeln,,,,
+oelsfeld,,,,
+tobol\'sk,Gorodskoy Okrug Gorod Tobol'sk,Russia,58.22825,68.3433
+grossbadegast bei köthen,,,,
+ma.,Africa,,7.1881,21.09375
+auxerrre,,,,
+geestburg,,,,
+gorritz,,,,
+brünn [now brno],,,,
+homburg v,Bad Homburg,Germany,50.22683,8.61816
+der höhe,Bad Homburg,Germany,50.22683,8.61816
+wolverhampton,Wolverhampton,United Kingdom,52.58547,-2.12296
+csetnek,,,,
+isola di carturo,,,,
+isola di cartura,,,,
+isolate di cartura,,,,
+caviola d\'agordo,,,,
+saint-hilaire-d\'aude,,,,
+campione d\'italia,Campione d'Italia,Italy,45.96818,8.97181
+röttchen,,,,
+bussetto,,,,
+l\'estany,l'Estany,Spain,41.86924,2.11223
+aulnay-de-saintogne,,,,
+nazareth,Nazareth Bank,,-14.5,60.75
+serrabone,,,,
+rivolta d\'adda,Rivolta d'Adda,Italy,45.46962,9.51251
+aussig,Ústí nad Labem,Czechia,50.6607,14.03227
+\'s-gravendeel,'s-Gravendeel,Netherlands,51.78,4.61667
+wiesensteig,Wiesensteig,Germany,48.56127,9.6254
+sárbogárd,Sárbogárd,Hungary,46.88692,18.62041
+lowell,Lowell,United States,42.63342,-71.31617
+dreux,Dreux,France,48.73649,1.36566
+westfalen,Cologne,Germany,50.93333,6.95
+doornik,Tournai,Belgium,50.60715,3.38932
+caprese,Caprese Michelangelo,Italy,43.64031,11.98546
+sommacampagna,Sommacampagna,Italy,45.40528,10.84382
+cafaggiolo,,,,
+beveren-was,,,,
+alessandria,Alexandria,Egypt,31.20176,29.91582
+ ,Kampong Tok Barat,Malaysia,5.76667,102.41667
+radway,Radway,Canada,54.06686,-112.95199
+gruchy,Gruchy Point,Canada,47.76659,-52.76474
+poppi,Poppi,Italy,43.72123,11.76642
+battidizzo,Battedizzo,Italy,44.37508,11.26196
+durgerdam,Durgerdam,Netherlands,52.3777,4.98908
+coldrerio,Coldrerio,Switzerland,45.854,8.98772
+savigliano di cuneo,Savigliano,Italy,44.64808,7.65677
+betzdorf,Betzdorf,Luxembourg,49.68333,6.35
+diepholz,Diepholz,Germany,52.60783,8.37005
+orchamps-vennes,Orchamps-Vennes,France,47.13042,6.52468
+alcala la real,Alcalá la Real,Spain,37.4614,-3.92301
+montelupo,Domagnano,San Marino,43.94961,12.46828
+val di sieve,,,,
+soulage,Soulage,France,45.47645,0.7063
+montorsoli,Montorsoli Stazione,Italy,43.83659,11.28608
+mariemont,Mariemont,United States,39.14506,-84.37438
+quinsac,Quinsac,France,44.75537,-0.48844
+mallorca,Palma,Spain,39.56939,2.65024
+badajoz,Badajoz,Spain,38.87789,-6.97061
+albino,Albino,Italy,45.76444,9.79904
+walthamstow,Walthamstow,United Kingdom,51.59067,-0.02077
+österreichische postverwaltung für das fürstentum liechtenstein,,,,
+hulst,Hulst,Netherlands,51.28,4.05278
+ivancice,Ivančice,Czechia,49.10144,16.37752
+mossnang,,,,
+ennis,Ennis,Ireland,52.84361,-8.98639
+reichenhofen/allgau,Reichenhofen,Germany,47.84662,9.9676
+løten,Løten,Norway,60.81771,11.34373
+munkács,Mukachevo,Ukraine,48.44248,22.718
+inverness,Inverness,United Kingdom,57.47908,-4.22398
+skanshagen at elverum,,,,
+lacima,,,,
+castel del piano,Castel del Piano,Italy,42.89228,11.53903
+secadura,Secadura,Spain,43.35472,-3.53615
+görlitz,Görlitz,Germany,51.15518,14.98853
+logroño,Logroño,Spain,42.46667,-2.45
+charleroi,Charleroi,Belgium,50.41136,4.44448
+hennegau,Charleroi,Belgium,50.41136,4.44448
+arbury,Arbury Park,Australia,-34.99553,138.7589
+leith,Leith,United Kingdom,55.9713,-3.1723
+campestro,Campestro,Switzerland,46.0697,8.97006
+brie-comte-robert,Brie-Comte-Robert,France,48.69247,2.6109
+fusine,Fusine,Italy,46.14949,9.74975
+blekinge,Karlskrona,Sweden,56.16156,15.58661
+västra götalan,,,,
+knockando,Knockando,United Kingdom,57.45899,-3.34921
+lassahn,Lassahn,Germany,53.60351,10.95337
+capannori,Capannori,Italy,43.84171,10.57271
+castelfranco di sotto,Castelfranco di Sotto,Italy,43.70368,10.7463
+spilamberto,Spilamberto,Italy,44.53426,11.0195
+kilchberg,Kilchberg,Switzerland,47.32438,8.54548
+troppau,Opava,Czechia,49.93866,17.90257
+mathildenhöhe-darmstadt,,,,
+gorcum,Gorinchem,Netherlands,51.83652,4.97243
+barcarena,Barcarena,Brazil,-1.50583,-48.62583
+nootdorp,Pijnacker-Nootdorp Municipality,Netherlands,52.02615,4.41944
+st agnes,St Agnes,United Kingdom,49.89087,-6.34426
+smithsonian design museum,,,,
+bol\'shoy stolobetsk,,,,
+novellara,Novellara,Italy,44.84488,10.72745
+middelharnis,Middelharnis,Netherlands,51.7575,4.16528
+tönning,Tönning,Germany,54.31732,8.94096
+zám,Oued Zem,Morocco,32.8627,-6.57359
+sanlúcar de barrameda,Sanlúcar de Barrameda,Spain,36.77808,-6.3515
+bruneck,Bruneck,Italy,46.79942,11.93429
+oostakker,Oostakker,Belgium,51.10124,3.76945
+valsolda,Valsolda,Italy,46.02486,9.05462
+agen,Agen,France,44.20199,0.62055
+vasto,Vasto,Italy,42.1115,14.70649
+lanciano,Lanciano,Italy,42.22718,14.39024
+malcontenta di mira,,,,
+serina,Serina,Italy,45.87159,9.73125
+newington,Newington,United States,41.69788,-72.72371
+lublin,Lublin,Poland,51.25,22.56667
+sezze,Sezze,Italy,41.50032,13.06176
+parenzo,Town of Poreč - Parenzo,Croatia,45.25,13.66667
+brignoles,Brignoles,France,43.4058,6.06172
+zeeland,Middelburg,Netherlands,51.5,3.61389
+passignano,Passignano sul Trasimeno,Italy,43.19043,12.13535
+castelnuovo della berardenga,,,,
+picardie,Picardie,France,49.63333,2.8
+bouvignes,Bouvignes-sur-Meuse,Belgium,50.27382,4.89793
+varberg,Varberg,Sweden,57.10557,12.25078
+seifhennersdorf,Seifhennersdorf,Germany,50.93492,14.60194
+milton bryan,Milton Bryan,United Kingdom,51.9627,-0.58447
+chesterton,Chesterton Range National Park,Australia,-26.17983,147.3692
+álmosd,Álmosd,Hungary,47.4187,21.97803
+san daniele del friuli,San Daniele del Friuli,Italy,46.15714,13.00726
+volpedo,Volpedo,Italy,44.88887,8.98615
+vernon-sur-seine,,,,
+la coruña,A Coruña,Spain,43.37135,-8.396
+kammer,Kammer Beach,Northern Mariana Islands,14.96361,145.62306
+citta della pieve,Città della Pieve,Italy,42.95934,12.00696
+ancaiano,Ancaiano,Italy,43.2937,11.20142
+granada?,Grenada,Grenada,12.11667,-61.66667
+christiania,Freetown Christiania,Denmark,55.67346,12.59765
+èaèak,,,,
+châtillon-sur-seine,Châtillon-sur-Seine,France,47.85851,4.57375
+dudley,Dudley,United Kingdom,52.5,-2.08333
+agnona di borgosesia,Agnona,Italy,45.72602,8.25957
+pederobbe,,,,
+castel durante,,,,
+kötschach,Kötschach-Mauthen,Austria,46.67084,12.99929
+abcoude,Abcoude,Netherlands,52.2725,4.96944
+göttweich,,,,
+various museums,,,,
+deux-sèvres,Deux-Sèvres,France,46.53918,-0.30838
+runtuna,Cerro Huachhua Runtuna,Peru,-12.27167,-75.7425
+mestre,Mestre,Italy,45.49167,12.24538
+pontedera,Pontedera,Italy,43.66141,10.63067
+virgin islands,St Croix,U.S. Virgin Islands,17.72751,-64.74698
+louveciennes,Louveciennes,France,48.86115,2.11463
+st paul in eppan,,,,
+san marino di valdelsa,,,,
+berkenrode,Berkenrode,Netherlands,52.35,4.61667
+lodenitz,Horní Loděnice,Czechia,49.77101,17.37717
+pontormo,,,,
+viggiu,Viggiù,Italy,45.87096,8.90861
+herford,Herford,Germany,52.11457,8.67343
+pordenone,Pordenone,Italy,45.95689,12.66051
+enkhuizen,Enkhuizen,Netherlands,52.70333,5.29167
+stanz,Stanz bei Landeck,Austria,47.14758,10.5534
+popovice u berouna,,,,
+taverna calabria,Taverna,Italy,39.022,16.58081
+berbenno di valtellina,Berbenno di Valtellina,Italy,46.16641,9.74734
+rheydt,Rheydt,Germany,51.16363,6.45022
+reggio emillia,,,,
+schloss muskau,,,,
+orense,Ourense,Spain,42.33669,-7.86407
+schiedam,Schiedam,Netherlands,51.91917,4.38889
+rota d\'imagna nr. bergamo,,,,
+sint-truiden,Sint-Truiden,Belgium,50.81679,5.18647
+quercia grossa,,,,
+lisse,Lisse,Netherlands,52.26,4.55694
+stockbridge,Stockbridge,United States,42.28759,-73.32039
+vico morcote,Vico Morcote,Switzerland,45.92817,8.91935
+franche-comté,Bourgogne-Franche-Comté,France,47.06981,5.04822
+schwäbisch gmünd,Schwäbisch Gmünd,Germany,48.79947,9.79809
+radolfzell,Radolfzell,Germany,47.74194,8.97098
+culemborg,Culemborg,Netherlands,51.955,5.22778
+pegau,Pegau,Germany,51.16715,12.25144
+saint-hubert,Montréal/Saint-Hubert Airport,Canada,45.51621,-73.42069
+newburyport,Newburyport,United States,42.81259,-70.87728
+ribadesella,Ribadesella,Spain,43.46145,-5.05955
+holstein,Schleswig-Holstein,Germany,54.2,9.75
+schongau,Weilheim-Schongau,Germany,47.80895,10.9883
+hof,Hof,Germany,50.31297,11.91261
+gera,Gera,Germany,50.88029,12.08187
+le mas d\'agenais,Le Mas-d'Agenais,France,44.41108,0.21739
+buscot park,,,,
+eindhoven,Eindhoven,Netherlands,51.44083,5.47778
+calvenzano,Calvenzano,Italy,45.49621,9.59953
+chuguyev,Chuhuiv,Ukraine,49.83538,36.6865
+diepenbend,,,,
+reymerswale,,,,
+dunkirk,Dunkirk,United States,42.4795,-79.33393
+plympton earl,,,,
+solsona,Solsona,Spain,41.99395,1.51706
+saint-nicolas-d\'attez,Saint-Nicolas-d'Attez,France,48.80942,0.9338
+maidenhead,Maidenhead,United Kingdom,51.52279,-0.71986
+osterode,Osterode,Germany,51.56564,10.81695
+creglingen am tauber,,,,
+gladbeck,Gladbeck,Germany,51.57077,6.98593
+pulsnitz,Pulsnitz,Germany,51.4485,13.51617
+perpignan,Perpignan,France,42.69764,2.89541
+puyloubier,Puyloubier,France,43.52522,5.6765
+italia,Italy,Italy,42.83333,12.83333
+la chaux-de-fonds,La Chaux-de-Fonds,Switzerland,47.09993,6.82586
+eplatures,Les Eplatures,Switzerland,47.08417,6.79361
+kepyer,,,,
+irasburg,Irasburg,United States,44.80338,-72.27955
+ciempozuelos,Ciempozuelos,Spain,40.1536,-3.6001
+mühlheim,Mühlheim am Main,Germany,50.11667,8.83333
+herrnhaag,Herrnhaag,Germany,50.26667,9.08333
+n.y.,Papua New Guinea,Papua New Guinea,-6,147
+niendorf,Niendorf,Germany,53.61769,9.95032
+atzgersdorf,Atzgersdorf,Austria,48.14719,16.29487
+kastellaz,,,,
+kastelaz,,,,
+castel sant\'elia di nepi,,,,
+dalton-in-furness,Dalton in Furness,United Kingdom,54.15796,-3.17977
+reipoltskirchen,Reipoltskirchen,Germany,49.6333,7.66667
+st. goar,Sankt Goar,Germany,50.14878,7.7072
+drammen,Drammen,Norway,59.74389,10.20449
+arenella,Arenella,Italy,40.85734,14.2228
+rovezzano,Rovezzano,Italy,43.7666,11.31077
+sciacca,Sciacca,Italy,37.50693,13.08399
+dalmatia,Dalmatia,Croatia,43,17
+orivate collection,,,,
+handschuhsheim,Handschuhsheim,Germany,49.42705,8.68468
+laufen,Laufen,Switzerland,47.42193,7.49946
+laval,Laval,Canada,45.56995,-73.692
+lorry-les-metz,Lorry-lès-Metz,France,49.1418,6.1217
+lorient,Lorient,France,47.74817,-3.37177
+siegen,Siegen,Germany,50.87481,8.02431
+madrisd,,,,
+fixin-lés-dijon,,,,
+naarden,Naarden,Netherlands,52.29583,5.1625
+utrera,Utrera,Spain,37.18516,-5.78093
+wolgast,Wolgast,Germany,54.05275,13.77201
+guildford,Guildford,United Kingdom,51.23536,-0.57427
+lierneux,Lierneux,Belgium,50.28616,5.79065
+courtrai,Kortrijk,Belgium,50.82803,3.26487
+rantasalmi,Rantasalmi,Finland,62.06667,28.3
+outside helsinki,,,,
+nettuno,Nettuno,Italy,41.45794,12.66393
+assendelft,Assendelft,Netherlands,52.46833,4.74306
+felanitx,Felanitx,Spain,39.4696,3.14831
+elsene,Ixelles-Elsene,Belgium,50.83333,4.36667
+boult-sur-suippe,Boult-sur-Suippe,France,49.37149,4.14632
+namen,Namur,Belgium,50.4669,4.86746
+san severino,San Severino Marche,Italy,43.23028,13.1799
+cumberland,Portland,United States,43.65737,-70.2589
+castelnuovo di garfagnana,Castelnuovo di Garfagnana,Italy,44.1126,10.40518
+gray,Gray,United States,37.7382,-100.43786
+beifayo,,,,
+orgaz,Orgaz,Spain,39.64826,-3.87577
+monte sansovino,,,,
+nola,Nola,Italy,40.92606,14.52816
+santa croce,Santa Croce di Magliano,Italy,41.71223,14.98732
+magny-en-vexin,Magny-en-Vexin,France,49.15515,1.78669
+colbordolo,Colbordolo,Italy,43.82006,12.72105
+sassoferrato,Sassoferrato,Italy,43.43109,12.8566
+allgau,Kempten (Allgäu),Germany,47.72674,10.31389
+grosio,Grosio,Italy,46.2997,10.27572
+made,Ḱafa e Made,North Macedonia,41.66584,21.03875
+staatliche museen berlin,,,,
+mainburg,Mainburg,Germany,48.64182,11.78093
+nürnberg?,Nuremberg,Germany,49.45421,11.07752
+castelnuovo d\'elsa,Castelnuovo d'Elsa,Italy,43.63504,10.93768
+scardone,,,,
+tulln an der donau,Tulln an der Donau,Austria,48.33327,16.06409
+neuruppin,Neuruppin,Germany,52.92815,12.80311
+grafenwörth,Grafenwörth,Austria,48.41417,15.79075
+bad vöslau,Bad Vöslau,Austria,47.96533,16.21359
+biberach an der riss,Biberach an der Riss,Germany,48.09345,9.79053
+herzheim,,,,
+fresne-saint-mamès,Fresne-Saint-Mamès,France,47.54591,5.86093
+fresne-saint-mames,Fresne-Saint-Mamès,France,47.54591,5.86093
+ried im innkreis,Ried im Innkreis,Austria,48.21123,13.48855
+wippenham bei ried,,,,
+weilburg an der lahn,Limburg an der Lahn,Germany,50.3836,8.0503
+schoorl,Schoorl,Netherlands,52.70167,4.69722
+wimburne,,,,
+arco,Arco,United States,44.38358,-96.18365
+arco in trentino,,,,
+techkovskaya,,,,
+weesp,Weesp,Netherlands,52.3075,5.04167
+sermoneta,Sermoneta,Italy,41.54919,12.98481
+santalla del bierzo,Santalla,Spain,42.5,-6.68333
+monteoliveto maggiore,,,,
+sceaux,Sceaux,France,48.77644,2.29026
+hamina,Hamina,Finland,60.56974,27.19794
+reval,Tallinn,Estonia,59.43696,24.75353
+ringsted,Ringsted,Denmark,55.4426,11.79011
+mikolajew,Mikołajew,Poland,52.17609,20.32119
+wigton,Wigton Range,Australia,-25.85,151.56667
+chicester,,,,
+crosby ravensworth,Crosby Ravensworth,United Kingdom,54.52528,-2.59595
+goring,Goring-by-Sea,United Kingdom,50.81239,-0.42194
+aalborg,Aalborg,Denmark,57.048,9.9187
+verna,Ramponio Verna,Italy,45.99698,9.06633
+vignola,Vignola,Italy,44.48383,11.01096
+canale di serino,Canale,Italy,40.85212,14.84188
+birkerød,Birkerød,Denmark,55.84759,12.42791
+quitzow,Quitzow,Germany,53.10046,11.82606
+irancy,Irancy,France,47.71348,3.66492
+wangen im allgäu,Wangen,Germany,47.6895,9.83247
+palazzo della fraternità dei laici,,,,
+sunderland,Sunderland,United Kingdom,54.90465,-1.38222
+olszana na ukrainie,,,,
+westminster,Westminster,United States,39.83665,-105.0372
+orta di atella,Orta di Atella,Italy,40.96651,14.26803
+kingston-upon-hull,Hull,United Kingdom,53.7446,-0.33525
+bracciano,Bracciano,Italy,42.10271,12.16565
+massagno,Massagno,Switzerland,46.01257,8.94354
+steenwijk,Steenwijk,Netherlands,52.7875,6.12083
+birkenhead,Birkenhead,New Zealand,-36.81667,174.71667
+mühlhausen,Mühlhausen,Germany,51.20896,10.45275
+mauerkirchen,Mauerkirchen,Austria,48.19173,13.13338
+ratho,Ratho,Canada,43.27694,-80.70556
+horb,Horb Sredni,Slovakia,49.31667,21.98333
+nagyszeben,Sibiu,Romania,45.8,24.15
+knutsford,Knutsford,United Kingdom,53.30289,-2.37482
+liptóújvár,Liptovský Hrádok,Slovakia,49.03962,19.72335
+cles,Cles,Italy,46.36294,11.03276
+the plague column,,,,
+north kingstown,Kingstown,St Vincent and Grenadines,13.15527,-61.22742
+tettenweis,Tettenweis,Germany,48.44281,13.26955
+horncastle,Horncastle,United Kingdom,53.20775,-0.1172
+woerden,Woerden,Netherlands,52.085,4.88333
+kolozsvár,Cluj-Napoca,Romania,46.76667,23.6
+szinyeújfalu,,,,
+riale d’alagna,,,,
+west groton,Groton,United States,45.44746,-98.09871
+brügge,Bruges,Belgium,51.20892,3.22424
+massa e carrara,Carrara,Italy,44.07926,10.09789
+nyköping,Nyköping,Sweden,58.753,17.00788
+chalon-sur-saône,Chalon-sur-Saône,France,46.78112,4.85372
+wynnewood,Wynnewood,United States,34.64342,-97.16447
+vignot,Vignot,France,48.77418,5.60904
+bernau,Bernau bei Berlin,Germany,52.67982,13.58708
+melcombe regis,Melcombe Regis,United Kingdom,50.61908,-2.4551
+british virgin islands,British Virgin Islands,British Virgin Islands,18.5,-64.5
+church stretton,Church Stretton,United Kingdom,52.53778,-2.80149
+puria (valsolda),Puria,Italy,46.0324,9.05694
+\'shertogenbosch,Mövenpick Shertogenbosch,Netherlands,51.67679,5.33258
+pressburg,Bratislava,Slovakia,48.14816,17.10674
+haina,China,China,35,105
+pieve di cadore,Pieve di Cadore,Italy,46.42466,12.36416
+bodegraven,Bodegraven,Netherlands,52.0825,4.75
+java,Java,Indonesia,-7.49167,110.00444
+hódmezõvásárhely,Hódmezővásárhely,Hungary,46.41667,20.33333
+budrio,Budrio,Italy,44.53745,11.53439
+higuera de la sierra,Sierra de la Higuera,Spain,40.21667,-4.58333
+borgonovo val tidone,Borgonovo Val Tidone,Italy,45.01436,9.44346
+zweibrücken,Zweibrücken,Germany,49.24686,7.36977
+sestri ponente,Sestri Ponente,Italy,44.42609,8.8485
+capodistria,Koper,Slovenia,45.54694,13.72944
+trezzo,Trezzo sull'Adda,Italy,45.60523,9.51417
+zell unter welsberg,,,,
+karpovo,Karpovo,Kazakhstan,51.46397,50.57047
+deggendorf,Deggendorf,Germany,48.84085,12.96068
+lago maggiore,Lake Maggiore,Switzerland,46.01175,8.70754
+ct,"Hartford-East Hartford-Middletown, CT",United States,41.71813,-72.57266
+rigoli,,,,
+wolkenburg,Wolkenburg,United States,29.99327,-98.97004
+horn,Horn of Africa,,9,47.99878
+cathedral of st. martin,Lucca Cathedral,Italy,43.84062,10.50632
+ st. stephen,Saint Stephen,United States,45.70274,-94.27444
+koninklijk penningkabinet. leiden,,,,
+cavalese,Cavalese,Italy,46.29048,11.45862
+birnbaum,Birnbaum,Austria,46.68472,12.88861
+san quirico d\'orcia,San Quirico d'Orcia,Italy,43.05782,11.60525
+coulommier-en-brie,,,,
+porvoo,Porvoo,Finland,60.39233,25.66507
+herbeviller,Herbéviller,France,48.55729,6.75388
+kingston,Kingston,Jamaica,17.99702,-76.79358
+corleone,Corleone,Italy,37.81338,13.3017
+melos,Milos Island,Greece,36.67556,24.44778
+saint-léger-de-foucherest,,,,
+ronda,Ronda,Spain,36.74231,-5.16709
+perm,Perm,Russia,58.01046,56.25017
+cherepovets,Cherepovets,Russia,59.13333,37.9
+aarschot,Aarschot,Belgium,50.98715,4.83695
+avallon,Avallon,France,47.49002,3.90832
+trets,Trets,France,43.44818,5.68328
+denia,Denia,Spain,38.84078,0.10574
+argenta,Argenta,Italy,44.61397,11.83547
+pratovecchio,Pratovecchio,Italy,43.78685,11.72353
+bagneia,,,,
+villers-cottêrets,Villers-Cotterêts,France,49.25311,3.09003
+spaarndam,Spaarndam,Netherlands,52.4125,4.68333
+laino,Laino Castello,Italy,39.9363,15.97658
+vallinotto,,,,
+wildenfels,Wildenfels,Germany,50.6576,12.5829
+uithoorn,Uithoorn,Netherlands,52.2375,4.82639
+poughkepsie,,,,
+cuiseaux,Cuiseaux,France,46.49473,5.38931
+thaldorf,Thaldorf,Germany,48.87866,11.88933
+penzing,Penzing,Austria,48.2,16.26667
+seacroft,Seacroft,United Kingdom,53.81819,-1.45655
+renfrew,Renfrew County,Canada,45.50011,-77.08275
+ryssel,Ryssel,South Africa,-33.69651,19.48895
+chelsea,Chelsea,United Kingdom,51.48755,-0.16936
+gardelegen,Gardelegen,Germany,52.5252,11.39523
+west point,Blowing Point Village,Anguilla,18.17648,-63.09375
+sankt ingbert,Sankt Ingbert,Germany,49.27697,7.11672
+neuwied,Neuwied,Germany,50.4336,7.47057
+ehrenstetten im breisgau,,,,
+eidskog,Eidskog,Norway,59.98556,12.12502
+kralingen,Kralingen,Netherlands,51.92685,4.50336
+hertford,Hertford,United States,36.35863,-76.98066
+beverwijck,,,,
+obermühle am dünsberg,,,,
+bergen op zoom,Bergen op Zoom,Netherlands,51.495,4.29167
+barnes,Barnes,United States,38.22097,-78.44834
+penegoes,Penegoes,United Kingdom,52.59259,-3.80936
+piershil,Piershil,Netherlands,51.79333,4.31389
+menzenschwand,Menzenschwand,Germany,47.82514,8.07238
+vöhrenbach,Vöhrenbach,Germany,48.05,8.3
+aarau,Aarau,Switzerland,47.39254,8.04422
+murnau,Murnau am Staffelsee,Germany,47.68085,11.20125
+rottweil,Rottweil,Germany,48.16783,8.62719
+neustrelitz,Neustrelitz,Germany,53.3613,13.07292
+lake constance,Lake Constance region,,47.61495,9.39765
+pershore,Pershore,United Kingdom,52.11163,-2.07586
+warwicks,Warwicktown,United States,36.23119,-83.87963
+east knoyle,East Knoyle,United Kingdom,51.07442,-2.17052
+richland center,Richland Center,United States,43.33471,-90.38679
+krems,Krems,Austria,48.40921,15.61415
+burton constable,Burton Constable,United Kingdom,53.82373,-0.19157
+derbys,Derbys Corners,United States,44.40839,-75.15243
+escheviller,,,,
+rivalta,Rivalta di Torino,Italy,45.03268,7.52042
+vezzano,Vezzano Ligure,Italy,44.14144,9.88692
+cotignola,Cotignola,Italy,44.38572,11.93852
+rønne,Rønne,Denmark,55.10091,14.70664
+forno di canale,Canale d'Agordo,Italy,46.35693,11.91429
+este,Ciudad del Este,Paraguay,-25.5036,-54.65067
+colognola,Colognola ai Colli,Italy,45.43369,11.18429
+lyady,Urochishche Lyady,Belarus,53.52873,25.26156
+untervalpatann,,,,
+reutte,Politischer Bezirk Reutte,Austria,47.41667,10.55
+treviglio,Treviglio,Italy,45.52081,9.59102
+lachen,Lachen Chu,India,27.61667,88.65
+meiningen,Meiningen,Germany,50.56787,10.41521
+zittau,Zittau,Germany,50.89772,14.80764
+mora,Fernando de la Mora,Paraguay,-25.3386,-57.52167
+pitigliano,Pitigliano,Italy,42.63582,11.67462
+sant\'angelo in vado,Sant'Angelo in Vado,Italy,43.66526,12.41757
+eibar,Eibar,Spain,43.18493,-2.47158
+fuente de cantos,Fuente de Cantos,Spain,38.22747,-6.26554
+waldsee,Bad Waldsee,Germany,47.92027,9.7549
+wasserburg am inn,Wasserburg am Inn,Germany,48.0525,12.22341
+jakobswalde,Kotlarnia,Poland,50.27862,18.36634

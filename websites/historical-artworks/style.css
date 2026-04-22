@@ -1,0 +1,419 @@
+/********************/
+/*#region VARIABLES */
+/********************/
+
+:root {
+    --color-controls: #50605b;
+    --color-controls-active: #0f5e43;
+    --color-highlight: #dfede8;
+    --artwork-thumbnail-width: 12.5rem;
+}
+
+/*#endregion */
+
+/*************************/
+/*#region GLOBAL STYLING */
+/*************************/
+
+/*
+ * remove mouse hitboxes on all elements in SVG unless explicitly overwritten in JS logic
+ * this way, visual elements will not interfere with interactable elements
+ */
+svg * {
+    pointer-events: none;
+}
+
+body {
+    height: 100vh; /* no scrolling for body, make fit-to-screen interface */
+    overflow: hidden;
+    background-color: #e8ecec;
+}
+
+/* always show scrollbar when present, overwrite Safari's disappearing scrollbars */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: #FFF5;
+}
+::-webkit-scrollbar:vertical {
+  width: 12px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+::-webkit-scrollbar-corner {
+    background-color: #DDD;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #CCC;
+  box-shadow: 0 0 1px #FFF8;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #FFF;
+}
+input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--color-controls-active);
+}
+input[type="range"]::-webkit-slider-thumb:active {
+    background-color: #000;
+}
+
+/*#endregion */
+
+/**************************/
+/*#region UTILITY CLASSES */
+/**************************/
+
+.w-fit {
+    width: fit-content !important;
+}
+
+.d-grid-auto-fill-sm {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
+
+.d-grid-auto-fit-md {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+/*#endregion */
+
+/****************************/
+/*#region STYLING OVERRIDES */
+/****************************/
+
+/* use-bootstrap-select */
+.use-bootstrap-select > .dropdown-menu .dropdown-item.active {
+    background-color: var(--color-highlight);
+    color: #000;
+}
+.use-bootstrap-select .text-bg-secondary {
+    background-color: var(--color-controls) !important;
+}
+
+/* Bootstrap */
+.accordion-button {
+    box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-highlight);
+}
+
+/*#endregion */
+
+/***************************/
+/*#region REUSABLE CLASSES */
+/***************************/
+
+/*
+ * styles an unordered list as stacked blocks separated by horizontal lines
+ */
+.block-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.block-list > li:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0.5rem;
+}
+
+.hyperlink-sm {
+    font-size: 0.7rem;
+}
+
+.btn-site-primary {
+    --bs-btn-color: #FFF;
+    --bs-btn-bg: var(--color-controls-active);
+    --bs-btn-hover-color: #FFF;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-active-color: #FFF;
+    --bs-btn-active-bg: #000;
+}
+.btn-outline-site-primary {
+    --bs-btn-color: var(--color-controls);
+    --bs-btn-bg: #FFF8;
+    --bs-btn-border-color: var(--color-controls);
+    --bs-btn-active-color: #FFF;
+    --bs-btn-active-bg: var(--color-controls);
+    --bs-btn-active-border-color: var(--color-controls);
+}
+
+.site-form-check-input:checked {
+    background-color: var(--color-controls-active);
+    border-color: var(--color-controls-active);
+}
+
+/*
+ * styling overtop Bootstrap's switch that has unchecked styling the same as checked style so always 'active'
+ * all the URLs and colors are taken directly from the Bootstrap definitions
+ */
+.switch-bidirectional {
+    background-color: var(--color-controls-active) !important;
+    border-color: var(--color-controls-active) !important;
+    --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e") !important;
+}
+
+/*
+ * styles a button that toggles a collapsable to appear like an interface that allows the user to configure advanced functionality
+ */
+.advanced-controls-button {
+    border: none;
+    background-color: transparent;
+    color: #777;
+    width: 100%;
+    padding-inline: 1rem;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.advanced-controls-button::after {
+    content: '\25B2'; /* up arrow */
+    color: #BBB;
+    flex-basis: 5rem; /* extra width acts like collapsable padding */
+    text-align: end; /* so that extra padding is placed on left, between text of button */
+}
+.advanced-controls-button.collapsed::after {
+    content: '\25BC'; /* down arrow */
+}
+
+/*
+ * styles the bar that shows up between the main content and a sidebar, allowing to change the size of the sidebar on drag
+ */
+.bar-v {
+    width: 1rem;
+    height: 100%;
+    position: relative;
+}
+.bar-h {
+    width: 100%;
+    height: 1rem;
+    position: relative;
+}
+.bar-resizer {
+    background-color: var(--color-controls);
+    color: #FFF;
+    flex-grow: 0;   /* don't allow flex to resize width */
+    flex-shrink: 0; /* */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar-resizer.bar-v {
+    cursor: col-resize;
+}
+.bar-resizer.bar-h {
+    cursor: row-resize;   
+}
+.bar-resizer.bar-v::after {
+    content: "\2016";
+}
+.bar-resizer.bar-h::after {
+    content: "\0FF1D";
+}
+.bar-label {
+    --label-border-width: 7px;
+    position: absolute;
+    padding: 1rem 2rem;
+    color: var(--color-controls);
+    font-weight: 700;
+    z-index: 1;
+}
+.bar-h > .bar-label-start {
+    left: 1rem;
+    top: 100%;
+    padding-block-start: 0;
+}
+.bar-h > .bar-label-end {
+    left: 1rem;
+    bottom: 100%;
+    padding-block-end: 0;
+}
+.bar-v > .bar-label-start {
+    right: 0;
+    top: 1rem;
+    transform-origin: top right;
+    transform: rotate(-90deg);
+    padding-block-start: 0;
+}
+.bar-v > .bar-label-end {
+    right: 100%;
+    top: calc(-1em - var(--label-border-width));
+    transform-origin: bottom right;
+    transform: rotate(-90deg);
+    padding-block-end: 0;
+}
+.bar-label > span {
+    position: relative;
+    z-index: 10;
+    text-wrap: nowrap;
+}
+.bar-label::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #FFF;
+    border: var(--label-border-width) solid var(--color-controls);
+    border-radius: 0.5rem;
+}
+.bar-label-start::after {
+    border-top-width: 0.1px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    transform-origin: top;
+    transform: perspective(10px) rotateX(-8deg);
+}
+.bar-label-end::after {
+    border-bottom-width: 0.1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transform-origin: bottom;
+    transform: perspective(10px) rotateX(8deg);
+}
+
+/* styles any section that can be resized using a resizer bar */
+ .resizable-section {
+     overflow-x: hidden;
+     overflow-y: scroll;
+ }
+
+/* make flex grow to fill remaining space, ex. don't fight against sidebar width resizing from resizer */
+.flex-fill-remaining-space {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 3.5rem;  /* add a little space so not completely collapsing on itself */
+    min-height: 3.5rem;
+    overflow: hidden; /* if no space, do not show overflow */
+}
+
+ /* hides scrollbar on elements that use other forms of displaying position */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+/* styling for i icon that shows up next to controls and displays more info on hover */
+.info-tooltip {
+    width: 1em;
+    height: 1em;
+    font-size: 1rem;
+    line-height: 0;
+}
+
+/* styling for dual range value displays */
+.dual-range-value-display-container {
+    position: absolute;
+    inset: 25% 0;
+    margin-inline: 0.5rem; /* so edges at center of thumbs (0.5rem radius) */
+    z-index: -1;
+}
+.dual-range-value-display-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: var(--color-controls);
+}
+.dual-range-value-display-text {
+    position: absolute;
+    inset: auto -99px calc(100% + 2px); /* top of min range + small padding, add negative padding so text not compressed */
+    text-align: center;
+    text-wrap: nowrap;
+    color: var(--color-controls-active);
+}
+
+/*#endregion */
+
+/***************************/
+/*#region SPECIFIC CLASSES */
+/***************************/
+
+/* default starting styling for sidebars whose flex-basis can be changed dynamically */
+#visualizationsSidebar {
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-top: 2rem; /* add space for resizer label */
+    padding-bottom: 20rem; /* add space so can scroll down */
+}
+
+/* make visualizations line up side by side if section stretched large enough*/
+#visualizationsSidebar > * {
+    flex-basis: 20rem;
+    flex-grow: 1;
+}
+
+#artworksFocusSidebar {
+    width: calc(var(--artwork-thumbnail-width) + 6rem); /* add padding calculations */
+}
+#artworksFocusHeader {
+    border-bottom: 1px solid var(--bs-border-color);
+}
+
+#filtersHeader {
+    height: 3rem;
+}
+
+#controlsFooter {
+    height: 5rem;
+}
+
+/* styling for the zoom buttons on bottom right corner of map */
+#mapContainer {
+    position: relative;
+}
+#mapScroll {
+    background-color: #FFF;
+}
+#mapFocusDisplay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #3073D0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-shadow: -1px -1px #FFF, -1px 1px #FFF, 1px -1px #FFF, 1px 1px #FFF;
+}
+#mapZoomDisplay {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+#mapControls {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.map-zoom-btn {
+    width: 1.1em;
+    height: 1.1em;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #FFF;
+    color: var(--color-controls);
+}
+
+.artwork-thumbnail {
+    width: var(--artwork-thumbnail-width);
+    max-height: 10rem;
+    object-fit: contain;
+}
+.artwork-thumbnail-content {
+    flex-basis: min(15rem, 100%);
+    flex-grow: 1;
+}
+
+/*#endregion */
